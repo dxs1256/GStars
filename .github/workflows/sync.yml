@@ -107,6 +107,7 @@ jobs:
 
       # ── 5a. AI 接口连通性诊断 ─────────────────────────────
       - name: AI 接口连通性诊断
+        continue-on-error: true
         env:
           AI_BASE_URL: ${{ vars.AI_BASE_URL }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
