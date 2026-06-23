@@ -1,6 +1,6 @@
 # ⭐ GitHub Stars Index
 
-> Updated: 2026-06-23 12:28 UTC · Total: 109
+> Updated: 2026-06-23 12:28 UTC · Total: 108
 
 ---
 
@@ -20,7 +20,6 @@
 - [[#tmxk2020/abc|tmxk2020/abc]]
 - [[#Eric-Yibo-Shen/zhangxuefeng-skillset|Eric-Yibo-Shen/zhangxuefeng-skillset]]
 - [[#alchaincyf/zhangxuefeng-skill|alchaincyf/zhangxuefeng-skill]]
-- [[#kanpianer/bxkp.org|kanpianer/bxkp.org]]
 - [[#katelya77/K-Vault|katelya77/K-Vault]]
 - [[#qianlong520/Telegram_MistRelay|qianlong520/Telegram_MistRelay]]
 - [[#Panniantong/Agent-Reach|Panniantong/Agent-Reach]]
@@ -130,7 +129,7 @@
 ## AmintaCCCP/GithubStarsManager
 
 > [!info]
-> ⭐ 3,090 · TypeScript · 2026-06-23T08:35:51Z  
+> ⭐ 3,094 · TypeScript · 2026-06-23T15:43:56Z  
 > [GitHub](https://github.com/AmintaCCCP/GithubStarsManager) · [Website](https://gsm.aminta.top/)  
 > `#AI 智能体` `#Code Management` `#桌面应用` 
 > GithubStarsManager is a cross-platform Electron app solving GitHub Star repository management. It leverages AI for automatic categorization, semantic search, and README summaries, preventing 'star and forget.' Supporting Release tracking, one-click downloads, and Gist management, it features 100% local data storage, balancing privacy and efficiency as an essential tool for boosting code asset retrieval.
@@ -140,7 +139,7 @@
 ## chenxuuu/sms_forwarding
 
 > [!info]
-> ⭐ 1,169 · C++ · 2026-06-23T14:15:56Z  
+> ⭐ 1,211 · C++ · 2026-06-23T20:04:50Z  
 > [GitHub](https://github.com/chenxuuu/sms_forwarding) · [Website](http://sms.j2.cx/)  
 > `#ESP32` `#Embedded Development` `#IoT` `#SMS Forwarding` 
 > A low-cost hardware SMS forwarding device based on ESP32C3 and ML307R, supporting China Mobile/Unicom/Telecom. It features a Web interface for managing automatic SMS forwarding to email, DingTalk, Feishu, and various push services. Includes long SMS merging, remote reboot, and balance consumption, making it an ideal IoT notification and number-keeping tool.
@@ -150,7 +149,7 @@
 ## agentscope-ai/QwenPaw
 
 > [!info]
-> ⭐ 19,916 · Python · 2026-06-23T14:06:53Z  
+> ⭐ 19,930 · Python · 2026-06-23T19:23:33Z  
 > [GitHub](https://github.com/agentscope-ai/QwenPaw) · [Website](http://qwenpaw.agentscope.io/)  
 > `#AI 智能体` `#Local Deployment` `#Personal Assistant` `#Skill Extension` `#agent` `#agent-harness` `#agentscope` `#harness-engineering` `#llm-tools` `#llms` `#skills` `#super-agent` 
 > QwenPaw is a personal AI assistant built on AgentScope, designed for flexible deployment on local machines or private clouds to ensure full data privacy. It features extensible skills for PDF/Office processing, news aggregation, and multi-channel chat integration. Easy to install via PyPI, it empowers users to build secure, customizable, and efficient AI-driven workflows with complete control over memory and personalization.
@@ -179,7 +178,7 @@
 ## nianzhibai/91
 
 > [!info]
-> ⭐ 1,180 · Go · 2026-06-23T13:45:13Z  
+> ⭐ 1,181 · Go · 2026-06-23T16:43:46Z  
 > [GitHub](https://github.com/nianzhibai/91)  
 > `#Cloud Storage Integration` `#Docker Deployment` `#Media Library` `#私有化部署` 
 > 91 is a personal private video site deployment tool supporting multiple cloud backends (115/PikPak/OneDrive/Google Drive) and local storage. Key features include 302 low-bandwidth playback, auto thumbnail/preview generation, spider script import, and short-video immersive mode. Offers one-click script and Docker Compose deployment for personal media library setup.
@@ -189,7 +188,7 @@
 ## igareck/vpn-configs-for-russia
 
 > [!info]
-> ⭐ 7,144 · N/A · 2026-06-23T14:18:34Z  
+> ⭐ 7,153 · N/A · 2026-06-23T19:57:06Z  
 > [GitHub](https://github.com/igareck/vpn-configs-for-russia)  
 > `#Automation Ops` `#Censorship Bypass` `#Network Tools` `#Proxy Protocols` `#free-vpn-key` `#free-vpn-keys` `#free-vpn-russia` `#roskomnadzor` `#russia-vpn` `#shadowsocks` `#shadowsocks-free` `#v2ray` `#vless` `#vless-reality` `#vpn` `#vpn-config` `#vpn-configuration` `#vpn-for-russia` `#vpn-free-russia` `#vpn-key` `#vpn-keys` `#vpn-russia` `#whitelist` `#xray` 
 > A specialized repository offering free, verified VPN configurations optimized for Russia. Supporting protocols like VLESS and Trojan, it utilizes automated scripts to test and update links every 2 hours, filtering out slow or non-functional nodes. Provides TXT subscription links compatible with major clients, ensuring stable connectivity and effective censorship bypass.
@@ -199,7 +198,7 @@
 ## truelockmc/streambert
 
 > [!info]
-> ⭐ 5,442 · JavaScript · 2026-06-23T14:09:44Z  
+> ⭐ 5,455 · JavaScript · 2026-06-23T19:49:39Z  
 > [GitHub](https://github.com/truelockmc/streambert)  
 > `#Electron App` `#Streaming Tool` `#Video Download` `#网页爬虫` `#anime` `#anime-downloader` `#anime-scraper` `#downloader` `#electron` `#modern-ui` `#movies` `#movies-streaming` `#opinionated` `#piracy` `#series` `#streaming` `#streaming-video` `#tmdb-api` `#tv` 
 > Streambert is a cross-platform Electron desktop app for streaming and downloading global movies, TV series, and anime. It aggregates data from VidSrc, TMDB, and AniList, featuring subtitle management and multithreaded downloads. Its core value lies in being completely ad-free and tracker-free, ensuring user privacy while offering a highly customizable interface for a pure viewing experience.
@@ -247,7 +246,7 @@
 ## Eric-Yibo-Shen/zhangxuefeng-skillset
 
 > [!info]
-> ⭐ 358 · N/A · 2026-06-21T14:23:46Z  
+> ⭐ 359 · N/A · 2026-06-23T16:16:36Z  
 > [GitHub](https://github.com/Eric-Yibo-Shen/zhangxuefeng-skillset)  
 > `#AI 智能体` `#Decision Support` `#RAG Platform` `#提示工程` 
 > This open-source project is a college application decision knowledge base inspired by Zhang Xuefeng, aiming to bridge the information gap for ordinary families. It includes 8 core modules covering major selection and employment outlook. It supports deployment as OpenClaw Skills for WeChat or import into RAG platforms like Dify to build AI advisors, offering a scientific decision framework instead of simple data matching.
@@ -256,27 +255,17 @@
 ## alchaincyf/zhangxuefeng-skill
 
 > [!info]
-> ⭐ 8,678 · N/A · 2026-06-23T14:04:53Z  
+> ⭐ 8,689 · N/A · 2026-06-23T17:29:26Z  
 > [GitHub](https://github.com/alchaincyf/zhangxuefeng-skill)  
 > `#AI 智能体` `#Agent Skills` `#Career Planning` `#Cognitive Framework` 
 > This project builds Zhang Xuefeng's cognitive operating system, transforming practical frameworks for college admissions, graduate studies, and career planning into executable logic. Built on Agent Skills standards and compatible with multiple AI runtimes, it extracts core mental models to provide actionable consulting solutions.
 > <sub>张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。</sub>
 
 ---
-## kanpianer/bxkp.org
-
-> [!info]
-> ⭐ 166 · TypeScript · 2026-06-23T12:51:02Z  
-> [GitHub](https://github.com/kanpianer/bxkp.org) · [Website](https://bxkp.org)  
-> `#Ad-free Experience` `#Community Driven` `#Film Navigation` 
-> bxkp.org is a curated film navigation platform hosted on Cloudflare Pages, focusing on high-quality, ad-free video content without hard subtitles. Adhering to strict NOVIPNOAD standards, the project relies on community collaboration for site submissions and link maintenance. It aims to provide users with a pure, seamless, and high-definition viewing experience.
-> <sub>a film navi site https://v.bxkp.org</sub>
-
----
 ## katelya77/K-Vault
 
 > [!info]
-> ⭐ 671 · JavaScript · 2026-06-23T13:46:05Z  
+> ⭐ 672 · JavaScript · 2026-06-23T15:46:58Z  
 > [GitHub](https://github.com/katelya77/K-Vault)  
 > `#Cloud Storage` `#File Hosting` `#Private Cloud` `#无服务器` 
 > K-Vault is a serverless aggregated cloud drive built on Cloudflare, supporting backends like Telegram, R2, and S3. It enables zero-cost private data vaults via dual-mode deployment (Pages/Docker). With features like online preview, chunked uploads, and API auth, it's ideal for personal file hosting and image hosting.
@@ -296,7 +285,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 38,395 · Python · 2026-06-23T14:11:32Z  
+> ⭐ 38,540 · Python · 2026-06-23T20:22:20Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI Agents` `#Automation Tools` `#Cross-platform` `#网页爬虫` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach empowers AI agents with internet access via a unified CLI. It supports platforms like Twitter, Reddit, YouTube, and Xiaohongshu without paid APIs. Featuring multi-backend routing and auto-diagnosis, it bypasses restrictions and simplifies configuration. It ensures privacy with local cookie storage and offers zero-cost, high-availability data ingestion for any command-line compatible agent.
@@ -306,7 +295,7 @@
 ## shuaiplus/nodewarden
 
 > [!info]
-> ⭐ 2,830 · TypeScript · 2026-06-23T13:48:57Z  
+> ⭐ 2,831 · TypeScript · 2026-06-23T17:55:28Z  
 > [GitHub](https://github.com/shuaiplus/nodewarden) · [Website](https://nodewarden.app)  
 > `#Cloud Backup` `#PWA Application` `#Password Management` `#Serverless Architecture` `#bitwarden` `#cloudflare` `#cloudflare-d1` `#cloudflare-r2` `#cloudflare-workers` `#end-to-end-encryption` `#nodewarden` `#password` `#password-manager` `#preact` `#self-hosted` `#serverless` `#typescript` `#vaultwarden` `#web-vault` `#workers` `#zero-knowledge` 
 > NodeWarden is a serverless Bitwarden-compatible server running on Cloudflare Workers. Key features include PWA offline access, Passkey login, and WebDAV/S3 cloud backups. Fully compatible with official clients and supporting R2/KV storage, it is an ideal choice for personal, low-cost self-hosted password management.
@@ -316,7 +305,7 @@
 ## qaz741wsd856/warden-worker
 
 > [!info]
-> ⭐ 1,149 · Rust · 2026-06-23T04:19:51Z  
+> ⭐ 1,149 · Rust · 2026-06-23T15:07:47Z  
 > [GitHub](https://github.com/qaz741wsd856/warden-worker) · [Website](http://warden.qqnt.de/)  
 > `#Password Management` `#Privacy & Security` `#无服务器` `#私有化部署` `#bitwarden` `#cloudflare-workers` `#password` `#password-manager` `#self-hosted` `#serverless` 
 > Warden is a Bitwarden-compatible serverless solution deployed on Cloudflare Workers. It leverages D1 and R2 for a free, low-maintenance self-hosted password manager. Supporting core vault features, TOTP, and real-time sync, it works seamlessly with official clients. Ideal for privacy-focused individuals seeking a "deploy-and-forget" architecture without recurring server costs.
@@ -364,7 +353,7 @@
 ## lesnolie/movecar
 
 > [!info]
-> ⭐ 1,141 · JavaScript · 2026-06-23T01:07:17Z  
+> ⭐ 1,142 · JavaScript · 2026-06-23T14:51:51Z  
 > [GitHub](https://github.com/lesnolie/movecar)  
 > `#Automation Tools` `#Privacy Protection` `#Smart Life` `#无服务器` 
 > MoveCar is a serverless smart notification system built on Cloudflare Workers. It enables privacy-preserving car relocation via QR codes and real-time location sharing. Using Bark push notifications, it prevents phone number exposure and supports anti-harassment features with zero maintenance costs.
@@ -423,7 +412,7 @@
 ## vodtv/api
 
 > [!info]
-> ⭐ 143 · JavaScript · 2026-06-22T20:00:36Z  
+> ⭐ 143 · JavaScript · 2026-06-23T19:05:08Z  
 > [GitHub](https://github.com/vodtv/api) · [Website](https://mconfig.viptv.work/)  
 > `#API Proxy` `#Cloudflare Workers` `#Streaming Aggregation` `#Subscription Management` 
 > MoonTV/LunaTV video source configuration and API proxy tool. Offers streamlined subscription links and supports one-click Cloudflare Workers deployment for CORSAPI, enabling automatic proxying of blocked APIs and JSON config conversion. Features automated API health monitoring with hourly checks and Base58 encoded subscriptions for stable streaming access.
@@ -433,7 +422,7 @@
 ## ngosang/trackerslist
 
 > [!info]
-> ⭐ 54,252 · N/A · 2026-06-23T12:59:40Z  
+> ⭐ 54,254 · N/A · 2026-06-23T19:19:15Z  
 > [GitHub](https://github.com/ngosang/trackerslist) · [Website](https://ngosang.github.io/trackerslist/)  
 > `#Automation Tool` `#Network Protocol` `#P2P Download` `#bittorrent` `#bittorrent-tracker` `#bittorrent-trackers` `#http` `#list` `#lists` `#public-tracker` `#public-trackers` `#torrent` `#tracker` `#trackers` `#trackerslist` `#udp` `#webtorrent` `#ws` 
 > This repository provides daily updated lists of public BitTorrent trackers supporting UDP, HTTP, HTTPS, and other protocols. Automated scripts filter invalid nodes, offering users efficient and stable P2P download configurations to significantly improve download success rates.
@@ -443,7 +432,7 @@
 ## yonggekkk/argosbx
 
 > [!info]
-> ⭐ 5,329 · Shell · 2026-06-23T13:28:03Z  
+> ⭐ 5,331 · Shell · 2026-06-23T17:40:35Z  
 > [GitHub](https://github.com/yonggekkk/argosbx) · [Website](https://yonggekkk.github.io/argosbx/)  
 > `#Containerization` `#Network Proxy` `#One-click Deployment` `#Sing-box` `#anytls` `#argo` `#claw-cloud` `#cloudflared` `#docker-image` `#google-idx` `#hysteria2` `#ml-kem-768` `#sap` `#shadowsocks-2022` `#singbox` `#socks5` `#tuic` `#vless-reality-vision` `#vless-ws-tls` `#vless-xhttp-reality` `#vmess-ws` `#warp` `#wireguard` `#xray` 
 > Argosbx is a lightweight, one-click script for self-hosted proxies, ideal for beginners. It integrates Sing-box, Xray, and Argo cores, supporting deployment on VPS and Docker without interaction. Features include 15+ protocols like Reality and Hysteria2, 15 WARP egress combinations for streaming, and CDN masking for high stealth, ensuring fast and secure network acceleration.
@@ -453,7 +442,7 @@
 ## byJoey/cfnew
 
 > [!info]
-> ⭐ 14,265 · N/A · 2026-06-23T12:41:51Z  
+> ⭐ 14,270 · N/A · 2026-06-23T19:46:06Z  
 > [GitHub](https://github.com/byJoey/cfnew)  
 > `#Cloudflare Workers` `#Network Proxy Tool` `#Node Management` `#Subscription Conversion` 
 > CFnew is a Cloudflare Workers-based proxy node management tool supporting VLESS/Trojan/xhttp protocols. Features built-in subscription conversion for Clash/Surge/Sing-box clients, graphical configuration interface, API management, latency testing, and ECH encryption. Configurations apply instantly without redeployment.
@@ -472,7 +461,7 @@
 ## lanyeeee/bilibili-video-downloader
 
 > [!info]
-> ⭐ 1,535 · Rust · 2026-06-23T10:11:11Z  
+> ⭐ 1,536 · Rust · 2026-06-23T14:33:33Z  
 > [GitHub](https://github.com/lanyeeee/bilibili-video-downloader)  
 > `#Cross-Platform App` `#Media Library Management` `#Tauri 框架` `#Video Processing` `#bilibili` `#download` `#downloader` `#gui` `#naive-ui` `#rust` `#tauri` `#tauri-app` `#vue` 
 > A cross-platform Bilibili video downloader built on Tauri v2. Supports various content types, danmaku, and subtitles. Features NFO scraping and ad marking for seamless integration with media servers like Emby, offering a lightweight and efficient local video management experience.
@@ -482,7 +471,7 @@
 ## youhunwl/TVAPP
 
 > [!info]
-> ⭐ 18,739 · JavaScript · 2026-06-23T13:35:07Z  
+> ⭐ 18,751 · JavaScript · 2026-06-23T19:42:16Z  
 > [GitHub](https://github.com/youhunwl/TVAPP) · [Website](https://app.iyouhun.com)  
 > `#Android TV` `#Home Entertainment` `#Resource Aggregation` `#android` `#android-tv` `#apk` `#app` `#tv` `#tv-box` 
 > This repository aggregates high-quality Android TV apps including movies, live streaming, and tools. It offers APK downloads, auto-updates, and compatibility notes, supporting interface configuration for players like TVBox. Designed to help users build a secure and organized home entertainment center.
@@ -492,7 +481,7 @@
 ## xyfqzy/free-nodes
 
 > [!info]
-> ⭐ 123 · Python · 2026-06-23T09:25:00Z  
+> ⭐ 123 · Python · 2026-06-23T19:51:34Z  
 > [GitHub](https://github.com/xyfqzy/free-nodes)  
 > `#Network Proxy` `#Privacy Access` `#Subscription Management` `#自动化工具` 
 > This repository aggregates free proxy node subscription links for V2Ray, Shadowsocks, Clash, and Trojan protocols. It utilizes GitHub Actions for automatic updates every 6 hours to ensure high-speed and stable connections. Offering multi-platform client recommendations and an API interface, it serves as a convenient tool for users to access scientific networking resources and achieve cross-network access with one-click import and automated maintenance.
@@ -512,7 +501,7 @@
 ## btjawa/BiliTools
 
 > [!info]
-> ⭐ 5,240 · Rust · 2026-06-23T09:02:47Z  
+> ⭐ 5,241 · Rust · 2026-06-23T15:16:49Z  
 > [GitHub](https://github.com/btjawa/BiliTools) · [Website](https://btjawa.top/bilitools)  
 > `#Cross-Platform App` `#Multimedia Processing` `#Tauri 框架` `#Video Downloading` `#bilibili` `#download` `#rust` `#tauri-app` `#typescript` `#vue` 
 > BiliTools is a cross-platform Bilibili toolbox built on Tauri, supporting downloads of videos, audio, danmaku, and metadata. Integrated with FFmpeg and aria2, it offers HD resource parsing, AI summaries, and multi-format conversion, featuring QR login and risk control for efficient Bilibili management.
@@ -522,7 +511,7 @@
 ## GitHubDaily/GitHubDaily
 
 > [!info]
-> ⭐ 46,855 · N/A · 2026-06-23T11:26:27Z  
+> ⭐ 46,857 · N/A · 2026-06-23T19:55:36Z  
 > [GitHub](https://github.com/GitHubDaily/GitHubDaily) · [Website](https://githubdaily.com)  
 > `#AI Models` `#Dev Tools` `#Open Source` `#Tech Aggregation` `#ai` `#algorithms-and-data-structures` `#backend` `#developer-tools` `#development` `#frontend` `#github` `#java` `#javascript` `#kubernetes` `#linux` `#markdown` `#open-source` `#python` `#tutorials` `#web` 
 > GitHubDaily is a curated platform sharing high-quality open-source projects, including AI tools, dev frameworks, and practical resources. By aggregating selected projects and annual reviews, it helps developers grasp tech trends, enhance coding skills, and serves as an authoritative guide for cutting-edge open-source insights.
@@ -532,7 +521,7 @@
 ## proxifly/free-proxy-list
 
 > [!info]
-> ⭐ 5,739 · N/A · 2026-06-23T14:06:27Z  
+> ⭐ 5,743 · N/A · 2026-06-23T19:53:10Z  
 > [GitHub](https://github.com/proxifly/free-proxy-list) · [Website](https://proxifly.dev)  
 > `#Automated Updates` `#Network Tools` `#Proxy Server` `#网页爬虫` `#free-proxy` `#free-proxy-list` `#fresh-proxies` `#http` `#http-proxy` `#proxies` `#proxies-list` `#proxy` `#proxy-list` `#proxy-scraper` `#socks` `#socks4` `#socks4-proxy` `#socks5` `#socks5-proxy` 
 > Proxifly's repository provides a free, high-frequency updated proxy list (every 5 mins) covering HTTP, HTTPS, SOCKS4, and SOCKS5 protocols. With over 3500 nodes across 94 countries, it supports JSON, TXT, and CSV formats plus NPM integration, serving as essential infrastructure for web scraping, network testing, and privacy protection.
@@ -542,7 +531,7 @@
 ## 1c7/chinese-independent-developer
 
 > [!info]
-> ⭐ 48,941 · N/A · 2026-06-23T12:11:45Z  
+> ⭐ 48,943 · N/A · 2026-06-23T19:53:23Z  
 > [GitHub](https://github.com/1c7/chinese-independent-developer)  
 > `#AI Applications` `#Indie Dev` `#Utility Products` `#china` `#indie` `#indie-developer` 
 > This repo aggregates innovative projects by Chinese indie developers launched in February 2026, including AI voice assistants, investment calculators, typing trainers, music generation tools, resume optimizers, and browser extensions. All projects are web or app-based, emphasizing practicality and user experience, such as intelligent text-to-speech, stock/fund investment analysis, AI-powered songwriting, and productivity tools, showcasing active innovation in AI applications and niche utility apps.
@@ -552,7 +541,7 @@
 ## fish2018/pansou
 
 > [!info]
-> ⭐ 13,621 · Go · 2026-06-23T13:05:24Z  
+> ⭐ 13,624 · Go · 2026-06-23T19:50:37Z  
 > [GitHub](https://github.com/fish2018/pansou) · [Website](https://so.252035.xyz/)  
 > `#API Service` `#Async Architecture` `#Cloud Storage Search` `#Plugin System` 
 > PanSou is a high-performance API for searching cloud storage resources, supporting concurrent TG channel and plugin searches. It features async processing, multi-level caching, and intelligent sorting. Docker-ready for easy deployment with optional JWT authentication, ideal for building private resource retrieval systems.
@@ -562,7 +551,7 @@
 ## Usagi-org/ai-goofish-monitor
 
 > [!info]
-> ⭐ 12,643 · Python · 2026-06-23T14:12:40Z  
+> ⭐ 12,646 · Python · 2026-06-23T20:02:07Z  
 > [GitHub](https://github.com/Usagi-org/ai-goofish-monitor)  
 > `#AI 智能体` `#E-commerce Monitoring` `#网页爬虫` `#自动化工具` `#ai` `#ai-assistant` `#ai-tools` `#automation` `#gemini` `#goofish` `#open-source` `#openai` `#playwright` `#tool` `#xian-yu` `#xianyu` `#xianyu-bot` 
 > An intelligent Xianyu monitoring system built on Playwright and AI models, featuring a Web management UI. Supports multi-task concurrency, natural language task creation, multimodal product analysis, scheduling, account rotation, and real-time notifications for efficient product filtering.
@@ -581,7 +570,7 @@
 ## OpenListTeam/OpenList
 
 > [!info]
-> ⭐ 23,202 · Go · 2026-06-23T14:05:36Z  
+> ⭐ 23,207 · Go · 2026-06-23T15:57:15Z  
 > [GitHub](https://github.com/OpenListTeam/OpenList) · [Website](https://doc.oplist.org)  
 > `#Cloud Storage` `#File Mounting` `#Open Source Governance` `#WebDAV` `#alist` `#aliyunpan` `#baidupan` `#openlist` 
 > OpenList is a community-driven fork of AList designed to counter trust crises in open source. It supports dozens of storage backends like AliyunDrive and OneDrive, offering unified WebDAV mounting. Built on AGPL-3.0, it emphasizes code transparency and long-term governance for decentralized storage architectures.
@@ -591,7 +580,7 @@
 ## TapXWorld/ChinaTextbook
 
 > [!info]
-> ⭐ 74,483 · Roff · 2026-06-23T13:59:12Z  
+> ⭐ 74,486 · Roff · 2026-06-23T17:11:17Z  
 > [GitHub](https://github.com/TapXWorld/ChinaTextbook)  
 > `#Compulsory Education` `#Education Resources` `#Educational Equity` `#PDF Textbooks` 
 > This project provides open access to Chinese K-12 and university PDF textbooks, promoting educational equity and accessibility. It focuses on elementary and middle school math materials, offering People's Education Press editions to support overseas Chinese families and foster interest-driven learning beyond exam-oriented education.
@@ -611,7 +600,7 @@
 ## yt-dlp/yt-dlp
 
 > [!info]
-> ⭐ 172,823 · Python · 2026-06-23T14:14:12Z  
+> ⭐ 172,880 · Python · 2026-06-23T20:19:51Z  
 > [GitHub](https://github.com/yt-dlp/yt-dlp) · [Website](https://discord.gg/H5MNcFW63r)  
 > `#Audio/Video Download` `#Command-line Tool` `#Media Processing` `#cli` `#downloader` `#python` `#sponsorblock` `#youtube-dl` `#youtube-downloader` `#yt-dlp` 
 > yt-dlp is a powerful command-line audio/video downloader and a fork of youtube-dl. Supporting thousands of sites, it offers advanced format selection, metadata editing, and plugin extensibility. Ideal for media archiving, offline storage, and automated data collection, it delivers superior performance and active maintenance for developers and power users.
@@ -631,7 +620,7 @@
 ## BCUninstaller/Bulk-Crap-Uninstaller
 
 > [!info]
-> ⭐ 19,842 · C# · 2026-06-23T13:26:25Z  
+> ⭐ 19,850 · C# · 2026-06-23T17:41:25Z  
 > [GitHub](https://github.com/BCUninstaller/Bulk-Crap-Uninstaller) · [Website](https://www.bcuninstaller.com/)  
 > `#Automation Tools` `#System Operations` `#Uninstaller` `#application-manager` `#application-uninstaller` `#bloatware` `#bulk-actions` `#bulk-uninstall` `#cleaner` `#debloat` `#disk-space` `#inno-setup` `#msi` `#nsis` `#portableapps` `#software-management` `#unattended-uninstall` `#uninstall` `#uninstaller` `#windows` `#windows-10` `#windows-forms` 
 > Bulk Crap Uninstaller is a powerful open-source tool designed for efficiently removing large volumes of unwanted applications on Windows. It excels at cleaning leftovers, detecting orphaned apps, and supports diverse systems like Windows Store and Steam. Licensed under Apache 2.0, it offers free commercial use, making it an essential utility for IT professionals and system maintenance tasks.
@@ -641,7 +630,7 @@
 ## imsyy/DailyHotApi
 
 > [!info]
-> ⭐ 3,883 · TypeScript · 2026-06-22T12:00:43Z  
+> ⭐ 3,885 · TypeScript · 2026-06-23T16:17:35Z  
 > [GitHub](https://github.com/imsyy/DailyHotApi)  
 > `#API Interface` `#Data Aggregation` `#Trend Tracking` `#api` `#daily-hot` `#list` `#rss` `#vercel` 
 > DailyHotApi is a high-performance API for aggregating trending data from major platforms like Bilibili, Weibo, and Zhihu. It supports both JSON and RSS formats, offers rapid response times, and allows for easy Vercel deployment, making it ideal for developers.
@@ -651,7 +640,7 @@
 ## TheSpeedX/PROXY-List
 
 > [!info]
-> ⭐ 5,645 · N/A · 2026-06-23T11:55:35Z  
+> ⭐ 5,647 · N/A · 2026-06-23T19:57:40Z  
 > [GitHub](https://github.com/TheSpeedX/PROXY-List)  
 > `#Data Scraping` `#Privacy Protection` `#Proxy Server` `#网络安全` `#anonymity` `#anonymous` `#elite` `#free` `#free-proxy` `#hacking` `#http` `#https-proxy` `#proxy` `#proxy-list` `#socker` `#socks` `#socks-proxy` `#socks4-proxy` `#socks5-proxy` `#speedx` `#vpn` 
 > This repository offers a daily-updated list of free public proxies supporting HTTP, SOCKS4, and SOCKS5 protocols. Hosted on GitHub for easy integration, it serves developers needing proxy resources for web scraping, network testing, or privacy protection, strictly for educational purposes.
@@ -661,7 +650,7 @@
 ## sunny9577/proxy-scraper
 
 > [!info]
-> ⭐ 582 · JavaScript · 2026-06-23T12:34:30Z  
+> ⭐ 583 · JavaScript · 2026-06-23T18:42:59Z  
 > [GitHub](https://github.com/sunny9577/proxy-scraper) · [Website](https://sunny9577.github.io/proxy-scraper/)  
 > `#Browser Automation` `#Node.js` `#Proxy Server` `#网页爬虫` `#angularjs` `#freeproxy` `#getproxy` `#http-proxy` `#https-proxy` `#nodejs` `#protractor` `#proxies` `#proxy` `#proxy-list` `#proxy-scraper` `#proxylist` `#scraper` `#selenium` `#socks` `#socks5` `#socks5-proxy` 
 > This is an automated proxy scraper built with Protractor and Node.js. It uses browser automation to extract high-availability proxy IPs in real-time. Supporting protocols like HTTP, SOCKS4, and SOCKS5, it offers data in five formats including TXT and JSON. The list updates every 3 hours with over 1700 live nodes, ideal for web scraping and privacy protection.
@@ -671,7 +660,7 @@
 ## adminouyang/231006
 
 > [!info]
-> ⭐ 236 · JavaScript · 2026-06-23T12:46:20Z  
+> ⭐ 236 · JavaScript · 2026-06-23T20:20:08Z  
 > [GitHub](https://github.com/adminouyang/231006)  
 > `#Configuration Management` `#Home Entertainment` `#Resource Aggregation` 
 > This repository focuses on collecting and organizing TVBox smart TV box configuration files, offering diverse media resource links and plugin setups to help users quickly build personalized home entertainment systems. Structured categorization and regular updates streamline deployment and enhance user experience.
@@ -681,7 +670,7 @@
 ## lyswhut/lx-music-mobile
 
 > [!info]
-> ⭐ 17,257 · TypeScript · 2026-06-23T11:53:21Z  
+> ⭐ 17,261 · TypeScript · 2026-06-23T18:23:44Z  
 > [GitHub](https://github.com/lyswhut/lx-music-mobile) · [Website](https://lyswhut.github.io/lx-music-doc/)  
 > `#Data Sync` `#Music Player` `#Open Source` `#React Native` `#javascript` `#music-player` `#react-native-app` 
 > LX Music Mobile is a robust music player built with React Native and Redux, primarily targeting Android devices. It features customizable music sources to fetch data from public interfaces and provides a private data sync service for multi-device consistency. Licensed under Apache 2.0, it emphasizes copyright compliance, making it an ideal choice for advanced users seeking personalized music management and seamless cross-platform synchronization capabilities.
@@ -691,7 +680,7 @@
 ## breezy-weather/breezy-weather
 
 > [!info]
-> ⭐ 10,468 · Kotlin · 2026-06-23T13:51:54Z  
+> ⭐ 10,471 · Kotlin · 2026-06-23T17:19:38Z  
 > [GitHub](https://github.com/breezy-weather/breezy-weather)  
 > `#Jetpack Compose` `#Kotlin` `#Life Tools` `#数据可视化` 
 > Breezy Weather is a feature-rich, open-source Android application meticulously built using Kotlin and the modern Jetpack Compose toolkit. It seamlessly aggregates meteorological data from over 50 distinct sources, covering essential forecasts, air quality indices, and pollen counts. Featuring the latest Material 3 Expressive design language, it delivers stunning, well-thought-out visualizations and a highly responsive user experience. This makes it an ideal choice for Android users seeking a comprehensive, customizable, and privacy-focused weather solution with extensive data support.
@@ -701,7 +690,7 @@
 ## guoyue2010/lxmusic-
 
 > [!info]
-> ⭐ 4,388 · JavaScript · 2026-06-23T13:54:01Z  
+> ⭐ 4,389 · JavaScript · 2026-06-23T15:49:45Z  
 > [GitHub](https://github.com/guoyue2010/lxmusic-) · [Website](https://github.com/guoyue2010/lxmusic-/releases)  
 > `#API Integration` `#Music Streaming` `#Source Subscription` 
 > This repository serves as a third-party music source aggregator for LX Music and Lan Yin, offering comprehensive audio resources. It features both free and premium subscription services with multi-platform import support. Emphasizing compliance, it encourages supporting official releases while providing robust community support and purchase channels for music enthusiasts seeking high-quality audio sources.
@@ -711,7 +700,7 @@
 ## lalifeier/IPTV
 
 > [!info]
-> ⭐ 391 · Python · 2026-06-23T12:39:50Z  
+> ⭐ 391 · Python · 2026-06-23T18:07:53Z  
 > [GitHub](https://github.com/lalifeier/IPTV) · [Website](https://iptv-ten-dun.vercel.app)  
 > `#Cross-platform Compatibility` `#IPTV Live Sources` `#Streaming Services` 
 > This repository aggregates high-definition IPTV live sources with TXT and M3U subscription links for automatic updates. It covers CCTV, satellite TV, and major streaming platforms, compatible with Android TV, Apple TV, Jellyfin, and Windows players. Includes XMLTV EPG for seamless cross-platform viewing, essential for home streaming setups.
@@ -730,7 +719,7 @@
 ## Evil0ctal/Douyin_TikTok_Download_API
 
 > [!info]
-> ⭐ 18,459 · Python · 2026-06-23T13:44:50Z  
+> ⭐ 18,461 · Python · 2026-06-23T17:41:20Z  
 > [GitHub](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) · [Website](https://douyin.wtf)  
 > `#API Interface` `#Async Scraper` `#Social Media Data` `#api` `#async` `#crawler` `#douyin` `#douyin-api` `#douyin-scraper` `#douyin-tiktok-api` `#douyin-tiktok-download` `#fastapi` `#no-watermark` `#online-parsing` `#python` `#pywebio` `#scraper` `#spider` `#tiktok` `#tiktok-api` `#tiktok-scraper` `#tiktok-signature` `#web-scraping` 
 > A high-performance asynchronous data scraping tool supporting Douyin, TikTok, Kuaishou, and Bilibili. It offers out-of-the-box API calls for online batch parsing and video downloading. Ideal for social media data collection and analysis, featuring high concurrency capabilities for developers.
@@ -740,7 +729,7 @@
 ## cxasm/notepad--
 
 > [!info]
-> ⭐ 9,739 · C++ · 2026-06-23T13:02:54Z  
+> ⭐ 9,741 · C++ · 2026-06-23T14:51:37Z  
 > [GitHub](https://github.com/cxasm/notepad--)  
 > `#Cross-platform App` `#Domestic Substitution` `#Text Editor` 
 > Notepad-- is a lightweight cross-platform text editor supporting Windows, Linux, and Mac. Developed by Chinese developers, its primary goal is domestic software substitution, especially for Uos systems. It aims to provide a reliable alternative to existing Notepad competitors, focusing on pure software development and reducing dependency on foreign tools in the domestic ecosystem.
@@ -750,7 +739,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 162,431 · Python · 2026-06-23T14:14:46Z  
+> ⭐ 162,453 · Python · 2026-06-23T19:50:13Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#Developer Tools` `#Open Source` `#Project Curation` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub is a monthly publication that curates and shares interesting, beginner-friendly open-source projects from GitHub. Released on the 28th of each month, it features engaging projects, open-source books, practical tutorials, and enterprise-level codebases to help newcomers discover the joy of open source and build real-world skills quickly.
@@ -760,7 +749,7 @@
 ## bia-pain-bache/BPB-Worker-Panel
 
 > [!info]
-> ⭐ 12,123 · TypeScript · 2026-06-23T12:25:43Z  
+> ⭐ 12,126 · TypeScript · 2026-06-23T17:21:14Z  
 > [GitHub](https://github.com/bia-pain-bache/BPB-Worker-Panel) · [Website](https://bia-pain-bache.github.io/BPB-Worker-Panel/)  
 > `#Cloudflare Workers` `#Network Proxy` `#Subscription Generation` `#amnezia` `#android` `#chain` `#clash-core` `#doh-server` `#fragment` `#ios` `#linux` `#mihomo` `#proxy-chain` `#singbox-core` `#trojan` `#vless` `#warp` `#windows` `#xray-core` 
 > BPB-Worker-Panel is a GUI dashboard built on Cloudflare Workers, generating free subscriptions for VLESS, Trojan, and Warp protocols. It features a private DoH server, chain proxies, Fragment support, and comprehensive routing rules. Compatible with Xray, Sing-box, and Clash, it offers secure, private, and cross-platform network configuration solutions for users.
@@ -770,7 +759,7 @@
 ## VirtualHotBar/HotPEToolBox
 
 > [!info]
-> ⭐ 2,045 · Batchfile · 2026-06-22T13:59:42Z  
+> ⭐ 2,046 · Batchfile · 2026-06-23T16:10:01Z  
 > [GitHub](https://github.com/VirtualHotBar/HotPEToolBox) · [Website](https://www.hotpe.top)  
 > `#Automated Build` `#System Operations` `#Troubleshooting` `#WinPE` 
 > HotPEToolBox is a powerful tool for building customized WinPE environments for Win10/11. It offers a clean, feature-rich system maintenance solution with network, remote access, and BitLocker support. Using Python scripts, it automates ISO generation, ensuring UEFI/Legacy compatibility for efficient system deployment and troubleshooting.
@@ -800,7 +789,7 @@
 ## Guovin/iptv-api
 
 > [!info]
-> ⭐ 24,348 · Python · 2026-06-23T14:10:33Z  
+> ⭐ 24,351 · Python · 2026-06-23T19:52:51Z  
 > [GitHub](https://github.com/Guovin/iptv-api)  
 > `#Cross-Platform` `#Data Collection` `#自动化工具` `#auto-update` `#awesome` `#epg` `#iptv` `#iptv-api` `#iptv-channels` `#iptv-free` `#iptv-m3u` `#iptv-m3u8` `#iptv-playlist` `#ipv4` `#ipv6` `#live` `#m3u` `#m3u8` `#playlist` `#rtmp` `#schedule` `#tv` `#tvbox` 
 > Automated IPTV live stream source update platform featuring full-cycle collection, filtering, and speed testing. Supports custom templates, IPv4/IPv6, and streaming for weak networks. Deployable via Docker, CLI, or GUI, it offers EPG and logo management, ideal for robust IPTV systems.
@@ -810,7 +799,7 @@
 ## yonggekkk/Cloudflare-vless-trojan
 
 > [!info]
-> ⭐ 15,421 · JavaScript · 2026-06-23T09:30:59Z  
+> ⭐ 15,421 · JavaScript · 2026-06-23T16:58:43Z  
 > [GitHub](https://github.com/yonggekkk/Cloudflare-vless-trojan) · [Website](https://ygkkk.blogspot.com/2023/07/cfworkers-vless.html)  
 > `#Cloudflare Workers` `#Encrypted Proxy` `#Network Proxy` `#Proxy Script` `#argo` `#cdn` `#clash-meta` `#cloudflare` `#cloudflare-pages` `#cloudflare-workers` `#ech` `#http` `#nat64` `#reality` `#sing-box` `#socks5` `#trojan` `#vless` `#xray` `#ygkkk` 
 > Free proxy script based on Cloudflare Workers/Pages, supporting VLESS/Trojan protocols and Socks5/Http local proxy. Offers three encryption modes (ECH-TLS, TLS, No-TLS) with customizable domains, preferred IPs, and ProxyIP configuration for stable network proxy services.
@@ -820,7 +809,7 @@
 ## dr34m-cn/taosync
 
 > [!info]
-> ⭐ 1,493 · Python · 2026-06-23T11:55:28Z  
+> ⭐ 1,494 · Python · 2026-06-23T14:56:23Z  
 > [GitHub](https://github.com/dr34m-cn/taosync)  
 > `#Automated Sync` `#Cloud Drive Management` `#Data Backup` 
 > TaoSync is an automated file synchronization tool designed for OpenList/AList v3+. It supports cross-platform deployment and Docker, offering modes like full sync and new files only for efficient backup between local and cloud storage. Features include visual progress tracking, scheduled tasks, and notifications, ensuring privacy through fully offline operation.
@@ -840,7 +829,7 @@
 ## peasoft/NoMoreWalls
 
 > [!info]
-> ⭐ 3,336 · Python · 2026-06-23T14:16:58Z  
+> ⭐ 3,336 · Python · 2026-06-23T19:46:05Z  
 > [GitHub](https://github.com/peasoft/NoMoreWalls) · [Website](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)  
 > `#Automation Script` `#Network Proxy` `#Node Subscription` `#bypass-gfw` `#china` `#clash` `#gfw` `#gfw-breaker` `#hysteria` `#hysteria2` `#node` `#proxy` `#shadowrocket` `#shadowsocks` `#socks` `#socks5` `#ss` `#ssr` `#trojan` `#tuic` `#v2ray` `#vless` `#vmess` 
 > NoMoreWalls is an open-source automated node aggregator that scrapes and merges public proxy nodes from the internet using GitHub Actions. It supports Clash Meta and Sing-Box subscriptions with built-in smart routing rules, offering a free, registration-free network access solution while advocating against 996 work culture.
@@ -850,7 +839,7 @@
 ## qist/tvbox
 
 > [!info]
-> ⭐ 10,001 · JavaScript · 2026-06-23T12:22:05Z  
+> ⭐ 10,003 · JavaScript · 2026-06-23T15:18:07Z  
 > [GitHub](https://github.com/qist/tvbox)  
 > `#Configuration Management` `#Home Entertainment` `#Script Automation` `#Streaming Aggregation` 
 > This repository provides aggregated configuration files for TVBox, OK影视, and CatVod across multiple platforms, covering live streaming, VOD, and parsing sources. It supports GitHub/Gitee hosting, private repo deployment, and integrates third-party resource interfaces and cloud drive authorization for customizable home entertainment.
@@ -870,7 +859,7 @@
 ## httpsok/httpsok
 
 > [!info]
-> ⭐ 1,257 · Shell · 2026-06-23T13:12:31Z  
+> ⭐ 1,258 · Shell · 2026-06-23T17:44:28Z  
 > [GitHub](https://github.com/httpsok/httpsok) · [Website](https://httpsok.com/doc/)  
 > `#Automation Tool` `#Ops Automation` `#SSL Certificate Management` `#nginx` `#ssl` `#ssl-certificate` `#ssl-certificates` `#ssl-support` `#tls` `#tls-certificate` 
 > httpsok is a streamlined SSL/TLS certificate automation tool designed for Nginx, Apache, and OpenResty. It enables one-command auto-renewal, automatic configuration detection, and multi-cloud CDN integration (Aliyun, Tencent, etc.). Supporting wildcard domains, Docker, and expiration alerts via WeChat, it simplifies ops workflows and ensures robust web security for production environments.
@@ -880,7 +869,7 @@
 ## zhuima/awesome-cloudflare
 
 > [!info]
-> ⭐ 14,178 · N/A · 2026-06-23T13:52:41Z  
+> ⭐ 14,192 · N/A · 2026-06-23T17:49:08Z  
 > [GitHub](https://github.com/zhuima/awesome-cloudflare) · [Website](https://cloudflare.chuhai.tools/)  
 > `#Cloud Infrastructure` `#Cloudflare Ecosystem` `#Indie Dev Tools` `#Open Source Aggregation` 
 > A curated repository of Cloudflare-based tools tailored for indie developers. It aggregates open-source projects like image hosting, temporary email, and monitoring dashboards. Leveraging Workers, R2, and Pages, it enables cost-effective, serverless full-stack deployment to accelerate project delivery and streamline operations.
@@ -890,7 +879,7 @@
 ## sandboxie-plus/Sandboxie
 
 > [!info]
-> ⭐ 18,691 · C · 2026-06-23T13:50:23Z  
+> ⭐ 18,691 · C · 2026-06-23T17:59:04Z  
 > [GitHub](https://github.com/sandboxie-plus/Sandboxie) · [Website](https://Sandboxie-Plus.com)  
 > `#Sandbox Isolation` `#Software Testing` `#System Security` 
 > Sandboxie Plus is a robust Windows sandbox isolation tool that executes applications within a secure, virtualized environment, preventing permanent changes to drives or the registry. Supporting unlimited concurrent sandboxes, the Plus edition offers a modern Qt UI, snapshot management, and granular privacy controls. It is essential for testing untrusted software, secure web browsing, and system maintenance, ensuring complete host isolation and security.
@@ -910,7 +899,7 @@
 ## wanghongenpin/proxypin
 
 > [!info]
-> ⭐ 13,358 · Dart · 2026-06-23T10:01:48Z  
+> ⭐ 13,362 · Dart · 2026-06-23T17:39:33Z  
 > [GitHub](https://github.com/wanghongenpin/proxypin)  
 > `#Cross-platform` `#Flutter` `#Network Analysis` `#Traffic Inspection` `#capture-traffic` `#charles` `#fiddler` `#proxy` `#proxypin` `#zhuabao` 
 > ProxyPin is an open-source, free cross-platform HTTP(S) traffic capture tool supporting Windows, Mac, Android, iOS, and Linux. Built with Flutter, it features scan-code connection, traffic interception, script processing, and request rewriting, ideal for mobile app debugging and network analysis.
@@ -949,7 +938,7 @@
 ## 8680/GOODBYEADS
 
 > [!info]
-> ⭐ 1,802 · Python · 2026-06-23T04:00:03Z  
+> ⭐ 1,801 · Python · 2026-06-23T17:33:13Z  
 > [GitHub](https://github.com/8680/GOODBYEADS)  
 > `#Ad-blocking Rules` `#DNS Filtering` `#Network Tools` `#Privacy Protection` `#adblock` `#adblock-list` `#adblock-plus` `#adguard` `#adguard-list` `#adguardhome` `#quantumult-x` 
 > GOODBYEADS is an aggregated ad-blocking rule set designed for AdGuard, Quantumult X, and SmartDNS. It automatically merges and deduplicates multiple high-quality upstream sources, offering massive interception rules and whitelists. Supporting scheduled updates and multi-format subscriptions, it aims to provide users with an efficient, clean browsing experience, serving as a powerful tool for network privacy protection and ad blocking.
@@ -959,7 +948,7 @@
 ## n3rddd/N3RD
 
 > [!info]
-> ⭐ 75 · JavaScript · 2026-06-23T12:47:15Z  
+> ⭐ 75 · JavaScript · 2026-06-23T15:55:40Z  
 > [GitHub](https://github.com/n3rddd/N3RD)  
 > `#AI 智能体` `#Cross-Platform` `#数据可视化` 
 > CTV project delivers AI-powered solutions for smart TV ecosystems, enabling multimodal interaction for content recommendation and user behavior analysis. Features cross-platform video service optimization and real-time data visualization with lightweight model deployment.
@@ -969,7 +958,7 @@
 ## 217heidai/adblockfilters
 
 > [!info]
-> ⭐ 7,167 · Python · 2026-06-23T13:45:51Z  
+> ⭐ 7,167 · Python · 2026-06-23T16:56:47Z  
 > [GitHub](https://github.com/217heidai/adblockfilters)  
 > `#Ad Blocking` `#DNS Filtering` `#Rule Automation` `#adblock` `#adguard` `#adguardhome` `#clash` `#dnsmasq` `#fiters` `#hosts` `#invizible` `#loon` `#mihomo` `#mosdns` `#personaldnsfilter` `#quantumultx` `#shadowrocket` `#sing-box` `#smartdns` 
 > An automated ad-blocking rule aggregation project with 8-hour update cycles. Merges multiple rule sources, deduplicates, and validates domains via DNS resolution to remove invalid entries. Provides multiple formats for AdGuard, DNSMasq, and other tools, with Lite versions for domestic domains and accelerated CDN links for faster access.
@@ -979,7 +968,7 @@
 ## JoeanAmier/TikTokDownloader
 
 > [!info]
-> ⭐ 14,869 · Python · 2026-06-23T13:32:55Z  
+> ⭐ 14,873 · Python · 2026-06-23T17:33:19Z  
 > [GitHub](https://github.com/JoeanAmier/TikTokDownloader) · [Website](https://discord.com/invite/ZYtmgKud9Y)  
 > `#Batch Download` `#Data Scraping` `#Douyin/TikTok` `#Python` `#abogus` `#api` `#csv` `#docker` `#douyin` `#downloader` `#ffmpeg` `#httpx` `#linux` `#macos` `#mstoken` `#pyinstaller` `#python` `#rich` `#server` `#sqlite` `#tiktok` `#ttwid` `#windows` `#xlsx` 
 > DouK-Downloader is a free open-source data collection tool built with Python and HTTPX, enabling batch downloads of videos, albums, live streams, collections, and comments from Douyin/TikTok. It features Web UI, API interface, multi-threaded downloads, proxy support, incremental scraping, and resume capability, deployable on private or public servers for content creators and data analysts.
@@ -989,7 +978,7 @@
 ## yonggekkk/x-ui-yg
 
 > [!info]
-> ⭐ 3,810 · Shell · 2026-06-23T07:10:37Z  
+> ⭐ 3,811 · Shell · 2026-06-23T17:58:16Z  
 > [GitHub](https://github.com/yonggekkk/x-ui-yg) · [Website](https://ygkkk.blogspot.com/2023/05/reality-xui-chatgpt.html)  
 > `#Network Proxy` `#Sing-box` `#Traffic Management` `#Xray` `#alpine` `#argo` `#chatgpt` `#clash-meta` `#cloudflared` `#httpupgrade` `#oblivion` `#psiphon` `#sing-box` `#socks5` `#warp` `#wireguard` `#x-ui` `#xhttp` `#xray-core` 
 > This is a streamlined modification of the x-ui panel, supporting IPV4/6 and multi-architecture deployment. Key features include Xhttp transport, MLDSA65 encryption, Argo dual-tunnel integration, and built-in Psiphon 30-country traffic splitting. It supports Sing-box and Clash-meta aggregation subscriptions with local node generation for data security, making it an ideal tool for high-performance proxy deployment and traffic management.
@@ -999,7 +988,7 @@
 ## mediago-dev/mediago
 
 > [!info]
-> ⭐ 9,030 · TypeScript · 2026-06-23T09:06:12Z  
+> ⭐ 9,031 · TypeScript · 2026-06-23T14:21:14Z  
 > [GitHub](https://github.com/mediago-dev/mediago) · [Website](https://downloader.caorushizi.cn/guides.html?form=github)  
 > `#AI Agents` `#Cross-platform` `#Video Processing` `#网页爬虫` `#bilibili` `#downloader` `#electron` `#hls` `#m3u8` `#m3u8-downloader` `#m3u8download` `#video` `#youtube` 
 > MediaGo is a cross-platform video downloader supporting Desktop, Docker, and browser extensions. It features built-in stream sniffing for m3u8/HLS and leverages yt-dlp for over 1000 sites like YouTube and Bilibili. Uniquely, it integrates AI assistant skills for natural language downloading and offers a full HTTP API plus built-in format conversion, enabling a fully automated workflow from capture to processing.
@@ -1009,7 +998,7 @@
 ## biliup/biliup
 
 > [!info]
-> ⭐ 5,223 · Rust · 2026-06-23T02:01:44Z  
+> ⭐ 5,225 · Rust · 2026-06-23T18:05:15Z  
 > [GitHub](https://github.com/biliup/biliup) · [Website](https://biliup.github.io/biliup/)  
 > `#AI 智能体` `#Content Creation Automation` `#Live Streaming Recording` `#Rust Backend` `#bilibili` `#douyin` `#douyu` `#huya` `#twitch` `#youtube` 
 > biliup is a robust automation tool for Bilibili, enabling live streaming recording, video uploading, and cross-platform migration from Twitch/YouTube. Built with a Rust backend and Next.js frontend, it offers a WebUI and CLI for 24/7 unattended operation. It integrates with AI Agents and supports multiple login methods, serving as an essential toolkit for automated content creators.
@@ -1029,7 +1018,7 @@
 ## 1Panel-dev/1Panel
 
 > [!info]
-> ⭐ 35,960 · Go · 2026-06-23T13:19:15Z  
+> ⭐ 35,966 · Go · 2026-06-23T18:17:24Z  
 > [GitHub](https://github.com/1Panel-dev/1Panel) · [Website](https://1panel.pro)  
 > `#AI 智能体` `#Container Management` `#DevOps Automation` `#VPS Control Panel` `#agent` `#clawdbot` `#copaw` `#docker` `#docker-ui` `#hermes` `#hermes-agent` `#linux` `#lnmp` `#ollama` `#openclaw` `#openresty` `#qwenpaw` `#webmin` 
 > 1Panel is a modern, open-source VPS control panel and the only one with native AI agent support. It lets you run Ollama models, deploy OpenClaw agents, and manage your entire server stack from a clean web interface. No CLI memorization required. It supports one-click website deployment, automatic SSL, and Docker container management.
@@ -1049,7 +1038,7 @@
 ## yuliskov/SmartTube
 
 > [!info]
-> ⭐ 30,722 · Java · 2026-06-23T13:43:46Z  
+> ⭐ 30,726 · Java · 2026-06-23T17:10:44Z  
 > [GitHub](https://github.com/yuliskov/SmartTube) · [Website](https://smarttubeapp.github.io)  
 > `#Ad-Free Streaming` `#Open Source Media Client` `#Smart TV Apps` `#android` `#android-tv` `#android-tv-box` `#java` `#kotlin` `#retrofit2` `#rxjava-android` 
 > SmartTube is an open-source media client designed for Android TVs, enabling ad-free YouTube streaming with 8K and HDR support. It operates independently of Google Services, offering customizable interfaces and broad device compatibility. Following a recent security incident, the project has implemented stricter build verification to ensure user safety and privacy.
@@ -1059,7 +1048,7 @@
 ## leiurayer/downkyi
 
 > [!info]
-> ⭐ 24,404 · N/A · 2026-06-23T13:49:06Z  
+> ⭐ 24,405 · N/A · 2026-06-23T16:19:50Z  
 > [GitHub](https://github.com/leiurayer/downkyi)  
 > `#Bilibili Tool` `#Cross-platform` `#Multimedia Processing` `#Video Downloader` 
 > downkyi is a dedicated video downloader for Bilibili, supporting batch downloads and high-definition formats like 8K, HDR, and Dolby Vision. It features a toolkit for audio/video extraction and watermark removal, serving as an efficient solution for Bilibili users to acquire high-quality video resources.
@@ -1069,7 +1058,7 @@
 ## dgtlmoon/changedetection.io
 
 > [!info]
-> ⭐ 32,102 · Python · 2026-06-23T14:09:37Z  
+> ⭐ 32,104 · Python · 2026-06-23T16:36:10Z  
 > [GitHub](https://github.com/dgtlmoon/changedetection.io) · [Website](https://changedetection.io)  
 > `#AI Agents` `#Change Detection` `#Web Monitoring` `#网页爬虫` `#back-in-stock` `#change-alert` `#change-detection` `#change-monitoring` `#monitoring` `#notifications` `#restock-monitor` `#rss` `#self-hosted` `#url-monitor` `#web-scraping` `#website-change-detection` `#website-change-detector` `#website-change-monitor` `#website-change-notification` `#website-change-tracker` `#website-defacement-monitoring` `#website-monitor` `#website-monitoring` `#website-watcher` 
 > changedetection.io is a powerful website change monitoring tool that detects content updates in real-time and sends alerts via multiple channels. It integrates AI capabilities to intelligently filter irrelevant changes and generate natural language summaries, significantly reducing false positives. Supporting Docker self-hosting and SaaS, it's ideal for price tracking, stock monitoring, and website integrity checks, serving as an efficient tool for ops and data analysis.
@@ -1109,7 +1098,7 @@
 ## XIU2/TrackersListCollection
 
 > [!info]
-> ⭐ 31,592 · N/A · 2026-06-23T13:56:59Z  
+> ⭐ 31,594 · N/A · 2026-06-23T16:51:01Z  
 > [GitHub](https://github.com/XIU2/TrackersListCollection) · [Website](https://trackerslist.com)  
 > `#Network Acceleration` `#P2P Download` `#Resource Aggregation` `#aria2` `#aria2-format-tracker` `#bittorrent` `#bittorrent-trackers` `#qbittorrent` `#torrent` `#torrent-tracker` `#tracker` `#trackers` `#trackerslist` `#utorrent` 
 > A daily-updated collection of popular BitTorrent Trackers designed to boost download speeds and connection stability. It aggregates high-quality servers for P2P users, offering categorized lists (best/all/http) compatible with Aria2 and other clients, serving as an essential utility for optimizing torrent performance.
@@ -1119,7 +1108,7 @@
 ## filecxx/FileCentipede
 
 > [!info]
-> ⭐ 10,891 · C++ · 2026-06-23T13:00:01Z  
+> ⭐ 10,890 · C++ · 2026-06-23T16:04:34Z  
 > [GitHub](https://github.com/filecxx/FileCentipede) · [Website](http://filecxx.com)  
 > `#Cross-Platform` `#Download Manager` `#File Transfer` `#Multi-protocol` `#bittorrent-client` `#bt` `#download` `#download-manager` `#download-videos` `#ftp-client` `#http-client` `#libtorrent` `#m3u8` `#magnet` `#qt` `#remote-download` `#ssh-client` `#stream-downloader` `#torrent` `#transmission` `#video-downloader` `#webdav-client` 
 > FileCentipede is a cross-platform all-in-one file transfer manager supporting HTTP, FTP, SSH, BitTorrent, and magnet links. It features integrated WebDAV/SSH clients, browser extensions for media capture, and auxiliary tools like file merging and encryption, delivering a fast, secure, and highly customizable solution for internet file management.
@@ -1139,7 +1128,7 @@
 ## lyswhut/lx-music-desktop
 
 > [!info]
-> ⭐ 51,741 · TypeScript · 2026-06-23T13:34:32Z  
+> ⭐ 51,745 · TypeScript · 2026-06-23T18:19:02Z  
 > [GitHub](https://github.com/lyswhut/lx-music-desktop) · [Website](https://lyswhut.github.io/lx-music-doc/)  
 > `#Cross-platform` `#Desktop Application` `#Electron` `#Music Player` `#electron` `#javascript` `#music-player` `#vue` 
 > LX Music is a cross-platform desktop music player built on Electron 30+ and Vue 3, supporting Windows, macOS, and Linux. Key features include an open HTTP API for third-party integration, Scheme URL support for browser linkage, and an independent sync server for seamless multi-device data synchronization. Designed for power users, it emphasizes high customizability and keyboard shortcuts for a tailored music experience.
@@ -1149,7 +1138,7 @@
 ## BluePointLilac/ContextMenuManager
 
 > [!info]
-> ⭐ 19,394 · C# · 2026-06-23T12:03:30Z  
+> ⭐ 19,396 · C# · 2026-06-23T18:01:00Z  
 > [GitHub](https://github.com/BluePointLilac/ContextMenuManager) · [Website](https://bluepointlilac.github.io/ContextMenuManager)  
 > `#.NET` `#Context Menu` `#System Tools` 
 > ContextMenuManager is a pure Windows context menu management tool. It enables precise control over menu items for files and folders, including enabling/disabling, modifying attributes, and custom additions. Compatible with multiple Windows versions, it uses a non-violent hiding mechanism to avoid system residue, serving as an efficient tool for system optimization and operations management.
@@ -1169,7 +1158,7 @@
 ## ShareX/ShareX
 
 > [!info]
-> ⭐ 38,241 · C# · 2026-06-23T14:18:18Z  
+> ⭐ 38,245 · C# · 2026-06-23T18:50:02Z  
 > [GitHub](https://github.com/ShareX/ShareX) · [Website](https://getsharex.com)  
 > `#Automation Tool` `#DevOps Automation` `#桌面应用` `#avalonia` `#capture` `#color-picker` `#csharp` `#dropbox` `#file-sharing` `#file-upload` `#ftp` `#gif` `#gif-recorder` `#image-annotation` `#ocr` `#productivity` `#region-capture` `#screen-capture` `#screen-recorder` `#screenshot` `#share` `#sharex` `#url-shortener` 
 > ShareX is a free, open-source screen capture and file sharing tool for Windows. It enables users to capture any screen area or record video with a single keystroke. Beyond basic capture, it supports uploading images, text, and files to a wide range of destinations, including cloud storage. Featuring advanced image effects, OCR, and automation workflows, it serves as a powerful productivity suite for professionals.
@@ -1189,7 +1178,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 109,744 · C# · 2026-06-23T14:17:33Z  
+> ⭐ 109,765 · C# · 2026-06-23T19:52:34Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#Cross-Platform` `#GUI Client` `#Multi-Core Support` `#Network Proxy` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > v2rayN is a cross-platform GUI client for Windows, Linux, and macOS, supporting multiple cores like Xray and sing-box. It features GPG-signed releases for security, serving as an efficient tool for network proxy configuration and management.
