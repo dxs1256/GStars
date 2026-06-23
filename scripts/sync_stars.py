@@ -14,6 +14,7 @@ import sys
 import json
 import re
 import time
+import random
 import base64
 import logging
 import argparse
@@ -70,6 +71,12 @@ def load_config() -> dict:
         "AI_API_KEY": "ai.api_key",
         "AI_MODEL": "ai.model",
         "MAX_CONCURRENCY": "ai.concurrency",
+        "AI_TIMEOUT": "ai.timeout",
+        "AI_MAX_RETRIES": "ai.max_retries",
+        "AI_RETRY_BASE_DELAY": "ai.retry_base_delay",
+        "AI_RETRY_MAX_DELAY": "ai.retry_max_delay",
+        "AI_MIN_REQUEST_INTERVAL": "ai.min_request_interval",
+        "AI_MAX_IN_FLIGHT": "ai.max_in_flight",
         "OUTPUT_FILENAME": "output.filename",
         "VAULT_SYNC_ENABLED": "vault_sync.enabled",
         "VAULT_REPO": "vault_sync.repo",
@@ -87,6 +94,12 @@ def load_config() -> dict:
             "base_url": "https://api.openai.com/v1",
             "api_key": None,
             "concurrency": 5,
+            "timeout": 60,
+            "max_retries": 5,
+            "retry_base_delay": 1.0,
+            "retry_max_delay": 20.0,
+            "min_request_interval": 0.5,
+            "max_in_flight": 2,
         },
         "output": {"filename": "stars"},
         "vault_sync": {
@@ -113,11 +126,15 @@ def load_config() -> dict:
     for env_key, config_path in env_mapping.items():
         val = os.environ.get(env_key)
         if val is not None:
-            # 处理类型转换
-            if env_key in ["MAX_CONCURRENCY", "TEST_LIMIT"]:
+            if env_key in ["MAX_CONCURRENCY", "TEST_LIMIT", "AI_TIMEOUT", "AI_MAX_RETRIES", "AI_MAX_IN_FLIGHT"]:
                 if val.isdigit():
                     val = int(val)
                 else:
+                    continue
+            elif env_key in ["AI_RETRY_BASE_DELAY", "AI_RETRY_MAX_DELAY", "AI_MIN_REQUEST_INTERVAL"]:
+                try:
+                    val = float(val)
+                except ValueError:
                     continue
             elif env_key in ["VAULT_SYNC_ENABLED", "PAGES_SYNC_ENABLED"]:
                 val = val.lower() == "true"
@@ -128,6 +145,14 @@ def load_config() -> dict:
             for p in parts[:-1]:
                 target = target[p]
             target[parts[-1]] = val
+
+    cfg["ai"]["concurrency"] = max(1, int(cfg["ai"].get("concurrency", 5)))
+    cfg["ai"]["timeout"] = max(10, int(cfg["ai"].get("timeout", 60)))
+    cfg["ai"]["max_retries"] = max(1, int(cfg["ai"].get("max_retries", 5)))
+    cfg["ai"]["retry_base_delay"] = max(0.1, float(cfg["ai"].get("retry_base_delay", 1.0)))
+    cfg["ai"]["retry_max_delay"] = max(cfg["ai"]["retry_base_delay"], float(cfg["ai"].get("retry_max_delay", 20.0)))
+    cfg["ai"]["min_request_interval"] = max(0.0, float(cfg["ai"].get("min_request_interval", 0.5)))
+    cfg["ai"]["max_in_flight"] = max(1, int(cfg["ai"].get("max_in_flight", 2)))
 
     # 4. 必填项校验
     if not cfg["github"]["username"]:
@@ -401,12 +426,40 @@ class AISummarizer:
     THINK_BLOCK_RE = re.compile(r"<think>.*?</think>", re.IGNORECASE | re.DOTALL)
 
     def __init__(
-        self, base_url: str, api_key: str, model: str, timeout: int = 60, retry: int = 3
+        self,
+        base_url: str,
+        api_key: str,
+        model: str,
+        timeout: int = 60,
+        retry: int = 5,
+        retry_base_delay: float = 1.0,
+        retry_max_delay: float = 20.0,
+        min_request_interval: float = 0.5,
+        max_in_flight: int = 2,
     ):
         self.base_url = (base_url or "").lower()
         self.model = model
         self.retry = retry
+        self.retry_base_delay = retry_base_delay
+        self.retry_max_delay = retry_max_delay
+        self.min_request_interval = min_request_interval
         self.client = OpenAI(base_url=base_url, api_key=api_key, timeout=timeout)
+        self.request_gate = threading.Semaphore(max_in_flight)
+        self.rate_lock = threading.Lock()
+        self.next_request_at = 0.0
+
+    def _wait_for_slot(self):
+        with self.rate_lock:
+            now = time.monotonic()
+            wait_time = max(0.0, self.next_request_at - now)
+            self.next_request_at = max(self.next_request_at, now) + self.min_request_interval
+        if wait_time > 0:
+            time.sleep(wait_time)
+
+    def _backoff_delay(self, attempt: int) -> float:
+        exp_delay = min(self.retry_max_delay, self.retry_base_delay * (2**attempt))
+        jitter = random.uniform(0, min(self.retry_base_delay, self.retry_max_delay / 4))
+        return min(self.retry_max_delay, exp_delay + jitter)
 
     def normalize_tags(self, tags: list[str]) -> list[str]:
         """标签归一化：去重、合并同义词、统一大小写"""
@@ -502,20 +555,19 @@ class AISummarizer:
                     "temperature": 0.3,
                 }
 
-                # 对标准 OpenAI 继续启用结构化返回；MiniMax 走文本容错解析。
                 if "api.minimaxi.com" not in self.base_url:
                     kwargs["response_format"] = {"type": "json_object"}
 
-                resp = self.client.chat.completions.create(**kwargs)
+                with self.request_gate:
+                    self._wait_for_slot()
+                    resp = self.client.chat.completions.create(**kwargs)
                 data = self._extract_json_payload(resp.choices[0].message.content)
-                # 兼容性处理
                 if "tags" in data and "tags_zh" not in data:
                     data["tags_zh"] = data["tags"]
-                
-                # 标签归一化治理
+
                 data["tags_zh"] = self.normalize_tags(data.get("tags_zh", []))
                 data["tags_en"] = self.normalize_tags(data.get("tags_en", []))
-                
+
                 return data
             except Exception as e:
                 if attempt == self.retry - 1:
@@ -526,8 +578,11 @@ class AISummarizer:
                         "tags_zh": [],
                         "tags_en": [],
                     }
-                log.warning(f"AI 生成失败 [{repo_name}]，重试中 {attempt + 1}: {e}")
-                time.sleep(2**attempt)
+                delay = self._backoff_delay(attempt)
+                log.warning(
+                    f"AI 生成失败 [{repo_name}]，重试中 {attempt + 1}/{self.retry}，{delay:.2f} 秒后继续: {e}"
+                )
+                time.sleep(delay)
 
 
 # ════════════════════════════════════════════════════════════
@@ -599,7 +654,11 @@ def main():
             cfg["ai"]["api_key"],
             cfg["ai"]["model"],
             cfg["ai"].get("timeout", 60),
-            cfg["ai"].get("max_retries", 3),
+            cfg["ai"].get("max_retries", 5),
+            cfg["ai"].get("retry_base_delay", 1.0),
+            cfg["ai"].get("retry_max_delay", 20.0),
+            cfg["ai"].get("min_request_interval", 0.5),
+            cfg["ai"].get("max_in_flight", 2),
         )
 
         # 1. 抓取所有 Stars
@@ -654,7 +713,9 @@ def main():
         new_count = len(new_repos_to_process)
         if new_count > 0:
             concurrency = cfg["ai"].get("concurrency", 5)
-            log.info(f"🚀 开始并发处理 {new_count} 个新仓库 (并发数: {concurrency})")
+            log.info(
+                f"🚀 开始并发处理 {new_count} 个新仓库 (工作线程: {concurrency}, AI并发闸门: {cfg['ai'].get('max_in_flight', 2)}, 最小请求间隔: {cfg['ai'].get('min_request_interval', 0.5)} 秒)"
+            )
             with ThreadPoolExecutor(max_workers=concurrency) as executor:
                 list(executor.map(process_repo, enumerate(new_repos_to_process, 1)))
 

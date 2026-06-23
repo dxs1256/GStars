@@ -92,6 +92,11 @@ graph TD
 以下参数有内置默认值，通常无需配置：
 - `AI_BASE_URL`: AI 接口地址 (默认使用 OpenAI 官方地址)。
 - `AI_MODEL`: 模型名称 (默认 `gpt-4o-mini`)。
+- `MAX_CONCURRENCY`: 工作线程数，建议先用 `1-2`。
+- `AI_MAX_IN_FLIGHT`: 同时在途的 AI 请求数，默认 `2`。
+- `AI_MIN_REQUEST_INTERVAL`: 两次 AI 请求之间的最小间隔，默认 `0.5` 秒。
+- `AI_MAX_RETRIES`: 单个仓库 AI 重试次数，默认 `5`。
+- `AI_TIMEOUT`: 单次 AI 请求超时秒数，默认 `60`。
 - `OUTPUT_FILENAME`: 生成文件的基准名 (默认 `stars`)。
 - `VAULT_SYNC_PATH`: Vault 里的存放目录 (默认 `GitHub-Stars/`)。
 - `PAGES_SYNC_ENABLED`: 是否同步到 Pages (默认 `true`)。
@@ -127,17 +132,23 @@ schedule:
 
 | 变量名               | 类型     | 说明                       | 默认值                      |
 | -------------------- | -------- | -------------------------- | --------------------------- |
-| `GH_USERNAME`        | 必填     | 要同步的 GitHub 用户名     | -                           |
-| `AI_API_KEY`         | 必填     | AI 接口 Key                | -                           |
-| `AI_BASE_URL`        | 可选     | OpenAI 兼容接口地址        | `https://api.openai.com/v1` |
-| `AI_MODEL`           | 可选     | 使用的 AI 模型             | `gpt-4o-mini`               |
-| `OUTPUT_FILENAME`    | 可选     | 生成 MD/HTML 的文件名基准  | `stars`                     |
-| `VAULT_SYNC_ENABLED` | 可选     | 是否开启 Obsidian 同步     | `false`                     |
-| `VAULT_REPO`         | 选填     | Vault 仓库 (`owner/repo`)  | -                           |
-| `VAULT_SYNC_PATH`    | 可选     | Vault 同步的目录路径       | `GitHub-Stars/`             |
-| `PAGES_SYNC_ENABLED` | 可选     | 是否开启 GitHub Pages 部署 | `true`                      |
-| `MAX_CONCURRENCY`    | 可选     | AI 并发处理数 (建议 1-10)  | `1`                         |
-| `GH_TOKEN`           | **建议** | 提升 API 额度，防止限速    | -                           |
+| `GH_USERNAME`        | 必填     | 要同步的 GitHub 用户名               | -                           |
+| `AI_API_KEY`         | 必填     | AI 接口 Key                          | -                           |
+| `AI_BASE_URL`        | 可选     | OpenAI 兼容接口地址                  | `https://api.openai.com/v1` |
+| `AI_MODEL`           | 可选     | 使用的 AI 模型                       | `gpt-4o-mini`               |
+| `MAX_CONCURRENCY`    | 可选     | 工作线程数，建议 1-10                | `5`                         |
+| `AI_MAX_IN_FLIGHT`   | 可选     | 同时在途的 AI 请求数                 | `2`                         |
+| `AI_MIN_REQUEST_INTERVAL` | 可选 | 两次 AI 请求之间的最小间隔（秒）     | `0.5`                       |
+| `AI_MAX_RETRIES`     | 可选     | 单个仓库 AI 重试次数                 | `5`                         |
+| `AI_TIMEOUT`         | 可选     | 单次 AI 请求超时（秒）               | `60`                        |
+| `AI_RETRY_BASE_DELAY`| 可选     | 指数退避基础延迟（秒）               | `1.0`                       |
+| `AI_RETRY_MAX_DELAY` | 可选     | 指数退避最大延迟（秒）               | `20.0`                      |
+| `OUTPUT_FILENAME`    | 可选     | 生成 MD/HTML 的文件名基准            | `stars`                     |
+| `VAULT_SYNC_ENABLED` | 可选     | 是否开启 Obsidian 同步               | `false`                     |
+| `VAULT_REPO`         | 选填     | Vault 仓库 (`owner/repo`)            | -                           |
+| `VAULT_SYNC_PATH`    | 可选     | Vault 同步的目录路径                 | `GitHub-Stars/`             |
+| `PAGES_SYNC_ENABLED` | 可选     | 是否开启 GitHub Pages 部署           | `true`                      |
+| `GH_TOKEN`           | **建议** | 提升 API 额度，防止限速              | -                           |
 
 ---
 

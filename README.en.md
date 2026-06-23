@@ -91,6 +91,11 @@ Go to **Settings → Secrets and variables → Actions** in your repository:
 These have built-in defaults and usually don't need configuration:
 - `AI_BASE_URL`: AI API endpoint (defaults to OpenAI).
 - `AI_MODEL`: Model name (defaults to `gpt-4o-mini`).
+- `MAX_CONCURRENCY`: Worker thread count, start with `1-2` for stability.
+- `AI_MAX_IN_FLIGHT`: Maximum in-flight AI requests, default `2`.
+- `AI_MIN_REQUEST_INTERVAL`: Minimum delay between AI requests, default `0.5` seconds.
+- `AI_MAX_RETRIES`: Retry count per repository, default `5`.
+- `AI_TIMEOUT`: Timeout per AI request in seconds, default `60`.
 - `OUTPUT_FILENAME`: Base name for generated files (defaults to `stars`).
 - `VAULT_SYNC_PATH`: Save directory in your Vault (defaults to `GitHub-Stars/`).
 - `PAGES_SYNC_ENABLED`: Whether to sync to Pages (defaults to `true`).
@@ -130,12 +135,18 @@ Go to **Actions → 🌟 GitHub Stars Index 同步 → Run workflow** and click 
 | `AI_API_KEY`         | Required                 | AI API Key                                    | -                           |
 | `AI_BASE_URL`        | Optional                 | OpenAI-compatible API endpoint                | `https://api.openai.com/v1` |
 | `AI_MODEL`           | Optional                 | AI model to use                               | `gpt-4o-mini`               |
+| `MAX_CONCURRENCY`    | Optional                 | Worker thread count                           | `5`                         |
+| `AI_MAX_IN_FLIGHT`   | Optional                 | Maximum in-flight AI requests                 | `2`                         |
+| `AI_MIN_REQUEST_INTERVAL` | Optional            | Minimum delay between AI requests in seconds  | `0.5`                       |
+| `AI_MAX_RETRIES`     | Optional                 | Retry count per repository                    | `5`                         |
+| `AI_TIMEOUT`         | Optional                 | Timeout per AI request in seconds             | `60`                        |
+| `AI_RETRY_BASE_DELAY`| Optional                 | Base exponential backoff delay in seconds     | `1.0`                       |
+| `AI_RETRY_MAX_DELAY` | Optional                 | Maximum exponential backoff delay in seconds  | `20.0`                      |
 | `OUTPUT_FILENAME`    | Optional                 | Base name for generated MD/HTML files         | `stars`                     |
 | `VAULT_SYNC_ENABLED` | Optional                 | Whether to enable Obsidian sync               | `false`                     |
 | `VAULT_REPO`         | Optional                 | Vault repository (`owner/repo`)               | -                           |
 | `VAULT_SYNC_PATH`    | Optional                 | Directory path for Vault sync                 | `GitHub-Stars/`             |
 | `PAGES_SYNC_ENABLED` | Optional                 | Whether to deploy to GitHub Pages             | `true`                      |
-| `MAX_CONCURRENCY`    | Optional                 | AI concurrency limit (recommended 1-10)       | `1`                         |
 | `GH_TOKEN`           | **Strongly Recommended** | Increases API limits to prevent rate-limiting | -                           |
 
 ---
