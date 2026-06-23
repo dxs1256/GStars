@@ -140,7 +140,7 @@
 ## chenxuuu/sms_forwarding
 
 > [!info]
-> ⭐ 1,167 · C++ · 2026-06-23T14:01:24Z  
+> ⭐ 1,169 · C++ · 2026-06-23T14:15:56Z  
 > [GitHub](https://github.com/chenxuuu/sms_forwarding) · [Website](http://sms.j2.cx/)  
 > `#ESP32` `#嵌入式开发` `#物联网` `#短信转发` 
 > 本项目是一款基于ESP32C3与ML307R的低成本硬件短信转发器，支持移动/联通/电信卡。通过Web界面管理，可实现短信自动转发至邮箱、钉钉、飞书及多种推送服务。具备长短信合并、远程重启及余额消耗功能，是极佳的物联网通知与保号工具。
@@ -189,7 +189,7 @@
 ## igareck/vpn-configs-for-russia
 
 > [!info]
-> ⭐ 7,142 · N/A · 2026-06-23T13:19:23Z  
+> ⭐ 7,144 · N/A · 2026-06-23T14:18:34Z  
 > [GitHub](https://github.com/igareck/vpn-configs-for-russia)  
 > `#代理协议` `#绕过封锁` `#网络工具` `#自动化运维` `#free-vpn-key` `#free-vpn-keys` `#free-vpn-russia` `#roskomnadzor` `#russia-vpn` `#shadowsocks` `#shadowsocks-free` `#v2ray` `#vless` `#vless-reality` `#vpn` `#vpn-config` `#vpn-configuration` `#vpn-for-russia` `#vpn-free-russia` `#vpn-key` `#vpn-keys` `#vpn-russia` `#whitelist` `#xray` 
 > 专为俄罗斯网络环境打造的免费 VPN 配置仓库，支持 VLESS、Trojan 等主流协议。通过自动化脚本每 2 小时进行可用性测试与更新，精准过滤无效节点，提供 TXT 订阅链接，兼容主流客户端，助力用户稳定绕过网络封锁。
@@ -199,7 +199,7 @@
 ## truelockmc/streambert
 
 > [!info]
-> ⭐ 5,441 · JavaScript · 2026-06-23T13:56:06Z  
+> ⭐ 5,442 · JavaScript · 2026-06-23T14:09:44Z  
 > [GitHub](https://github.com/truelockmc/streambert)  
 > `#Electron 应用` `#数据抓取` `#流媒体工具` `#视频下载` `#anime` `#anime-downloader` `#anime-scraper` `#downloader` `#electron` `#modern-ui` `#movies` `#movies-streaming` `#opinionated` `#piracy` `#series` `#streaming` `#streaming-video` `#tmdb-api` `#tv` 
 > Streambert 是一款基于 Electron 的跨平台桌面应用，聚合全球电影、剧集与动漫资源。它整合 VidSrc 与 TMDB 等多源数据，支持字幕管理及多线程下载。核心优势在于完全无广告、无追踪，保护用户隐私，并提供高度可定制界面，是追求纯净观影体验用户的理想选择。
@@ -296,7 +296,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 38,393 · Python · 2026-06-23T14:06:31Z  
+> ⭐ 38,395 · Python · 2026-06-23T14:11:32Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI 智能体` `#网页爬虫` `#自动化工具` `#跨平台` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach 是一款赋能 AI Agent 的开源 CLI 工具，赋予其全网信息获取能力。支持 Twitter、YouTube、小红书等主流平台，无需付费 API。通过多后端路由自动规避封锁，本地存储保障隐私，实现零成本、高可用的跨平台数据接入。
@@ -562,7 +562,7 @@
 ## Usagi-org/ai-goofish-monitor
 
 > [!info]
-> ⭐ 12,642 · Python · 2026-06-23T13:56:01Z  
+> ⭐ 12,643 · Python · 2026-06-23T14:12:40Z  
 > [GitHub](https://github.com/Usagi-org/ai-goofish-monitor)  
 > `#AI智能体` `#电商监控` `#网页爬虫` `#自动化运维` `#ai` `#ai-assistant` `#ai-tools` `#automation` `#gemini` `#goofish` `#open-source` `#openai` `#playwright` `#tool` `#xian-yu` `#xianyu` `#xianyu-bot` 
 > 基于 Playwright 与 AI 大模型的闲鱼智能监控系统，提供 Web 可视化后台。支持多任务并发、自然语言创建任务及多模态商品分析，具备定时调度、账号代理轮换及多渠道即时通知功能，帮助用户高效筛选心仪商品。
@@ -611,7 +611,7 @@
 ## yt-dlp/yt-dlp
 
 > [!info]
-> ⭐ 172,822 · Python · 2026-06-23T14:00:54Z  
+> ⭐ 172,823 · Python · 2026-06-23T14:14:12Z  
 > [GitHub](https://github.com/yt-dlp/yt-dlp) · [Website](https://discord.gg/H5MNcFW63r)  
 > `#命令行工具` `#媒体处理` `#音视频下载` `#cli` `#downloader` `#python` `#sponsorblock` `#youtube-dl` `#youtube-downloader` `#yt-dlp` 
 > yt-dlp 是一款功能强大的命令行音视频下载工具，作为 youtube-dl 的活跃分支，它支持全球数千个视频网站。具备格式优选、元数据编辑及插件扩展能力，支持 SponsorBlock 跳过片头。它是媒体归档、离线存储及自动化数据采集的首选方案，性能卓越且持续更新。
@@ -750,7 +750,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 162,428 · Python · 2026-06-23T14:03:06Z  
+> ⭐ 162,431 · Python · 2026-06-23T14:14:46Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#开发者工具` `#开源社区` `#项目推荐` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub 是一个专注于分享 GitHub 上有趣、入门级开源项目的月刊，每月28日定期发布，涵盖有趣项目、开源书籍、实战及企业级项目。旨在通过精选优质开源内容，帮助用户快速发现开源魅力，激发学习兴趣，降低入门门槛，从而爱上开源生态。
@@ -800,7 +800,7 @@
 ## Guovin/iptv-api
 
 > [!info]
-> ⭐ 24,347 · Python · 2026-06-23T11:44:38Z  
+> ⭐ 24,348 · Python · 2026-06-23T14:10:33Z  
 > [GitHub](https://github.com/Guovin/iptv-api)  
 > `#数据采集` `#跨平台` `#运维自动化` `#auto-update` `#awesome` `#epg` `#iptv` `#iptv-api` `#iptv-channels` `#iptv-free` `#iptv-m3u` `#iptv-m3u8` `#iptv-playlist` `#ipv4` `#ipv6` `#live` `#m3u` `#m3u8` `#playlist` `#rtmp` `#schedule` `#tv` `#tvbox` 
 > IPTV直播源自动更新平台，实现采集、筛选、测速全流程自动化。支持自定义频道、IPv4/IPv6双栈及推流优化弱网体验。提供 Docker、CLI 及 GUI 多端部署方案，集成 EPG 与台标管理，是构建稳定 IPTV 系统的核心工具。
@@ -840,7 +840,7 @@
 ## peasoft/NoMoreWalls
 
 > [!info]
-> ⭐ 3,336 · Python · 2026-06-23T12:24:22Z  
+> ⭐ 3,336 · Python · 2026-06-23T14:16:58Z  
 > [GitHub](https://github.com/peasoft/NoMoreWalls) · [Website](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)  
 > `#网络代理` `#自动化脚本` `#节点订阅` `#bypass-gfw` `#china` `#clash` `#gfw` `#gfw-breaker` `#hysteria` `#hysteria2` `#node` `#proxy` `#shadowrocket` `#shadowsocks` `#socks` `#socks5` `#ss` `#ssr` `#trojan` `#tuic` `#v2ray` `#vless` `#vmess` 
 > NoMoreWalls 是开源自动化节点聚合工具，利用 GitHub Actions 实时抓取并合并互联网公开代理节点。支持 Clash Meta 与 Sing-Box 订阅，内置智能分流规则，为用户提供免费、无需注册的网络安全访问方案，倡导反 996 劳动权益。
@@ -1069,7 +1069,7 @@
 ## dgtlmoon/changedetection.io
 
 > [!info]
-> ⭐ 32,103 · Python · 2026-06-23T14:04:43Z  
+> ⭐ 32,102 · Python · 2026-06-23T14:09:37Z  
 > [GitHub](https://github.com/dgtlmoon/changedetection.io) · [Website](https://changedetection.io)  
 > `#AI智能体` `#Web监控` `#变更检测` `#网页爬虫` `#back-in-stock` `#change-alert` `#change-detection` `#change-monitoring` `#monitoring` `#notifications` `#restock-monitor` `#rss` `#self-hosted` `#url-monitor` `#web-scraping` `#website-change-detection` `#website-change-detector` `#website-change-monitor` `#website-change-notification` `#website-change-tracker` `#website-defacement-monitoring` `#website-monitor` `#website-monitoring` `#website-watcher` 
 > changedetection.io 是一款强大的网站变更监控工具，支持实时检测网页内容变化并通过多种渠道发送警报。它集成了 AI 大模型能力，能智能过滤无关变更并生成自然语言摘要，极大降低误报。支持 Docker 自托管和 SaaS 服务，适用于价格追踪、库存监控及网页防篡改等场景，是运维和数据分析的高效利器。
@@ -1169,7 +1169,7 @@
 ## ShareX/ShareX
 
 > [!info]
-> ⭐ 38,242 · C# · 2026-06-23T13:35:46Z  
+> ⭐ 38,241 · C# · 2026-06-23T14:18:18Z  
 > [GitHub](https://github.com/ShareX/ShareX) · [Website](https://getsharex.com)  
 > `#桌面应用` `#自动化工具` `#运维自动化` `#avalonia` `#capture` `#color-picker` `#csharp` `#dropbox` `#file-sharing` `#file-upload` `#ftp` `#gif` `#gif-recorder` `#image-annotation` `#ocr` `#productivity` `#region-capture` `#screen-capture` `#screen-recorder` `#screenshot` `#share` `#sharex` `#url-shortener` 
 > ShareX 是一款免费开源的 Windows 全能截图与文件共享工具。它支持一键捕获屏幕任意区域、录制视频，并能将内容上传至多种云存储或自定义目的地。内置强大的图像处理、OCR 识别及自动化工作流，是提升个人与团队生产力的必备神器。
@@ -1189,7 +1189,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 109,746 · C# · 2026-06-23T14:04:10Z  
+> ⭐ 109,744 · C# · 2026-06-23T14:17:33Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#图形化客户端` `#多内核支持` `#网络代理` `#跨平台` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > v2rayN 是一款支持 Windows、Linux 和 macOS 的跨平台图形化客户端，兼容 Xray、sing-box 等多种核心内核。提供 GPG 签名校验保障安全，是用户进行网络代理配置与管理的高效工具。

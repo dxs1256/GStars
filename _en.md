@@ -140,7 +140,7 @@
 ## chenxuuu/sms_forwarding
 
 > [!info]
-> ⭐ 1,167 · C++ · 2026-06-23T14:01:24Z  
+> ⭐ 1,169 · C++ · 2026-06-23T14:15:56Z  
 > [GitHub](https://github.com/chenxuuu/sms_forwarding) · [Website](http://sms.j2.cx/)  
 > `#ESP32` `#Embedded Development` `#IoT` `#SMS Forwarding` 
 > A low-cost hardware SMS forwarding device based on ESP32C3 and ML307R, supporting China Mobile/Unicom/Telecom. It features a Web interface for managing automatic SMS forwarding to email, DingTalk, Feishu, and various push services. Includes long SMS merging, remote reboot, and balance consumption, making it an ideal IoT notification and number-keeping tool.
@@ -189,7 +189,7 @@
 ## igareck/vpn-configs-for-russia
 
 > [!info]
-> ⭐ 7,142 · N/A · 2026-06-23T13:19:23Z  
+> ⭐ 7,144 · N/A · 2026-06-23T14:18:34Z  
 > [GitHub](https://github.com/igareck/vpn-configs-for-russia)  
 > `#Automation Ops` `#Censorship Bypass` `#Network Tools` `#Proxy Protocols` `#free-vpn-key` `#free-vpn-keys` `#free-vpn-russia` `#roskomnadzor` `#russia-vpn` `#shadowsocks` `#shadowsocks-free` `#v2ray` `#vless` `#vless-reality` `#vpn` `#vpn-config` `#vpn-configuration` `#vpn-for-russia` `#vpn-free-russia` `#vpn-key` `#vpn-keys` `#vpn-russia` `#whitelist` `#xray` 
 > A specialized repository offering free, verified VPN configurations optimized for Russia. Supporting protocols like VLESS and Trojan, it utilizes automated scripts to test and update links every 2 hours, filtering out slow or non-functional nodes. Provides TXT subscription links compatible with major clients, ensuring stable connectivity and effective censorship bypass.
@@ -199,7 +199,7 @@
 ## truelockmc/streambert
 
 > [!info]
-> ⭐ 5,441 · JavaScript · 2026-06-23T13:56:06Z  
+> ⭐ 5,442 · JavaScript · 2026-06-23T14:09:44Z  
 > [GitHub](https://github.com/truelockmc/streambert)  
 > `#Electron App` `#Streaming Tool` `#Video Download` `#网页爬虫` `#anime` `#anime-downloader` `#anime-scraper` `#downloader` `#electron` `#modern-ui` `#movies` `#movies-streaming` `#opinionated` `#piracy` `#series` `#streaming` `#streaming-video` `#tmdb-api` `#tv` 
 > Streambert is a cross-platform Electron desktop app for streaming and downloading global movies, TV series, and anime. It aggregates data from VidSrc, TMDB, and AniList, featuring subtitle management and multithreaded downloads. Its core value lies in being completely ad-free and tracker-free, ensuring user privacy while offering a highly customizable interface for a pure viewing experience.
@@ -296,7 +296,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 38,393 · Python · 2026-06-23T14:06:31Z  
+> ⭐ 38,395 · Python · 2026-06-23T14:11:32Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI Agents` `#Automation Tools` `#Cross-platform` `#网页爬虫` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach empowers AI agents with internet access via a unified CLI. It supports platforms like Twitter, Reddit, YouTube, and Xiaohongshu without paid APIs. Featuring multi-backend routing and auto-diagnosis, it bypasses restrictions and simplifies configuration. It ensures privacy with local cookie storage and offers zero-cost, high-availability data ingestion for any command-line compatible agent.
@@ -562,7 +562,7 @@
 ## Usagi-org/ai-goofish-monitor
 
 > [!info]
-> ⭐ 12,642 · Python · 2026-06-23T13:56:01Z  
+> ⭐ 12,643 · Python · 2026-06-23T14:12:40Z  
 > [GitHub](https://github.com/Usagi-org/ai-goofish-monitor)  
 > `#AI 智能体` `#E-commerce Monitoring` `#网页爬虫` `#自动化工具` `#ai` `#ai-assistant` `#ai-tools` `#automation` `#gemini` `#goofish` `#open-source` `#openai` `#playwright` `#tool` `#xian-yu` `#xianyu` `#xianyu-bot` 
 > An intelligent Xianyu monitoring system built on Playwright and AI models, featuring a Web management UI. Supports multi-task concurrency, natural language task creation, multimodal product analysis, scheduling, account rotation, and real-time notifications for efficient product filtering.
@@ -611,7 +611,7 @@
 ## yt-dlp/yt-dlp
 
 > [!info]
-> ⭐ 172,822 · Python · 2026-06-23T14:00:54Z  
+> ⭐ 172,823 · Python · 2026-06-23T14:14:12Z  
 > [GitHub](https://github.com/yt-dlp/yt-dlp) · [Website](https://discord.gg/H5MNcFW63r)  
 > `#Audio/Video Download` `#Command-line Tool` `#Media Processing` `#cli` `#downloader` `#python` `#sponsorblock` `#youtube-dl` `#youtube-downloader` `#yt-dlp` 
 > yt-dlp is a powerful command-line audio/video downloader and a fork of youtube-dl. Supporting thousands of sites, it offers advanced format selection, metadata editing, and plugin extensibility. Ideal for media archiving, offline storage, and automated data collection, it delivers superior performance and active maintenance for developers and power users.
@@ -750,7 +750,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 162,428 · Python · 2026-06-23T14:03:06Z  
+> ⭐ 162,431 · Python · 2026-06-23T14:14:46Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#Developer Tools` `#Open Source` `#Project Curation` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub is a monthly publication that curates and shares interesting, beginner-friendly open-source projects from GitHub. Released on the 28th of each month, it features engaging projects, open-source books, practical tutorials, and enterprise-level codebases to help newcomers discover the joy of open source and build real-world skills quickly.
@@ -800,7 +800,7 @@
 ## Guovin/iptv-api
 
 > [!info]
-> ⭐ 24,347 · Python · 2026-06-23T11:44:38Z  
+> ⭐ 24,348 · Python · 2026-06-23T14:10:33Z  
 > [GitHub](https://github.com/Guovin/iptv-api)  
 > `#Cross-Platform` `#Data Collection` `#自动化工具` `#auto-update` `#awesome` `#epg` `#iptv` `#iptv-api` `#iptv-channels` `#iptv-free` `#iptv-m3u` `#iptv-m3u8` `#iptv-playlist` `#ipv4` `#ipv6` `#live` `#m3u` `#m3u8` `#playlist` `#rtmp` `#schedule` `#tv` `#tvbox` 
 > Automated IPTV live stream source update platform featuring full-cycle collection, filtering, and speed testing. Supports custom templates, IPv4/IPv6, and streaming for weak networks. Deployable via Docker, CLI, or GUI, it offers EPG and logo management, ideal for robust IPTV systems.
@@ -840,7 +840,7 @@
 ## peasoft/NoMoreWalls
 
 > [!info]
-> ⭐ 3,336 · Python · 2026-06-23T12:24:22Z  
+> ⭐ 3,336 · Python · 2026-06-23T14:16:58Z  
 > [GitHub](https://github.com/peasoft/NoMoreWalls) · [Website](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)  
 > `#Automation Script` `#Network Proxy` `#Node Subscription` `#bypass-gfw` `#china` `#clash` `#gfw` `#gfw-breaker` `#hysteria` `#hysteria2` `#node` `#proxy` `#shadowrocket` `#shadowsocks` `#socks` `#socks5` `#ss` `#ssr` `#trojan` `#tuic` `#v2ray` `#vless` `#vmess` 
 > NoMoreWalls is an open-source automated node aggregator that scrapes and merges public proxy nodes from the internet using GitHub Actions. It supports Clash Meta and Sing-Box subscriptions with built-in smart routing rules, offering a free, registration-free network access solution while advocating against 996 work culture.
@@ -1069,7 +1069,7 @@
 ## dgtlmoon/changedetection.io
 
 > [!info]
-> ⭐ 32,103 · Python · 2026-06-23T14:04:43Z  
+> ⭐ 32,102 · Python · 2026-06-23T14:09:37Z  
 > [GitHub](https://github.com/dgtlmoon/changedetection.io) · [Website](https://changedetection.io)  
 > `#AI Agents` `#Change Detection` `#Web Monitoring` `#网页爬虫` `#back-in-stock` `#change-alert` `#change-detection` `#change-monitoring` `#monitoring` `#notifications` `#restock-monitor` `#rss` `#self-hosted` `#url-monitor` `#web-scraping` `#website-change-detection` `#website-change-detector` `#website-change-monitor` `#website-change-notification` `#website-change-tracker` `#website-defacement-monitoring` `#website-monitor` `#website-monitoring` `#website-watcher` 
 > changedetection.io is a powerful website change monitoring tool that detects content updates in real-time and sends alerts via multiple channels. It integrates AI capabilities to intelligently filter irrelevant changes and generate natural language summaries, significantly reducing false positives. Supporting Docker self-hosting and SaaS, it's ideal for price tracking, stock monitoring, and website integrity checks, serving as an efficient tool for ops and data analysis.
@@ -1169,7 +1169,7 @@
 ## ShareX/ShareX
 
 > [!info]
-> ⭐ 38,242 · C# · 2026-06-23T13:35:46Z  
+> ⭐ 38,241 · C# · 2026-06-23T14:18:18Z  
 > [GitHub](https://github.com/ShareX/ShareX) · [Website](https://getsharex.com)  
 > `#Automation Tool` `#DevOps Automation` `#桌面应用` `#avalonia` `#capture` `#color-picker` `#csharp` `#dropbox` `#file-sharing` `#file-upload` `#ftp` `#gif` `#gif-recorder` `#image-annotation` `#ocr` `#productivity` `#region-capture` `#screen-capture` `#screen-recorder` `#screenshot` `#share` `#sharex` `#url-shortener` 
 > ShareX is a free, open-source screen capture and file sharing tool for Windows. It enables users to capture any screen area or record video with a single keystroke. Beyond basic capture, it supports uploading images, text, and files to a wide range of destinations, including cloud storage. Featuring advanced image effects, OCR, and automation workflows, it serves as a powerful productivity suite for professionals.
@@ -1189,7 +1189,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 109,746 · C# · 2026-06-23T14:04:10Z  
+> ⭐ 109,744 · C# · 2026-06-23T14:17:33Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#Cross-Platform` `#GUI Client` `#Multi-Core Support` `#Network Proxy` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > v2rayN is a cross-platform GUI client for Windows, Linux, and macOS, supporting multiple cores like Xray and sing-box. It features GPG-signed releases for security, serving as an efficient tool for network proxy configuration and management.
