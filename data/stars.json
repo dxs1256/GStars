@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23 07:52 UTC",
+  "last_updated": "2026-06-23 07:55 UTC",
   "repos": {
     "waoowaooAI/waoowaoo": {
       "metadata": {
@@ -5120,13 +5120,13 @@
         "name": "ChinaTextbook",
         "owner": "TapXWorld",
         "description": "所有小初高、大学PDF教材。",
-        "stars": 74466,
+        "stars": 74467,
         "language": "Roff",
         "url": "https://github.com/TapXWorld/ChinaTextbook",
         "homepage": "",
         "topics": [],
         "pushed_at": "2025-10-18T13:39:24Z",
-        "updated_at": "2026-06-23T07:10:18Z",
+        "updated_at": "2026-06-23T07:49:43Z",
         "starred_at": "2025-05-22T08:32:35Z"
       },
       "summary": {
@@ -31731,7 +31731,7 @@
         "name": "Agent-Reach",
         "owner": "Panniantong",
         "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "stars": 38141,
+        "stars": 38147,
         "language": "Python",
         "url": "https://github.com/Panniantong/Agent-Reach",
         "homepage": "",
@@ -31755,7 +31755,7 @@
           "youtube-transcript"
         ],
         "pushed_at": "2026-06-16T12:45:59Z",
-        "updated_at": "2026-06-23T07:49:41Z",
+        "updated_at": "2026-06-23T07:53:15Z",
         "starred_at": "2026-02-28T17:12:02Z"
       },
       "summary": {
@@ -32422,8 +32422,8 @@
           "socks5",
           "socks5-proxy"
         ],
-        "pushed_at": "2026-06-23T06:28:20Z",
-        "updated_at": "2026-06-23T07:26:00Z",
+        "pushed_at": "2026-06-23T07:51:35Z",
+        "updated_at": "2026-06-23T07:51:41Z",
         "starred_at": "2025-10-10T07:34:36Z"
       },
       "summary": {
@@ -32432,7 +32432,7 @@
         "tags_zh": [],
         "tags_en": []
       },
-      "pushed_at": "2026-06-23T06:28:20Z",
+      "pushed_at": "2026-06-23T07:51:35Z",
       "updated_at": "2026-06-23"
     },
     "Usagi-org/ai-goofish-monitor": {
@@ -32533,7 +32533,7 @@
         "name": "OpenList",
         "owner": "OpenListTeam",
         "description": "A new AList Fork to Anti Trust Crisis",
-        "stars": 23189,
+        "stars": 23190,
         "language": "Go",
         "url": "https://github.com/OpenListTeam/OpenList",
         "homepage": "https://doc.oplist.org",
@@ -32544,7 +32544,7 @@
           "openlist"
         ],
         "pushed_at": "2026-06-23T07:26:57Z",
-        "updated_at": "2026-06-23T07:26:52Z",
+        "updated_at": "2026-06-23T07:53:17Z",
         "starred_at": "2025-06-15T15:01:32Z"
       },
       "summary": {
@@ -33122,7 +33122,7 @@
         "name": "Cloudflare-vless-trojan",
         "owner": "yonggekkk",
         "description": "CF-workers/pages代理脚本：支持Vless-ws(tls)、Trojan-ws(tls)；Socks5/http本地代理脚本：可选ECH-TLS、普通TLS、无TLS三种代理模式",
-        "stars": 15420,
+        "stars": 15419,
         "language": "JavaScript",
         "url": "https://github.com/yonggekkk/Cloudflare-vless-trojan",
         "homepage": "https://ygkkk.blogspot.com/2023/07/cfworkers-vless.html",
@@ -33145,7 +33145,7 @@
           "ygkkk"
         ],
         "pushed_at": "2026-06-19T06:25:24Z",
-        "updated_at": "2026-06-23T07:45:27Z",
+        "updated_at": "2026-06-23T07:49:46Z",
         "starred_at": "2024-10-04T15:59:38Z"
       },
       "summary": {
@@ -33163,7 +33163,7 @@
         "name": "iptv-api",
         "owner": "Guovin",
         "description": "⚡️IPTV直播源自动更新平台『🤖全自动采集、筛选、测速、生成🚀』：自定义获取频道；IPv4/IPv6；接口验效；推流；多平台支持；工作流、Docker、命令行、GUI多端部署 | IPTV live streaming source automatic update platform",
-        "stars": 24340,
+        "stars": 24341,
         "language": "Python",
         "url": "https://github.com/Guovin/iptv-api",
         "homepage": "",
@@ -33190,7 +33190,7 @@
           "tvbox"
         ],
         "pushed_at": "2026-05-16T03:37:49Z",
-        "updated_at": "2026-06-23T07:47:37Z",
+        "updated_at": "2026-06-23T07:51:26Z",
         "starred_at": "2024-10-24T07:17:45Z"
       },
       "summary": {
@@ -34335,7 +34335,7 @@
         "name": "v2rayN",
         "owner": "2dust",
         "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
-        "stars": 109720,
+        "stars": 109721,
         "language": "C#",
         "url": "https://github.com/2dust/v2rayN",
         "homepage": "https://v2rayn.2dust.link",
@@ -34353,7 +34353,7 @@
           "xtls"
         ],
         "pushed_at": "2026-06-23T06:07:43Z",
-        "updated_at": "2026-06-23T07:39:13Z",
+        "updated_at": "2026-06-23T07:51:11Z",
         "starred_at": "2019-12-29T09:59:51Z"
       },
       "summary": {
