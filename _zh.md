@@ -150,7 +150,7 @@
 ## agentscope-ai/QwenPaw
 
 > [!info]
-> ⭐ 19,916 · Python · 2026-06-23T14:00:33Z  
+> ⭐ 19,916 · Python · 2026-06-23T14:06:53Z  
 > [GitHub](https://github.com/agentscope-ai/QwenPaw) · [Website](http://qwenpaw.agentscope.io/)  
 > `#AI智能体` `#个人助理` `#技能扩展` `#本地部署` `#agent` `#agent-harness` `#agentscope` `#harness-engineering` `#llm-tools` `#llms` `#skills` `#super-agent` 
 > QwenPaw 是一款由 AgentScope 团队打造的个人 AI 助手，支持本地或云端灵活部署，确保数据隐私完全可控。它具备强大的技能扩展能力，可集成 PDF/Office 处理、新闻摘要及多聊天应用交互。作为开源项目，它易于安装且高度可定制，旨在为用户提供安全、高效且随需而变的智能工作流支持。
@@ -256,7 +256,7 @@
 ## alchaincyf/zhangxuefeng-skill
 
 > [!info]
-> ⭐ 8,677 · N/A · 2026-06-23T13:12:33Z  
+> ⭐ 8,678 · N/A · 2026-06-23T14:04:53Z  
 > [GitHub](https://github.com/alchaincyf/zhangxuefeng-skill)  
 > `#AI 智能体` `#Agent Skills` `#职业规划` `#认知框架` 
 > 本项目构建了张雪峰的认知操作系统，将高考志愿、考研及职业规划经验转化为可运行的思维框架。基于 Agent Skills 标准开发，兼容多 AI 运行时，提炼核心心智模型与决策启发式，为用户提供具备实战逻辑的升学与职业发展咨询方案。
@@ -296,7 +296,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 38,389 · Python · 2026-06-23T13:59:56Z  
+> ⭐ 38,393 · Python · 2026-06-23T14:06:31Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI 智能体` `#网页爬虫` `#自动化工具` `#跨平台` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach 是一款赋能 AI Agent 的开源 CLI 工具，赋予其全网信息获取能力。支持 Twitter、YouTube、小红书等主流平台，无需付费 API。通过多后端路由自动规避封锁，本地存储保障隐私，实现零成本、高可用的跨平台数据接入。
@@ -532,7 +532,7 @@
 ## proxifly/free-proxy-list
 
 > [!info]
-> ⭐ 5,738 · N/A · 2026-06-23T13:43:54Z  
+> ⭐ 5,739 · N/A · 2026-06-23T14:06:27Z  
 > [GitHub](https://github.com/proxifly/free-proxy-list) · [Website](https://proxifly.dev)  
 > `#代理服务器` `#爬虫开发` `#网络工具` `#自动化更新` `#free-proxy` `#free-proxy-list` `#fresh-proxies` `#http` `#http-proxy` `#proxies` `#proxies-list` `#proxy` `#proxy-list` `#proxy-scraper` `#socks` `#socks4` `#socks4-proxy` `#socks5` `#socks5-proxy` 
 > Proxifly 维护的免费代理列表仓库，每 5 分钟自动更新。提供 HTTP、SOCKS4/5 等协议，覆盖 94 国超 3500 个节点。支持 JSON/TXT/CSV 多格式及 NPM 模块调用，是爬虫开发、网络测试及隐私保护的优质基础设施。
@@ -581,7 +581,7 @@
 ## OpenListTeam/OpenList
 
 > [!info]
-> ⭐ 23,201 · Go · 2026-06-23T13:22:29Z  
+> ⭐ 23,202 · Go · 2026-06-23T14:05:36Z  
 > [GitHub](https://github.com/OpenListTeam/OpenList) · [Website](https://doc.oplist.org)  
 > `#WebDAV` `#云存储管理` `#开源治理` `#文件挂载` `#alist` `#aliyunpan` `#baidupan` `#openlist` 
 > OpenList 是 AList 的社区驱动分支，旨在应对开源信任危机。它支持阿里云盘、OneDrive 等数十种存储后端，提供统一的 WebDAV 挂载与文件管理。项目坚持 AGPL-3.0 协议，强调代码透明与长期治理，是构建去中心化存储架构的理想选择。
@@ -750,7 +750,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 162,427 · Python · 2026-06-23T14:01:37Z  
+> ⭐ 162,428 · Python · 2026-06-23T14:03:06Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#开发者工具` `#开源社区` `#项目推荐` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub 是一个专注于分享 GitHub 上有趣、入门级开源项目的月刊，每月28日定期发布，涵盖有趣项目、开源书籍、实战及企业级项目。旨在通过精选优质开源内容，帮助用户快速发现开源魅力，激发学习兴趣，降低入门门槛，从而爱上开源生态。
@@ -1069,7 +1069,7 @@
 ## dgtlmoon/changedetection.io
 
 > [!info]
-> ⭐ 32,102 · Python · 2026-06-23T13:26:27Z  
+> ⭐ 32,103 · Python · 2026-06-23T14:04:43Z  
 > [GitHub](https://github.com/dgtlmoon/changedetection.io) · [Website](https://changedetection.io)  
 > `#AI智能体` `#Web监控` `#变更检测` `#网页爬虫` `#back-in-stock` `#change-alert` `#change-detection` `#change-monitoring` `#monitoring` `#notifications` `#restock-monitor` `#rss` `#self-hosted` `#url-monitor` `#web-scraping` `#website-change-detection` `#website-change-detector` `#website-change-monitor` `#website-change-notification` `#website-change-tracker` `#website-defacement-monitoring` `#website-monitor` `#website-monitoring` `#website-watcher` 
 > changedetection.io 是一款强大的网站变更监控工具，支持实时检测网页内容变化并通过多种渠道发送警报。它集成了 AI 大模型能力，能智能过滤无关变更并生成自然语言摘要，极大降低误报。支持 Docker 自托管和 SaaS 服务，适用于价格追踪、库存监控及网页防篡改等场景，是运维和数据分析的高效利器。
@@ -1189,7 +1189,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 109,745 · C# · 2026-06-23T13:50:10Z  
+> ⭐ 109,746 · C# · 2026-06-23T14:04:10Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#图形化客户端` `#多内核支持` `#网络代理` `#跨平台` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > v2rayN 是一款支持 Windows、Linux 和 macOS 的跨平台图形化客户端，兼容 Xray、sing-box 等多种核心内核。提供 GPG 签名校验保障安全，是用户进行网络代理配置与管理的高效工具。

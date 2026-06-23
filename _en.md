@@ -150,7 +150,7 @@
 ## agentscope-ai/QwenPaw
 
 > [!info]
-> ⭐ 19,916 · Python · 2026-06-23T14:00:33Z  
+> ⭐ 19,916 · Python · 2026-06-23T14:06:53Z  
 > [GitHub](https://github.com/agentscope-ai/QwenPaw) · [Website](http://qwenpaw.agentscope.io/)  
 > `#AI 智能体` `#Local Deployment` `#Personal Assistant` `#Skill Extension` `#agent` `#agent-harness` `#agentscope` `#harness-engineering` `#llm-tools` `#llms` `#skills` `#super-agent` 
 > QwenPaw is a personal AI assistant built on AgentScope, designed for flexible deployment on local machines or private clouds to ensure full data privacy. It features extensible skills for PDF/Office processing, news aggregation, and multi-channel chat integration. Easy to install via PyPI, it empowers users to build secure, customizable, and efficient AI-driven workflows with complete control over memory and personalization.
@@ -256,7 +256,7 @@
 ## alchaincyf/zhangxuefeng-skill
 
 > [!info]
-> ⭐ 8,677 · N/A · 2026-06-23T13:12:33Z  
+> ⭐ 8,678 · N/A · 2026-06-23T14:04:53Z  
 > [GitHub](https://github.com/alchaincyf/zhangxuefeng-skill)  
 > `#AI 智能体` `#Agent Skills` `#Career Planning` `#Cognitive Framework` 
 > This project builds Zhang Xuefeng's cognitive operating system, transforming practical frameworks for college admissions, graduate studies, and career planning into executable logic. Built on Agent Skills standards and compatible with multiple AI runtimes, it extracts core mental models to provide actionable consulting solutions.
@@ -296,7 +296,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 38,389 · Python · 2026-06-23T13:59:56Z  
+> ⭐ 38,393 · Python · 2026-06-23T14:06:31Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI Agents` `#Automation Tools` `#Cross-platform` `#网页爬虫` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach empowers AI agents with internet access via a unified CLI. It supports platforms like Twitter, Reddit, YouTube, and Xiaohongshu without paid APIs. Featuring multi-backend routing and auto-diagnosis, it bypasses restrictions and simplifies configuration. It ensures privacy with local cookie storage and offers zero-cost, high-availability data ingestion for any command-line compatible agent.
@@ -532,7 +532,7 @@
 ## proxifly/free-proxy-list
 
 > [!info]
-> ⭐ 5,738 · N/A · 2026-06-23T13:43:54Z  
+> ⭐ 5,739 · N/A · 2026-06-23T14:06:27Z  
 > [GitHub](https://github.com/proxifly/free-proxy-list) · [Website](https://proxifly.dev)  
 > `#Automated Updates` `#Network Tools` `#Proxy Server` `#网页爬虫` `#free-proxy` `#free-proxy-list` `#fresh-proxies` `#http` `#http-proxy` `#proxies` `#proxies-list` `#proxy` `#proxy-list` `#proxy-scraper` `#socks` `#socks4` `#socks4-proxy` `#socks5` `#socks5-proxy` 
 > Proxifly's repository provides a free, high-frequency updated proxy list (every 5 mins) covering HTTP, HTTPS, SOCKS4, and SOCKS5 protocols. With over 3500 nodes across 94 countries, it supports JSON, TXT, and CSV formats plus NPM integration, serving as essential infrastructure for web scraping, network testing, and privacy protection.
@@ -581,7 +581,7 @@
 ## OpenListTeam/OpenList
 
 > [!info]
-> ⭐ 23,201 · Go · 2026-06-23T13:22:29Z  
+> ⭐ 23,202 · Go · 2026-06-23T14:05:36Z  
 > [GitHub](https://github.com/OpenListTeam/OpenList) · [Website](https://doc.oplist.org)  
 > `#Cloud Storage` `#File Mounting` `#Open Source Governance` `#WebDAV` `#alist` `#aliyunpan` `#baidupan` `#openlist` 
 > OpenList is a community-driven fork of AList designed to counter trust crises in open source. It supports dozens of storage backends like AliyunDrive and OneDrive, offering unified WebDAV mounting. Built on AGPL-3.0, it emphasizes code transparency and long-term governance for decentralized storage architectures.
@@ -750,7 +750,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 162,427 · Python · 2026-06-23T14:01:37Z  
+> ⭐ 162,428 · Python · 2026-06-23T14:03:06Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#Developer Tools` `#Open Source` `#Project Curation` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub is a monthly publication that curates and shares interesting, beginner-friendly open-source projects from GitHub. Released on the 28th of each month, it features engaging projects, open-source books, practical tutorials, and enterprise-level codebases to help newcomers discover the joy of open source and build real-world skills quickly.
@@ -1069,7 +1069,7 @@
 ## dgtlmoon/changedetection.io
 
 > [!info]
-> ⭐ 32,102 · Python · 2026-06-23T13:26:27Z  
+> ⭐ 32,103 · Python · 2026-06-23T14:04:43Z  
 > [GitHub](https://github.com/dgtlmoon/changedetection.io) · [Website](https://changedetection.io)  
 > `#AI Agents` `#Change Detection` `#Web Monitoring` `#网页爬虫` `#back-in-stock` `#change-alert` `#change-detection` `#change-monitoring` `#monitoring` `#notifications` `#restock-monitor` `#rss` `#self-hosted` `#url-monitor` `#web-scraping` `#website-change-detection` `#website-change-detector` `#website-change-monitor` `#website-change-notification` `#website-change-tracker` `#website-defacement-monitoring` `#website-monitor` `#website-monitoring` `#website-watcher` 
 > changedetection.io is a powerful website change monitoring tool that detects content updates in real-time and sends alerts via multiple channels. It integrates AI capabilities to intelligently filter irrelevant changes and generate natural language summaries, significantly reducing false positives. Supporting Docker self-hosting and SaaS, it's ideal for price tracking, stock monitoring, and website integrity checks, serving as an efficient tool for ops and data analysis.
@@ -1189,7 +1189,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 109,745 · C# · 2026-06-23T13:50:10Z  
+> ⭐ 109,746 · C# · 2026-06-23T14:04:10Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#Cross-Platform` `#GUI Client` `#Multi-Core Support` `#Network Proxy` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > v2rayN is a cross-platform GUI client for Windows, Linux, and macOS, supporting multiple cores like Xray and sing-box. It features GPG-signed releases for security, serving as an efficient tool for network proxy configuration and management.
