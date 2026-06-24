@@ -188,7 +188,7 @@
 ## igareck/vpn-configs-for-russia
 
 > [!info]
-> ⭐ 7,154 · N/A · 2026-06-24T02:12:23Z  
+> ⭐ 7,154 · N/A · 2026-06-24T03:21:06Z  
 > [GitHub](https://github.com/igareck/vpn-configs-for-russia)  
 > `#Automation Ops` `#Censorship Bypass` `#Network Tools` `#Proxy Protocols` `#free-vpn-key` `#free-vpn-keys` `#free-vpn-russia` `#roskomnadzor` `#russia-vpn` `#shadowsocks` `#shadowsocks-free` `#v2ray` `#vless` `#vless-reality` `#vpn` `#vpn-config` `#vpn-configuration` `#vpn-for-russia` `#vpn-free-russia` `#vpn-key` `#vpn-keys` `#vpn-russia` `#whitelist` `#xray` 
 > A specialized repository offering free, verified VPN configurations optimized for Russia. Supporting protocols like VLESS and Trojan, it utilizes automated scripts to test and update links every 2 hours, filtering out slow or non-functional nodes. Provides TXT subscription links compatible with major clients, ensuring stable connectivity and effective censorship bypass.
@@ -255,7 +255,7 @@
 ## alchaincyf/zhangxuefeng-skill
 
 > [!info]
-> ⭐ 8,700 · N/A · 2026-06-24T03:15:02Z  
+> ⭐ 8,701 · N/A · 2026-06-24T03:18:27Z  
 > [GitHub](https://github.com/alchaincyf/zhangxuefeng-skill)  
 > `#AI 智能体` `#Agent Skills` `#Career Planning` `#Cognitive Framework` 
 > This project builds Zhang Xuefeng's cognitive operating system, transforming practical frameworks for college admissions, graduate studies, and career planning into executable logic. Built on Agent Skills standards and compatible with multiple AI runtimes, it extracts core mental models to provide actionable consulting solutions.
@@ -285,7 +285,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 38,737 · Python · 2026-06-24T03:17:14Z  
+> ⭐ 38,743 · Python · 2026-06-24T03:21:23Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI Agents` `#Automation Tools` `#Cross-platform` `#网页爬虫` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach empowers AI agents with internet access via a unified CLI. It supports platforms like Twitter, Reddit, YouTube, and Xiaohongshu without paid APIs. Featuring multi-backend routing and auto-diagnosis, it bypasses restrictions and simplifies configuration. It ensures privacy with local cookie storage and offers zero-cost, high-availability data ingestion for any command-line compatible agent.
@@ -353,7 +353,7 @@
 ## lesnolie/movecar
 
 > [!info]
-> ⭐ 1,144 · JavaScript · 2026-06-24T02:57:37Z  
+> ⭐ 1,145 · JavaScript · 2026-06-24T03:20:35Z  
 > [GitHub](https://github.com/lesnolie/movecar)  
 > `#Automation Tools` `#Privacy Protection` `#Smart Life` `#无服务器` 
 > MoveCar is a serverless smart notification system built on Cloudflare Workers. It enables privacy-preserving car relocation via QR codes and real-time location sharing. Using Bark push notifications, it prevents phone number exposure and supports anti-harassment features with zero maintenance costs.
@@ -442,7 +442,7 @@
 ## byJoey/cfnew
 
 > [!info]
-> ⭐ 14,273 · N/A · 2026-06-24T02:12:08Z  
+> ⭐ 14,272 · N/A · 2026-06-24T03:21:12Z  
 > [GitHub](https://github.com/byJoey/cfnew)  
 > `#Cloudflare Workers` `#Network Proxy Tool` `#Node Management` `#Subscription Conversion` 
 > CFnew is a Cloudflare Workers-based proxy node management tool supporting VLESS/Trojan/xhttp protocols. Features built-in subscription conversion for Clash/Surge/Sing-box clients, graphical configuration interface, API management, latency testing, and ECH encryption. Configurations apply instantly without redeployment.
@@ -521,7 +521,7 @@
 ## proxifly/free-proxy-list
 
 > [!info]
-> ⭐ 5,749 · N/A · 2026-06-24T02:01:35Z  
+> ⭐ 5,749 · N/A · 2026-06-24T03:20:15Z  
 > [GitHub](https://github.com/proxifly/free-proxy-list) · [Website](https://proxifly.dev)  
 > `#Automated Updates` `#Network Tools` `#Proxy Server` `#网页爬虫` `#free-proxy` `#free-proxy-list` `#fresh-proxies` `#http` `#http-proxy` `#proxies` `#proxies-list` `#proxy` `#proxy-list` `#proxy-scraper` `#socks` `#socks4` `#socks4-proxy` `#socks5` `#socks5-proxy` 
 > Proxifly's repository provides a free, high-frequency updated proxy list (every 5 mins) covering HTTP, HTTPS, SOCKS4, and SOCKS5 protocols. With over 3500 nodes across 94 countries, it supports JSON, TXT, and CSV formats plus NPM integration, serving as essential infrastructure for web scraping, network testing, and privacy protection.
@@ -531,7 +531,7 @@
 ## 1c7/chinese-independent-developer
 
 > [!info]
-> ⭐ 48,946 · N/A · 2026-06-24T02:41:08Z  
+> ⭐ 48,947 · N/A · 2026-06-24T03:18:31Z  
 > [GitHub](https://github.com/1c7/chinese-independent-developer)  
 > `#AI Applications` `#Indie Dev` `#Utility Products` `#china` `#indie` `#indie-developer` 
 > This repo aggregates innovative projects by Chinese indie developers launched in February 2026, including AI voice assistants, investment calculators, typing trainers, music generation tools, resume optimizers, and browser extensions. All projects are web or app-based, emphasizing practicality and user experience, such as intelligent text-to-speech, stock/fund investment analysis, AI-powered songwriting, and productivity tools, showcasing active innovation in AI applications and niche utility apps.
@@ -580,7 +580,7 @@
 ## TapXWorld/ChinaTextbook
 
 > [!info]
-> ⭐ 74,507 · Roff · 2026-06-24T03:16:21Z  
+> ⭐ 74,508 · Roff · 2026-06-24T03:18:03Z  
 > [GitHub](https://github.com/TapXWorld/ChinaTextbook)  
 > `#Compulsory Education` `#Education Resources` `#Educational Equity` `#PDF Textbooks` 
 > This project provides open access to Chinese K-12 and university PDF textbooks, promoting educational equity and accessibility. It focuses on elementary and middle school math materials, offering People's Education Press editions to support overseas Chinese families and foster interest-driven learning beyond exam-oriented education.
@@ -739,7 +739,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 162,476 · Python · 2026-06-24T03:04:15Z  
+> ⭐ 162,477 · Python · 2026-06-24T03:18:06Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#Developer Tools` `#Open Source` `#Project Curation` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub is a monthly publication that curates and shares interesting, beginner-friendly open-source projects from GitHub. Released on the 28th of each month, it features engaging projects, open-source books, practical tutorials, and enterprise-level codebases to help newcomers discover the joy of open source and build real-world skills quickly.
@@ -869,7 +869,7 @@
 ## zhuima/awesome-cloudflare
 
 > [!info]
-> ⭐ 14,216 · N/A · 2026-06-24T03:12:17Z  
+> ⭐ 14,217 · N/A · 2026-06-24T03:21:12Z  
 > [GitHub](https://github.com/zhuima/awesome-cloudflare) · [Website](https://cloudflare.chuhai.tools/)  
 > `#Cloud Infrastructure` `#Cloudflare Ecosystem` `#Indie Dev Tools` `#Open Source Aggregation` 
 > A curated repository of Cloudflare-based tools tailored for indie developers. It aggregates open-source projects like image hosting, temporary email, and monitoring dashboards. Leveraging Workers, R2, and Pages, it enables cost-effective, serverless full-stack deployment to accelerate project delivery and streamline operations.
@@ -968,7 +968,7 @@
 ## JoeanAmier/TikTokDownloader
 
 > [!info]
-> ⭐ 14,878 · Python · 2026-06-24T02:55:55Z  
+> ⭐ 14,879 · Python · 2026-06-24T03:20:41Z  
 > [GitHub](https://github.com/JoeanAmier/TikTokDownloader) · [Website](https://discord.com/invite/ZYtmgKud9Y)  
 > `#Batch Download` `#Data Scraping` `#Douyin/TikTok` `#Python` `#abogus` `#api` `#csv` `#docker` `#douyin` `#downloader` `#ffmpeg` `#httpx` `#linux` `#macos` `#mstoken` `#pyinstaller` `#python` `#rich` `#server` `#sqlite` `#tiktok` `#ttwid` `#windows` `#xlsx` 
 > DouK-Downloader is a free open-source data collection tool built with Python and HTTPX, enabling batch downloads of videos, albums, live streams, collections, and comments from Douyin/TikTok. It features Web UI, API interface, multi-threaded downloads, proxy support, incremental scraping, and resume capability, deployable on private or public servers for content creators and data analysts.

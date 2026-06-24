@@ -188,7 +188,7 @@
 ## igareck/vpn-configs-for-russia
 
 > [!info]
-> ⭐ 7,154 · N/A · 2026-06-24T02:12:23Z  
+> ⭐ 7,154 · N/A · 2026-06-24T03:21:06Z  
 > [GitHub](https://github.com/igareck/vpn-configs-for-russia)  
 > `#代理协议` `#绕过封锁` `#网络工具` `#自动化运维` `#free-vpn-key` `#free-vpn-keys` `#free-vpn-russia` `#roskomnadzor` `#russia-vpn` `#shadowsocks` `#shadowsocks-free` `#v2ray` `#vless` `#vless-reality` `#vpn` `#vpn-config` `#vpn-configuration` `#vpn-for-russia` `#vpn-free-russia` `#vpn-key` `#vpn-keys` `#vpn-russia` `#whitelist` `#xray` 
 > 专为俄罗斯网络环境打造的免费 VPN 配置仓库，支持 VLESS、Trojan 等主流协议。通过自动化脚本每 2 小时进行可用性测试与更新，精准过滤无效节点，提供 TXT 订阅链接，兼容主流客户端，助力用户稳定绕过网络封锁。
@@ -255,7 +255,7 @@
 ## alchaincyf/zhangxuefeng-skill
 
 > [!info]
-> ⭐ 8,700 · N/A · 2026-06-24T03:15:02Z  
+> ⭐ 8,701 · N/A · 2026-06-24T03:18:27Z  
 > [GitHub](https://github.com/alchaincyf/zhangxuefeng-skill)  
 > `#AI 智能体` `#Agent Skills` `#职业规划` `#认知框架` 
 > 本项目构建了张雪峰的认知操作系统，将高考志愿、考研及职业规划经验转化为可运行的思维框架。基于 Agent Skills 标准开发，兼容多 AI 运行时，提炼核心心智模型与决策启发式，为用户提供具备实战逻辑的升学与职业发展咨询方案。
@@ -285,7 +285,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 38,737 · Python · 2026-06-24T03:17:14Z  
+> ⭐ 38,743 · Python · 2026-06-24T03:21:23Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI 智能体` `#网页爬虫` `#自动化工具` `#跨平台` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach 是一款赋能 AI Agent 的开源 CLI 工具，赋予其全网信息获取能力。支持 Twitter、YouTube、小红书等主流平台，无需付费 API。通过多后端路由自动规避封锁，本地存储保障隐私，实现零成本、高可用的跨平台数据接入。
@@ -353,7 +353,7 @@
 ## lesnolie/movecar
 
 > [!info]
-> ⭐ 1,144 · JavaScript · 2026-06-24T02:57:37Z  
+> ⭐ 1,145 · JavaScript · 2026-06-24T03:20:35Z  
 > [GitHub](https://github.com/lesnolie/movecar)  
 > `#无服务器` `#智能生活` `#自动化工具` `#隐私保护` 
 > 这是一个基于 Cloudflare Workers 的无服务器挪车通知系统。它通过扫码实现双向位置共享，利用 Bark 推送保护车主隐私，避免电话泄露。支持防恶意骚扰机制，零运维成本，适合个人车主部署使用。
@@ -442,7 +442,7 @@
 ## byJoey/cfnew
 
 > [!info]
-> ⭐ 14,273 · N/A · 2026-06-24T02:12:08Z  
+> ⭐ 14,272 · N/A · 2026-06-24T03:21:12Z  
 > [GitHub](https://github.com/byJoey/cfnew)  
 > `#Cloudflare Workers` `#网络代理工具` `#节点管理` `#订阅转换` 
 > CFnew 是基于 Cloudflare Workers 的代理节点管理工具，支持 VLESS/Trojan/xhttp 多协议，内置订阅转换功能兼容 Clash/Surge/Sing-box 等主流客户端。提供图形化配置界面和 API 管理，支持延迟测试、地区筛选和 ECH 加密，配置实时生效无需重新部署。
@@ -521,7 +521,7 @@
 ## proxifly/free-proxy-list
 
 > [!info]
-> ⭐ 5,749 · N/A · 2026-06-24T02:01:35Z  
+> ⭐ 5,749 · N/A · 2026-06-24T03:20:15Z  
 > [GitHub](https://github.com/proxifly/free-proxy-list) · [Website](https://proxifly.dev)  
 > `#代理服务器` `#爬虫开发` `#网络工具` `#自动化更新` `#free-proxy` `#free-proxy-list` `#fresh-proxies` `#http` `#http-proxy` `#proxies` `#proxies-list` `#proxy` `#proxy-list` `#proxy-scraper` `#socks` `#socks4` `#socks4-proxy` `#socks5` `#socks5-proxy` 
 > Proxifly 维护的免费代理列表仓库，每 5 分钟自动更新。提供 HTTP、SOCKS4/5 等协议，覆盖 94 国超 3500 个节点。支持 JSON/TXT/CSV 多格式及 NPM 模块调用，是爬虫开发、网络测试及隐私保护的优质基础设施。
@@ -531,7 +531,7 @@
 ## 1c7/chinese-independent-developer
 
 > [!info]
-> ⭐ 48,946 · N/A · 2026-06-24T02:41:08Z  
+> ⭐ 48,947 · N/A · 2026-06-24T03:18:31Z  
 > [GitHub](https://github.com/1c7/chinese-independent-developer)  
 > `#AI应用` `#工具产品` `#独立开发` `#china` `#indie` `#indie-developer` 
 > 中国独立开发者项目列表聚合了2026年2月最新上线的创新产品，涵盖AI语音助手、投资理财工具、打字练习平台、音乐生成、简历优化、浏览器插件等多个领域。项目以网站或App形式呈现，强调实用性与用户体验，如智能语音朗读、美股A股基金定投计算、AI音乐创作等，展现了中国独立开发者在AI应用与垂直场景工具上的活跃创新。
@@ -580,7 +580,7 @@
 ## TapXWorld/ChinaTextbook
 
 > [!info]
-> ⭐ 74,507 · Roff · 2026-06-24T03:16:21Z  
+> ⭐ 74,508 · Roff · 2026-06-24T03:18:03Z  
 > [GitHub](https://github.com/TapXWorld/ChinaTextbook)  
 > `#PDF教材` `#义务教育` `#教育公平` `#教育资源` 
 > 该项目开源了国内小初高及大学PDF教材资源，旨在促进教育公平与普及，消除地区间教育贫困。特别聚焦小学数学和初中数学教材，提供人教版义务教育教科书，支持海外华人子女了解国内教育体系，推动以兴趣为导向的学习。
@@ -739,7 +739,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 162,476 · Python · 2026-06-24T03:04:15Z  
+> ⭐ 162,477 · Python · 2026-06-24T03:18:06Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#开发者工具` `#开源社区` `#项目推荐` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub 是一个专注于分享 GitHub 上有趣、入门级开源项目的月刊，每月28日定期发布，涵盖有趣项目、开源书籍、实战及企业级项目。旨在通过精选优质开源内容，帮助用户快速发现开源魅力，激发学习兴趣，降低入门门槛，从而爱上开源生态。
@@ -869,7 +869,7 @@
 ## zhuima/awesome-cloudflare
 
 > [!info]
-> ⭐ 14,216 · N/A · 2026-06-24T03:12:17Z  
+> ⭐ 14,217 · N/A · 2026-06-24T03:21:12Z  
 > [GitHub](https://github.com/zhuima/awesome-cloudflare) · [Website](https://cloudflare.chuhai.tools/)  
 > `#Cloudflare生态` `#云基础设施` `#开源资源聚合` `#独立开发工具` 
 > 专为独立开发者打造的 Cloudflare 生态资源库，精选图床、临时邮箱及监控等开源工具。利用 Workers、R2 等免费服务实现全栈部署，显著降低运维成本与开发门槛。持续更新精选指南与最佳实践，助力项目快速落地与高效运维。
@@ -968,7 +968,7 @@
 ## JoeanAmier/TikTokDownloader
 
 > [!info]
-> ⭐ 14,878 · Python · 2026-06-24T02:55:55Z  
+> ⭐ 14,879 · Python · 2026-06-24T03:20:41Z  
 > [GitHub](https://github.com/JoeanAmier/TikTokDownloader) · [Website](https://discord.com/invite/ZYtmgKud9Y)  
 > `#Python` `#批量下载` `#抖音/TikTok` `#数据采集` `#abogus` `#api` `#csv` `#docker` `#douyin` `#downloader` `#ffmpeg` `#httpx` `#linux` `#macos` `#mstoken` `#pyinstaller` `#python` `#rich` `#server` `#sqlite` `#tiktok` `#ttwid` `#windows` `#xlsx` 
 > DouK-Downloader 是一款基于 Python 和 HTTPX 的免费开源数据采集工具，支持批量下载抖音/TikTok 视频、图集、直播、合集及评论数据。具备 Web UI、API 接口、多线程下载、代理支持、增量采集、文件断点续传等功能，可部署至私有或公开服务器，适用于内容创作者、数据分析师等场景。
