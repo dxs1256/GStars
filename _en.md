@@ -1,6 +1,6 @@
 # ⭐ GitHub Stars Index
 
-> Updated: 2026-06-24 15:19 UTC · Total: 4
+> Updated: 2026-06-24 15:34 UTC · Total: 4
 
 ---
 
@@ -17,38 +17,38 @@
 > [!info]
 > ⭐ 75 · Jinja · 2026-06-23T03:13:11Z  
 > [GitHub](https://github.com/iblogc/GithubStarsIndex) · [Website](https://stars.iblogc.com)  
-> `#AI Agents` `#Data Governance` `#DevOps Automation` `#Knowledge Management` 
-> This tool automatically syncs GitHub Stars and generates AI summaries with intelligent tag normalization. It supports GitHub Actions for scheduled updates, incremental processing, and multi-language static page deployment. Seamlessly integrates with Obsidian, it serves as an ideal automation solution for managing personal technical assets and knowledge bases.
+> `#AI 智能体` `#DevOps Automation` `#Knowledge Management` 
+> GitHub Stars Index is an automated knowledge management tool that uses AI to fetch and summarize starred repositories. It features tag normalization, incremental sync, and concurrency support. It generates Markdown/HTML static pages and syncs seamlessly to Obsidian, enabling efficient tech stack tracking and retrieval.
 > <sub>自动抓取 GitHub Stars，生成 AI 摘要，便于检索。</sub>
 
 ---
 ## AmintaCCCP/GithubStarsManager
 
 > [!info]
-> ⭐ 3,100 · TypeScript · 2026-06-24T12:45:53Z  
+> ⭐ 3,100 · TypeScript · 2026-06-24T15:25:10Z  
 > [GitHub](https://github.com/AmintaCCCP/GithubStarsManager) · [Website](https://gsm.aminta.top/)  
-> `#AI 智能体` `#Automation Tool` `#Cross-platform` `#桌面应用` 
-> GithubStarsManager is a cross-platform desktop app designed to solve GitHub starred repository management issues. It supports auto-syncing stars, uses AI for intelligent categorization and summaries, and offers semantic search. Additionally, it features release tracking, one-click downloads, and Gist management, with all data stored 100% locally to ensure privacy and security.
+> `#AI 智能体` `#Automation Tool` `#Cross-platform` `#知识图谱` 
+> GithubStarsManager is a cross-platform desktop app designed to organize GitHub starred repositories. It leverages AI for auto-summarization and categorization, utilizing Cloudflare Vectorize for precise semantic search. Features include release tracking, one-click downloads, and Gist management, ensuring 100% local data privacy while enhancing developer productivity.
 > <sub>An app for managing github starred repositories.</sub>
 
 ---
 ## chenxuuu/sms_forwarding
 
 > [!info]
-> ⭐ 1,272 · C++ · 2026-06-24T14:38:57Z  
+> ⭐ 1,274 · C++ · 2026-06-24T15:24:08Z  
 > [GitHub](https://github.com/chenxuuu/sms_forwarding) · [Website](http://sms.j2.cx/)  
-> `#Embedded Systems` `#IoT Hardware` `#Message Push` `#自动化工具` 
-> This project is a low-cost SMS forwarding device based on ESP32C3 and ML307R, supporting major Chinese carriers. It features a Web UI for configuration and pushes SMS to 7 channels like Bark, DingTalk, and Feishu. It includes long SMS merging and remote management, ideal for IoT alerts and number retention, with hardware costs around $4.
+> `#ESP32` `#Embedded Development` `#IoT` `#SMS Forwarding` 
+> This project is a low-cost hardware SMS forwarding device built on ESP32C3 and ML307R modules, supporting major carriers. It features automatic SMS reception and multi-channel push notifications (e.g., DingTalk, Feishu, Bark). It includes a Web management interface for configuration and monitoring, supports long SMS merging and remote device restart, making it an ideal solution for personal IoT notifications and number retention management.
 > <sub>超低成本硬件短信转发器，支持移动联通电信，ML307R+ESP32C3</sub>
 
 ---
 ## agentscope-ai/QwenPaw
 
 > [!info]
-> ⭐ 20,007 · Python · 2026-06-24T14:45:44Z  
+> ⭐ 20,008 · Python · 2026-06-24T15:32:24Z  
 > [GitHub](https://github.com/agentscope-ai/QwenPaw) · [Website](http://qwenpaw.agentscope.io/)  
-> `#AI 智能体` `#Automation Tool` `#Cross-Platform` `#Data Privacy` `#agent` `#agent-harness` `#agentscope` `#harness-engineering` `#llm-tools` `#llms` `#skills` `#super-agent` 
-> QwenPaw is a personal AI assistant enabling local/cloud deployment with full data control. Features include cross-platform chat integration, extensible skills (PDF/Office processing, scheduling), and user-managed memory systems for personalized productivity and enterprise automation use cases.
+> `#AI 智能体` `#Automation Tools` `#Personal Assistant` `#agent` `#agent-harness` `#agentscope` `#harness-engineering` `#llm-tools` `#llms` `#skills` `#super-agent` 
+> QwenPaw is a personal AI assistant tool enabling local/cloud deployment with multi-channel integration and extensible skills. Key features include full data control, built-in PDF/Office processing, news summarization, and automation capabilities for personal productivity and cross-platform collaboration.
 > <sub>Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.</sub>
 
 ---

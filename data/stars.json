@@ -1,69 +1,35 @@
 {
-  "last_updated": "2026-06-24 15:19 UTC",
+  "last_updated": "2026-06-24 15:34 UTC",
   "repos": {
-    "iblogc/GithubStarsIndex": {
-      "metadata": {
-        "full_name": "iblogc/GithubStarsIndex",
-        "name": "GithubStarsIndex",
-        "owner": "iblogc",
-        "description": "自动抓取 GitHub Stars，生成 AI 摘要，便于检索。",
-        "stars": 75,
-        "language": "Jinja",
-        "url": "https://github.com/iblogc/GithubStarsIndex",
-        "homepage": "https://stars.iblogc.com",
-        "topics": [],
-        "pushed_at": "2026-06-23T20:22:51Z",
-        "updated_at": "2026-06-23T03:13:11Z",
-        "starred_at": "2026-06-23T03:13:11Z"
-      },
-      "summary": {
-        "zh": "该工具自动抓取 GitHub Stars 并调用 AI 生成摘要，内置标签治理机制实现技术栈归一化。支持 GitHub Actions 定时同步、增量更新及多语言静态页部署，可无缝对接 Obsidian，是高效管理个人技术资产与知识库的理想自动化方案。",
-        "en": "This tool automatically syncs GitHub Stars and generates AI summaries with intelligent tag normalization. It supports GitHub Actions for scheduled updates, incremental processing, and multi-language static page deployment. Seamlessly integrates with Obsidian, it serves as an ideal automation solution for managing personal technical assets and knowledge bases.",
-        "tags_zh": [
-          "AI 智能体",
-          "数据治理",
-          "知识管理",
-          "自动化运维"
-        ],
-        "tags_en": [
-          "AI Agents",
-          "Data Governance",
-          "DevOps Automation",
-          "Knowledge Management"
-        ]
-      },
-      "pushed_at": "2026-06-23T20:22:51Z",
-      "updated_at": "2026-06-24"
-    },
     "chenxuuu/sms_forwarding": {
       "metadata": {
         "full_name": "chenxuuu/sms_forwarding",
         "name": "sms_forwarding",
         "owner": "chenxuuu",
         "description": "超低成本硬件短信转发器，支持移动联通电信，ML307R+ESP32C3",
-        "stars": 1272,
+        "stars": 1274,
         "language": "C++",
         "url": "https://github.com/chenxuuu/sms_forwarding",
         "homepage": "http://sms.j2.cx/",
         "topics": [],
         "pushed_at": "2026-06-23T06:30:47Z",
-        "updated_at": "2026-06-24T14:38:57Z",
+        "updated_at": "2026-06-24T15:24:08Z",
         "starred_at": "2026-06-22T11:00:59Z"
       },
       "summary": {
-        "zh": "本项目是一款基于 ESP32C3 与 ML307R 的低成本短信转发器，支持移动/联通/电信。通过 Web 界面配置，可将短信实时推送到 Bark、钉钉、飞书等 7 种通道。具备长短信合并、远程管理及余额消耗功能，适合物联网告警与保号场景，硬件总成本约 28 元。",
-        "en": "This project is a low-cost SMS forwarding device based on ESP32C3 and ML307R, supporting major Chinese carriers. It features a Web UI for configuration and pushes SMS to 7 channels like Bark, DingTalk, and Feishu. It includes long SMS merging and remote management, ideal for IoT alerts and number retention, with hardware costs around $4.",
+        "zh": "本项目是一款超低成本的硬件短信转发器，基于 ESP32C3 与 ML307R 模组构建，支持移动、联通、电信卡。核心功能包括短信自动接收与多通道推送（如钉钉、飞书、Bark 等），提供 Web 管理界面进行参数配置与状态监控，并支持长短信合并及远程设备重启，是个人物联网通知与保号管理的理想方案。",
+        "en": "This project is a low-cost hardware SMS forwarding device built on ESP32C3 and ML307R modules, supporting major carriers. It features automatic SMS reception and multi-channel push notifications (e.g., DingTalk, Feishu, Bark). It includes a Web management interface for configuration and monitoring, supports long SMS merging and remote device restart, making it an ideal solution for personal IoT notifications and number retention management.",
         "tags_zh": [
+          "ESP32",
           "嵌入式开发",
-          "消息推送",
-          "物联网硬件",
-          "自动化运维"
+          "物联网",
+          "短信转发"
         ],
         "tags_en": [
-          "Embedded Systems",
-          "IoT Hardware",
-          "Message Push",
-          "自动化工具"
+          "ESP32",
+          "Embedded Development",
+          "IoT",
+          "SMS Forwarding"
         ]
       },
       "pushed_at": "2026-06-23T06:30:47Z",
@@ -75,7 +41,7 @@
         "name": "QwenPaw",
         "owner": "agentscope-ai",
         "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-        "stars": 20007,
+        "stars": 20008,
         "language": "Python",
         "url": "https://github.com/agentscope-ai/QwenPaw",
         "homepage": "http://qwenpaw.agentscope.io/",
@@ -90,23 +56,21 @@
           "super-agent"
         ],
         "pushed_at": "2026-06-24T08:18:40Z",
-        "updated_at": "2026-06-24T14:45:44Z",
+        "updated_at": "2026-06-24T15:32:24Z",
         "starred_at": "2026-06-21T16:20:46Z"
       },
       "summary": {
-        "zh": "QwenPaw是一款个人AI助手工具，支持本地/云端灵活部署，提供数据隐私保护与多平台聊天应用集成。核心优势在于可扩展技能模块（如PDF处理、日程管理）和完全用户可控的内存系统，适用于个人效率提升与企业级自动化场景。",
-        "en": "QwenPaw is a personal AI assistant enabling local/cloud deployment with full data control. Features include cross-platform chat integration, extensible skills (PDF/Office processing, scheduling), and user-managed memory systems for personalized productivity and enterprise automation use cases.",
+        "zh": "QwenPaw是一款个人AI助手工具，支持本地/云端灵活部署，具备多聊天应用集成与可扩展技能模块。核心价值在于用户完全掌控数据隐私，内置PDF/Office处理、新闻摘要等自动化功能，适用于个人效率提升与跨平台协作场景。",
+        "en": "QwenPaw is a personal AI assistant tool enabling local/cloud deployment with multi-channel integration and extensible skills. Key features include full data control, built-in PDF/Office processing, news summarization, and automation capabilities for personal productivity and cross-platform collaboration.",
         "tags_zh": [
           "AI智能体",
-          "数据隐私",
-          "自动化工具",
-          "跨平台"
+          "个人助理",
+          "自动化工具"
         ],
         "tags_en": [
           "AI 智能体",
-          "Automation Tool",
-          "Cross-Platform",
-          "Data Privacy"
+          "Automation Tools",
+          "Personal Assistant"
         ]
       },
       "pushed_at": "2026-06-24T08:18:40Z",
@@ -123,16 +87,16 @@
         "url": "https://github.com/AmintaCCCP/GithubStarsManager",
         "homepage": "https://gsm.aminta.top/",
         "topics": [],
-        "pushed_at": "2026-06-24T15:16:23Z",
-        "updated_at": "2026-06-24T12:45:53Z",
+        "pushed_at": "2026-06-24T15:33:51Z",
+        "updated_at": "2026-06-24T15:25:10Z",
         "starred_at": "2026-06-23T03:10:07Z"
       },
       "summary": {
-        "zh": "GithubStarsManager 是一款全平台桌面应用，旨在解决 GitHub 星标仓库管理难题。它支持自动同步星标，利用 AI 进行智能分类与摘要生成，并提供语义搜索功能。此外，它还具备版本追踪、一键下载及 Gist 管理功能，所有数据 100% 本地存储，保障隐私安全。",
-        "en": "GithubStarsManager is a cross-platform desktop app designed to solve GitHub starred repository management issues. It supports auto-syncing stars, uses AI for intelligent categorization and summaries, and offers semantic search. Additionally, it features release tracking, one-click downloads, and Gist management, with all data stored 100% locally to ensure privacy and security.",
+        "zh": "GithubStarsManager 是一款全平台桌面应用，旨在解决 GitHub 星标仓库管理混乱的问题。它通过 AI 自动生成摘要与分类，结合 Cloudflare Vectorize 实现精准的语义搜索。支持发布跟踪、一键下载及 Gist 管理，数据 100% 本地存储，兼顾智能化与隐私安全。",
+        "en": "GithubStarsManager is a cross-platform desktop app designed to organize GitHub starred repositories. It leverages AI for auto-summarization and categorization, utilizing Cloudflare Vectorize for precise semantic search. Features include release tracking, one-click downloads, and Gist management, ensuring 100% local data privacy while enhancing developer productivity.",
         "tags_zh": [
           "AI智能体",
-          "桌面应用",
+          "知识图谱",
           "自动化工具",
           "跨平台"
         ],
@@ -140,10 +104,42 @@
           "AI 智能体",
           "Automation Tool",
           "Cross-platform",
-          "桌面应用"
+          "知识图谱"
         ]
       },
-      "pushed_at": "2026-06-24T15:16:23Z",
+      "pushed_at": "2026-06-24T15:33:51Z",
+      "updated_at": "2026-06-24"
+    },
+    "iblogc/GithubStarsIndex": {
+      "metadata": {
+        "full_name": "iblogc/GithubStarsIndex",
+        "name": "GithubStarsIndex",
+        "owner": "iblogc",
+        "description": "自动抓取 GitHub Stars，生成 AI 摘要，便于检索。",
+        "stars": 75,
+        "language": "Jinja",
+        "url": "https://github.com/iblogc/GithubStarsIndex",
+        "homepage": "https://stars.iblogc.com",
+        "topics": [],
+        "pushed_at": "2026-06-23T20:22:51Z",
+        "updated_at": "2026-06-23T03:13:11Z",
+        "starred_at": "2026-06-23T03:13:11Z"
+      },
+      "summary": {
+        "zh": "GitHub Stars Index 是一款自动化知识管理工具，利用 AI 自动抓取并总结 GitHub Star 仓库。它具备标签归一化治理、增量同步及并发处理机制，支持生成 Markdown/HTML 静态页，并可无缝同步至 Obsidian 知识库，实现高效的技术栈追踪与检索。",
+        "en": "GitHub Stars Index is an automated knowledge management tool that uses AI to fetch and summarize starred repositories. It features tag normalization, incremental sync, and concurrency support. It generates Markdown/HTML static pages and syncs seamlessly to Obsidian, enabling efficient tech stack tracking and retrieval.",
+        "tags_zh": [
+          "AI 智能体",
+          "知识管理",
+          "自动化运维"
+        ],
+        "tags_en": [
+          "AI 智能体",
+          "DevOps Automation",
+          "Knowledge Management"
+        ]
+      },
+      "pushed_at": "2026-06-23T20:22:51Z",
       "updated_at": "2026-06-24"
     }
   }
