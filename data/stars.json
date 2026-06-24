@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24 14:49 UTC",
+  "last_updated": "2026-06-24 15:06 UTC",
   "repos": {
     "iblogc/GithubStarsIndex": {
       "metadata": {
@@ -17,65 +17,22 @@
         "starred_at": "2026-06-23T03:13:11Z"
       },
       "summary": {
-        "zh": "该工具自动抓取 GitHub Stars 并调用 AI 生成内容摘要与技术标签，内置标签归一化治理机制。支持 GitHub Actions 定时增量同步、Jinja2 模板渲染静态页，并可选同步至 Obsidian 或 GitHub Pages，是高效管理个人技术栈与知识库的自动化利器。",
-        "en": "This tool automatically fetches GitHub Stars and uses AI to generate content summaries and tech tags, featuring built-in tag normalization. It supports scheduled incremental sync via GitHub Actions, Jinja2 template rendering for static pages, and optional sync to Obsidian or GitHub Pages, serving as an automated solution for managing personal tech stacks and knowledge bases.",
+        "zh": "GitHubStarsIndex 是一款自动化知识管理工具，通过 GitHub Actions 定时抓取用户 Star 列表，利用 AI 大模型生成仓库摘要与技术标签。支持增量更新、标签归一化治理及多语言静态页面生成，可同步至 Obsidian 或 GitHub Pages，将杂乱的 Star 列表转化为可检索的个人知识库。",
+        "en": "GitHubStarsIndex is an automated knowledge management tool that uses GitHub Actions to fetch starred repositories and generate AI summaries and technical tags. It supports incremental updates, tag normalization, and multi-language static page generation, syncing to Obsidian or GitHub Pages to transform scattered stars into a searchable personal knowledge base.",
         "tags_zh": [
           "AI 大模型",
           "AI 智能体",
           "GitHub Actions",
-          "知识管理"
+          "自动化运维"
         ],
         "tags_en": [
-          "AI Large Models",
+          "AI 大模型",
           "AI 智能体",
-          "GitHub Actions",
-          "Knowledge Management"
+          "DevOps Automation",
+          "GitHub Actions"
         ]
       },
       "pushed_at": "2026-06-23T20:22:51Z",
-      "updated_at": "2026-06-24"
-    },
-    "agentscope-ai/QwenPaw": {
-      "metadata": {
-        "full_name": "agentscope-ai/QwenPaw",
-        "name": "QwenPaw",
-        "owner": "agentscope-ai",
-        "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-        "stars": 20007,
-        "language": "Python",
-        "url": "https://github.com/agentscope-ai/QwenPaw",
-        "homepage": "http://qwenpaw.agentscope.io/",
-        "topics": [
-          "agent",
-          "agent-harness",
-          "agentscope",
-          "harness-engineering",
-          "llm-tools",
-          "llms",
-          "skills",
-          "super-agent"
-        ],
-        "pushed_at": "2026-06-24T08:18:40Z",
-        "updated_at": "2026-06-24T14:45:44Z",
-        "starred_at": "2026-06-21T16:20:46Z"
-      },
-      "summary": {
-        "zh": "QwenPaw是一款个人AI助手，支持本地/云端部署与多平台集成，具备可扩展技能模块。核心优势包括数据隐私保护、PDF/Office文件处理、智能调度及新闻聚合功能，通过模块化架构实现跨应用自动化任务处理。",
-        "en": "QwenPaw is a personal AI assistant with local/cloud deployment and multi-platform integration. Key features include data privacy control, PDF/Office processing, intelligent scheduling, and news aggregation through modular extensible architecture for cross-application automation.",
-        "tags_zh": [
-          "AI智能体",
-          "可扩展架构",
-          "多平台集成",
-          "自动化任务"
-        ],
-        "tags_en": [
-          "AI 智能体",
-          "Automation Tasks",
-          "Extensible Architecture",
-          "Multi-Platform Integration"
-        ]
-      },
-      "pushed_at": "2026-06-24T08:18:40Z",
       "updated_at": "2026-06-24"
     },
     "chenxuuu/sms_forwarding": {
@@ -94,16 +51,18 @@
         "starred_at": "2026-06-22T11:00:59Z"
       },
       "summary": {
-        "zh": "本项目是一款超低成本的硬件短信转发器，基于 ESP32C3 与 ML307R 模块构建，总成本约 28 元。支持移动/联通/电信卡，具备多通道推送（Bark、钉钉、飞书等）、Web 后台管理及远程重启功能，适用于保号、验证码接收及物联网通知场景。",
-        "en": "An ultra-low-cost hardware SMS forwarding device built on ESP32C3 and ML307R modules, costing around $4. It supports all major carriers, multi-channel push notifications (Bark, DingTalk, Feishu), Web management, and remote reboot, ideal for number retention, OTP reception, and IoT alerts.",
+        "zh": "这是一个基于 ESP32C3 和 ML307R 的低成本短信转发项目。它支持移动/联通/电信卡，能将收到的短信通过 Web 界面配置，自动推送到邮箱、钉钉、飞书、微信等 7 种渠道。具备长短信合并、远程重启及余额消耗功能，适合个人通知与物联网通信场景，硬件总成本约 28 元。",
+        "en": "This project implements a low-cost SMS forwarding system using ESP32C3 and ML307R modules. It supports major Chinese carriers and forwards received SMS to 7 channels like Email, DingTalk, Feishu, and WeChat via a web interface. Features include long SMS merging, remote restart, and balance consumption, ideal for personal notifications and IoT communication with a total hardware cost of around $4.",
         "tags_zh": [
           "ESP32",
-          "物联网",
+          "低成本",
+          "物联网硬件",
           "短信转发"
         ],
         "tags_en": [
           "ESP32",
-          "IoT",
+          "IoT Hardware",
+          "Low Cost",
           "SMS Forwarding"
         ]
       },
@@ -126,17 +85,17 @@
         "starred_at": "2026-06-23T03:10:07Z"
       },
       "summary": {
-        "zh": "GithubStarsManager 是一款跨平台桌面应用，专为解决 GitHub 用户“Star 后难以检索”的痛点。它通过 AI 自动对 Star 仓库进行分类与摘要，支持语义搜索、Release 追踪及 Gist 管理。采用 Electron 架构，数据 100% 本地存储，提供安全高效的个人代码资产管理体验。",
-        "en": "GithubStarsManager is a cross-platform desktop app designed to solve the \"starred but lost\" problem for GitHub users. It leverages AI to automatically categorize and summarize starred repositories, featuring semantic search, release tracking, and Gist management. Built on Electron with 100% local data storage, it offers a secure and efficient experience for personal code asset management.",
+        "zh": "GithubStarsManager 是一款跨平台桌面应用，专为开发者管理 GitHub 星标仓库设计。它利用 AI 自动总结、分类和语义搜索，解决星标杂乱问题。支持发布追踪、一键下载、Fork 管理和 Gist 编辑。数据 100% 本地存储，保障隐私，是提升知识管理效率的利器。",
+        "en": "GithubStarsManager is a cross-platform desktop app designed for developers to manage GitHub starred repositories. It leverages AI for automatic summarization, categorization, and semantic search to solve the problem of messy stars. It supports release tracking, one-click downloads, fork management, and Gist editing. Data is stored 100% locally for privacy, making it a powerful tool for enhancing knowledge management efficiency.",
         "tags_zh": [
           "AI 智能体",
-          "代码资产管理",
+          "知识管理",
           "跨平台"
         ],
         "tags_en": [
           "AI 智能体",
-          "Code Asset Management",
-          "Cross-platform"
+          "Cross-platform",
+          "Knowledge Management"
         ]
       },
       "pushed_at": "2026-06-24T14:41:40Z",
