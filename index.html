@@ -73,40 +73,20 @@
             .container { padding: 2rem 1rem; }
         }
 
-        /* Header Layout Redesign */
+        /* Header */
         header {
-            margin-bottom: 3rem;
-            display: grid;
-            grid-template-columns: 1fr 2fr; /* 给右侧流线面板留出更多空间 */
-            gap: 2rem;
-            align-items: center; /* 垂直居中，大幅减小高度落差 */
-            border-bottom: 1px solid var(--border); /* 添加分割线，增强结构感 */
-            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
         }
 
-        /* 标题字号保持原样，微调行高 */
-        .title-area h1 {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(3.5rem, 15vw, 10rem);
-            line-height: 0.85;
-            letter-spacing: -0.02em;
-        }
-
-        /* 右侧统计区容器 */
         .header-stats {
             display: flex;
-            flex-direction: column;
-            gap: 1.2rem;
-            align-items: flex-end;
-        }
-
-        /* 第一行：状态时钟与控制按钮并排 */
-        .header-top-row {
-            display: flex;
             align-items: center;
-            gap: 1.5rem;
+            justify-content: space-between;
+            gap: 1rem;
             flex-wrap: wrap;
-            justify-content: flex-end;
+            font-family: 'Space Mono', monospace;
         }
 
         .status-badge {
@@ -115,7 +95,6 @@
             gap: 0.6rem;
             font-size: 0.8rem;
             color: var(--accent);
-            justify-content: flex-end;
         }
 
         .status-dot {
@@ -132,10 +111,33 @@
             100% { transform: scale(1); opacity: 1; }
         }
 
+        .stats-grid {
+            display: flex;
+            justify-content: flex-end;
+            gap: 2rem;
+            font-size: 0.85rem;
+            color: var(--fg-dim);
+        }
+
+        .stat-item b { color: var(--fg); }
+
+        .top-langs {
+            display: flex;
+            gap: 0.8rem;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+        .lang-tag {
+            font-size: 0.7rem;
+            background: var(--surface);
+            padding: 0.2rem 0.6rem;
+            border: 1px solid var(--border);
+        }
+
         .header-links {
             display: flex;
             gap: 1.5rem;
-            justify-content: flex-end;
             align-items: center;
         }
 
@@ -187,82 +189,15 @@
             color: var(--fg);
         }
 
-        /* 第二行：横向胶囊徽章面板 */
-        .stats-dashboard {
-            display: flex;
-            gap: 0.8rem;
-            flex-wrap: wrap;
-            justify-content: flex-end;
-            margin-bottom: 0;
-        }
-
-        /* 将卡片重构为扁平、横向的极客徽章 (LABEL | VALUE) */
-        .stat-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            padding: 0.4rem 0.8rem;
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-            transition: var(--transition);
-        }
-
-        .stat-card:hover {
-            border-color: var(--accent);
-            background: rgba(255, 62, 0, 0.02);
-        }
-
-        .stat-card-label {
-            font-family: 'Space Mono', monospace;
-            font-size: 0.65rem;
-            color: var(--fg-dim);
-            text-transform: uppercase;
-            border-right: 1px solid var(--border); /* 竖线分割标签与数值 */
-            padding-right: 0.6rem;
-        }
-
-        .stat-card-value {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            font-weight: 700;
-            font-size: 0.95rem; /* 降低字号适应横向徽章 */
-            display: flex;
-            align-items: center;
-            line-height: 1;
-        }
-
-        .stat-card-value b { color: var(--accent); }
-
-        .stat-card-value .ui-stars {
-            font-size: 0.95rem !important;
-            font-weight: 700;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.3rem;
-        }
-        .stat-card-value .ui-stars svg {
-            width: 14px;
-            height: 14px;
-        }
-
         @media (max-width: 900px) {
             header { 
-                grid-template-columns: 1fr; 
-                text-align: left; 
-                gap: 1.5rem;
-                margin-bottom: 2rem;
-                padding-bottom: 1.5rem;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.5rem;
             }
             .header-stats { 
-                align-items: flex-start; 
-                gap: 1rem;
-            }
-            .header-top-row {
-                justify-content: flex-start;
-                gap: 1rem;
-            }
-            .stats-dashboard {
-                justify-content: flex-start;
-                width: 100%;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.8rem;
             }
         }
 
@@ -459,7 +394,7 @@
             flex-grow: 1;
             border-top: 1px solid var(--border);
             border-left: 1px solid var(--border);
-            border-right: 1px solid var(--border);
+            border-right: 1px solid var(--border); /* Added right border to container */
         }
 
         .dropdown-item {
@@ -487,6 +422,8 @@
             border-bottom-color: var(--accent);
             font-weight: bold;
         }
+
+        /* Removed static nth-child logic as columns are now dynamic */
 
         @media (max-width: 1024px) {
             .dropdown-content { 
@@ -605,43 +542,71 @@
             color: var(--bg);
         }
 
+        /* Stats Bar */
+        .stats-dashboard {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
         @media (max-width: 768px) {
             .stats-dashboard {
-                display: flex;
-                gap: 0.5rem;
-                border: none;
-                margin-bottom: 0;
+                gap: 0;
+                background: var(--surface);
+                border: 1px solid var(--border);
                 padding: 0;
-                flex-wrap: wrap;
-                background: none !important;
             }
 
             .stat-card {
-                flex: none;
-                padding: 0.4rem 0.6rem;
-                border: 1px solid var(--border) !important;
+                flex: 1;
+                padding: 0.5rem 0.3rem;
+                background: none;
+                border: none;
+                border-right: 1px solid var(--border);
                 align-items: center;
-                gap: 0.4rem;
-                background: var(--surface) !important;
+                gap: 0.2rem;
+            }
+
+            .stat-card:last-child {
+                border-right: none;
             }
 
             .stat-card-label {
-                font-size: 0.55rem;
-                padding-right: 0.4rem;
-                border-right: 1px solid var(--border) !important;
+                font-size: 0.5rem;
             }
 
             .stat-card-value {
-                font-size: 0.85rem;
-            }
-            .stat-card-value .ui-stars {
-                font-size: 0.85rem !important;
-            }
-            .stat-card-value .ui-stars svg {
-                width: 12px;
-                height: 12px;
+                font-size: 0.8rem;
             }
         }
+
+        .stat-card {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.2rem 0.6rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+        }
+
+        .stat-card:hover {
+            border-color: var(--accent);
+        }
+
+        .stat-card-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.6rem;
+            color: var(--fg-dim);
+            text-transform: uppercase;
+        }
+
+        .stat-card-value {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-weight: 700;
+            font-size: 0.95rem;
+        }
+
+        .stat-card-value b { color: var(--accent); }
 
         /* Skeleton Loading */
         .skeleton {
@@ -892,7 +857,7 @@
         @media (max-width: 600px) { 
             .repo-grid { grid-template-columns: 1fr; gap: 1rem; } 
             .container { padding-top: 2rem; }
-            header { margin-bottom: 2rem; }
+            header { margin-bottom: 1.5rem; }
         }
         @media (max-width: 768px) { 
             .modal { padding: 0.5rem; }
@@ -1027,25 +992,13 @@
     <div class="dropdown-overlay" onclick="closeAllDropdowns()"></div>
     <div class="container">
         <header>
-            <div class="title-area">
-                <h1>Stars<br>Archive</h1>
-            </div>
             <div class="header-stats">
-                <!-- 第一行：状态时钟与控制按钮并排 -->
-                <div class="header-top-row">
-                    <div class="status-badge">
-                        <div id="clock">00:00:00</div>
-                        <span>UTC+0800</span>
-                        <div class="status-dot"></div>
-                    </div>
-                    <div class="header-links">
-                        <button id="lang-btn" class="lang-toggle">LANG: ZH_CN</button>
-                        <button id="theme-btn" class="theme-toggle">UI_THEME: NOIR_MODE</button>
-                        <a href="https://github.com/iblogc/GithubStarsIndex" target="_blank">[ SOURCE_CODE ]</a>
-                    </div>
+                <div class="status-badge">
+                    <div id="clock">00:00:00</div>
+                    <span>UTC+0800</span>
+                    <div class="status-dot"></div>
                 </div>
 
-                <!-- 第二行：精简的横向胶囊徽章 -->
                 <div class="stats-dashboard" id="dashboard">
                     <div class="stat-card">
                         <span class="stat-card-label">TOTAL_ENTRIES</span>
@@ -1059,6 +1012,12 @@
                         <span class="stat-card-label">TOP_STACK</span>
                         <div class="stat-card-value" id="s-top-stack">--</div>
                     </div>
+                </div>
+
+                <div class="header-links">
+                    <button id="lang-btn" class="lang-toggle">LANG: ZH_CN</button>
+                    <button id="theme-btn" class="theme-toggle">UI_THEME: NOIR_MODE</button>
+                    <a href="https://github.com/iblogc/GithubStarsIndex" target="_blank">[ SOURCE_CODE ]</a>
                 </div>
             </div>
         </header>
@@ -1194,7 +1153,7 @@
 
     <script>
         // Data Injection
-        const RAW_DATA = [{"description": "\u81ea\u52a8\u6293\u53d6 GitHub Stars\uff0c\u751f\u6210 AI \u6458\u8981\uff0c\u4fbf\u4e8e\u68c0\u7d22\u3002", "full_name": "iblogc/GithubStarsIndex", "homepage": "https://stars.iblogc.com", "language": "Jinja", "name": "GithubStarsIndex", "owner": "iblogc", "pushed_at": "2026-06-23T20:22:51Z", "starred_at": "2026-06-23T03:13:11Z", "stars": 75, "summary": {"en": "This tool automates GitHub Stars management using AI. It fetches starred repos, generates summaries and normalized tags via LLMs, and renders searchable static pages. Features include incremental updates, GitHub Actions scheduling, and Obsidian sync, serving as an efficient personal knowledge base for developers.", "tags_en": ["AI \u5927\u6a21\u578b", "Knowledge Management", "Personal Knowledge Base", "\u8fd0\u7ef4\u81ea\u52a8\u5316"], "tags_zh": ["AI \u5927\u6a21\u578b", "\u4e2a\u4eba\u77e5\u8bc6\u5e93", "\u77e5\u8bc6\u7ba1\u7406", "\u81ea\u52a8\u5316\u8fd0\u7ef4"], "zh": "\u8fd9\u662f\u4e00\u4e2a\u57fa\u4e8e GitHub Actions \u7684\u81ea\u52a8\u5316\u77e5\u8bc6\u7ba1\u7406\u5de5\u5177\u3002\u5b83\u81ea\u52a8\u6293\u53d6\u7528\u6237 Star \u7684\u4ed3\u5e93\uff0c\u5229\u7528 AI \u5927\u6a21\u578b\u751f\u6210\u5185\u5bb9\u6458\u8981\u548c\u6280\u672f\u6807\u7b7e\uff0c\u5e76\u901a\u8fc7 Jinja2 \u6a21\u677f\u6e32\u67d3\u4e3a\u53ef\u641c\u7d22\u7684\u9759\u6001\u9875\u9762\u3002\u652f\u6301\u6807\u7b7e\u5f52\u4e00\u5316\u6cbb\u7406\u3001\u589e\u91cf\u66f4\u65b0\u53ca Obsidian \u540c\u6b65\uff0c\u662f\u6784\u5efa\u4e2a\u4eba\u6280\u672f\u77e5\u8bc6\u5e93\u7684\u9ad8\u6548\u65b9\u6848\u3002"}, "topics": [], "updated_at": "2026-06-23T03:13:11Z", "url": "https://github.com/iblogc/GithubStarsIndex"}, {"description": "An app for managing github starred repositories. ", "full_name": "AmintaCCCP/GithubStarsManager", "homepage": "https://gsm.aminta.top/", "language": "TypeScript", "name": "GithubStarsManager", "owner": "AmintaCCCP", "pushed_at": "2026-06-22T17:00:50Z", "starred_at": "2026-06-23T03:10:07Z", "stars": 3098, "summary": {"en": "GithubStarsManager is a cross-platform desktop app solving GitHub starred repo management. It uses AI to auto-summarize and categorize stars, enabling semantic search. Features include release tracking, Gist management, and remote downloads. With 100% local data storage, it balances privacy and efficiency, serving as a powerful knowledge management tool for developers.", "tags_en": ["AI \u667a\u80fd\u4f53", "Automation Tool", "Cross-platform", "Knowledge Management"], "tags_zh": ["AI \u667a\u80fd\u4f53", "\u77e5\u8bc6\u7ba1\u7406", "\u81ea\u52a8\u5316\u5de5\u5177", "\u8de8\u5e73\u53f0"], "zh": "GithubStarsManager \u662f\u4e00\u6b3e\u8de8\u5e73\u53f0\u684c\u9762\u5e94\u7528\uff0c\u65e8\u5728\u89e3\u51b3 GitHub \u661f\u6807\u4ed3\u5e93\u7ba1\u7406\u96be\u9898\u3002\u5b83\u901a\u8fc7 AI \u81ea\u52a8\u603b\u7ed3\u5e76\u5206\u7c7b\u661f\u6807\u9879\u76ee\uff0c\u652f\u6301\u8bed\u4e49\u641c\u7d22\u5feb\u901f\u5b9a\u4f4d\u3002\u5177\u5907\u53d1\u5e03\u8ddf\u8e2a\u3001Gist \u7ba1\u7406\u53ca\u8fdc\u7a0b\u4e0b\u8f7d\u529f\u80fd\uff0c\u6570\u636e 100% \u672c\u5730\u5b58\u50a8\uff0c\u517c\u987e\u9690\u79c1\u4e0e\u6548\u7387\uff0c\u662f\u5f00\u53d1\u8005\u7684\u9ad8\u6548\u77e5\u8bc6\u7ba1\u7406\u5de5\u5177\u3002"}, "topics": [], "updated_at": "2026-06-24T03:36:02Z", "url": "https://github.com/AmintaCCCP/GithubStarsManager"}, {"description": "\u8d85\u4f4e\u6210\u672c\u786c\u4ef6\u77ed\u4fe1\u8f6c\u53d1\u5668\uff0c\u652f\u6301\u79fb\u52a8\u8054\u901a\u7535\u4fe1\uff0cML307R+ESP32C3", "full_name": "chenxuuu/sms_forwarding", "homepage": "http://sms.j2.cx/", "language": "C++", "name": "sms_forwarding", "owner": "chenxuuu", "pushed_at": "2026-06-23T06:30:47Z", "starred_at": "2026-06-22T11:00:59Z", "stars": 1241, "summary": {"en": "This project is a low-cost hardware SMS forwarding solution based on ESP32C3 and ML307R-DC modules, compatible with all major carriers. It automatically forwards received SMS through 7 channels, including DingTalk, WeChat, and Bark, and supports long SMS merging. With extremely low hardware costs, it is ideal for personal SMS notifications and number retention purposes.", "tags_en": ["4G Communication", "ESP32", "IoT", "SMS Forwarding"], "tags_zh": ["4G\u901a\u4fe1", "ESP32", "\u7269\u8054\u7f51", "\u77ed\u4fe1\u8f6c\u53d1"], "zh": "\u672c\u9879\u76ee\u662f\u4e00\u6b3e\u8d85\u4f4e\u6210\u672c\u786c\u4ef6\u77ed\u4fe1\u8f6c\u53d1\u5668\uff0c\u57fa\u4e8eESP32C3\u4e0eML307R-DC\u6a21\u5757\uff0c\u652f\u6301\u4e09\u5927\u8fd0\u8425\u5546SIM\u5361\u3002\u53ef\u5c06\u63a5\u6536\u5230\u7684\u77ed\u4fe1\u901a\u8fc7\u9489\u9489\u3001\u5fae\u4fe1\u3001Bark\u7b497\u79cd\u6e20\u9053\u81ea\u52a8\u63a8\u9001\uff0c\u652f\u6301\u957f\u77ed\u4fe1\u5408\u5e76\u3002\u9002\u5408\u4e2a\u4eba\u5b9e\u73b0\u77ed\u4fe1\u901a\u77e5\u4e0e\u4fdd\u53f7\u9700\u6c42\u3002"}, "topics": [], "updated_at": "2026-06-24T03:42:36Z", "url": "https://github.com/chenxuuu/sms_forwarding"}, {"description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.", "full_name": "agentscope-ai/QwenPaw", "homepage": "http://qwenpaw.agentscope.io/", "language": "Python", "name": "QwenPaw", "owner": "agentscope-ai", "pushed_at": "2026-06-24T03:22:33Z", "starred_at": "2026-06-21T16:20:46Z", "stars": 19967, "summary": {"en": "QwenPaw is a personal AI assistant by AgentScope, designed for flexible local or cloud deployment to ensure data privacy. It features multi-channel integration and extensible skills like document processing, task scheduling, and news summarization, offering users a highly customizable and secure intelligent experience.", "tags_en": ["AI \u667a\u80fd\u4f53", "Local Deployment", "Personal Assistant"], "tags_zh": ["AI \u667a\u80fd\u4f53", "\u4e2a\u4eba\u52a9\u624b", "\u672c\u5730\u90e8\u7f72"], "zh": "QwenPaw \u662f\u4e00\u6b3e\u7531 AgentScope \u6253\u9020\u7684\u4e2a\u4eba AI \u52a9\u624b\uff0c\u652f\u6301\u672c\u5730\u6216\u4e91\u7aef\u7075\u6d3b\u90e8\u7f72\uff0c\u786e\u4fdd\u6570\u636e\u9690\u79c1\u5b89\u5168\u3002\u5b83\u5177\u5907\u591a\u804a\u5929\u5e94\u7528\u96c6\u6210\u80fd\u529b\uff0c\u5e76\u63d0\u4f9b\u4e30\u5bcc\u7684\u53ef\u6269\u5c55\u6280\u80fd\uff0c\u5982\u6587\u6863\u5904\u7406\u3001\u4efb\u52a1\u8c03\u5ea6\u53ca\u65b0\u95fb\u6458\u8981\uff0c\u65e8\u5728\u4e3a\u7528\u6237\u63d0\u4f9b\u9ad8\u5ea6\u5b9a\u5236\u5316\u4e14\u53ef\u63a7\u7684\u667a\u80fd\u670d\u52a1\u4f53\u9a8c\u3002"}, "topics": ["agent", "agent-harness", "agentscope", "harness-engineering", "llm-tools", "llms", "skills", "super-agent"], "updated_at": "2026-06-24T03:45:43Z", "url": "https://github.com/agentscope-ai/QwenPaw"}, {"description": "", "full_name": "Teminuosi/3x-ui", "homepage": "", "language": "TypeScript", "name": "3x-ui", "owner": "Teminuosi", "pushed_at": "2026-06-20T12:22:30Z", "starred_at": "2026-06-20T06:34:10Z", "stars": 103, "summary": {"en": "3x-ui is a web-based Xray-core panel, forked to enhance usability. It features one-click protocol templates (VLESS+Reality), multi-server deployment, relay/landing traffic splitting, and QR code imports. Supporting SQLite/PostgreSQL and Docker, it aims for efficient, secure network protocol management with minimal configuration effort.", "tags_en": ["Network Proxy", "One-click Deployment", "Panel Management", "Xray-core"], "tags_zh": ["Xray-core", "\u4e00\u952e\u90e8\u7f72", "\u7f51\u7edc\u4ee3\u7406", "\u9762\u677f\u7ba1\u7406"], "zh": "3x-ui \u662f Xray-core \u7684 Web \u63a7\u5236\u9762\u677f\uff0c\u6b64\u5206\u652f\u5f3a\u5316\u4e86\u6613\u7528\u6027\u3002\u63d0\u4f9b\u4e00\u952e\u534f\u8bae\u6a21\u677f\uff08\u5982 VLESS+Reality\uff09\u3001\u591a\u670d\u52a1\u5668\u6279\u91cf\u4e0b\u53d1\u3001\u4e2d\u8f6c\u843d\u5730\u5206\u6d41\u53ca\u626b\u7801\u5bfc\u5165\u529f\u80fd\u3002\u652f\u6301 SQLite/PostgreSQL \u53cc\u6570\u636e\u5e93\u4e0e Docker \u90e8\u7f72\uff0c\u65e8\u5728\u901a\u8fc7\u6781\u7b80\u4ea4\u4e92\u5b9e\u73b0\u9ad8\u6548\u3001\u5b89\u5168\u7684\u7f51\u7edc\u534f\u8bae\u7ba1\u7406\u4e0e\u8282\u70b9\u5206\u53d1\u3002"}, "topics": [], "updated_at": "2026-06-24T02:29:59Z", "url": "https://github.com/Teminuosi/3x-ui"}];
+        const RAW_DATA = [{"description": "\u81ea\u52a8\u6293\u53d6 GitHub Stars\uff0c\u751f\u6210 AI \u6458\u8981\uff0c\u4fbf\u4e8e\u68c0\u7d22\u3002", "full_name": "iblogc/GithubStarsIndex", "homepage": "https://stars.iblogc.com", "language": "Jinja", "name": "GithubStarsIndex", "owner": "iblogc", "pushed_at": "2026-06-23T20:22:51Z", "starred_at": "2026-06-23T03:13:11Z", "stars": 75, "summary": {"en": "This tool automatically fetches GitHub Stars and generates AI summaries and tech tags to solve retrieval issues. It supports tag normalization, GitHub Actions scheduled incremental sync, and Jinja2 template rendering for searchable static pages. Compatible with Obsidian sync, it is an efficient automation solution for developers to manage tech assets and build personal knowledge bases.", "tags_en": ["AI \u667a\u80fd\u4f53", "Data Retrieval", "DevOps Automation", "Knowledge Management"], "tags_zh": ["AI \u667a\u80fd\u4f53", "\u6570\u636e\u68c0\u7d22", "\u77e5\u8bc6\u7ba1\u7406", "\u81ea\u52a8\u5316\u8fd0\u7ef4"], "zh": "\u8be5\u5de5\u5177\u81ea\u52a8\u6293\u53d6 GitHub Stars \u5e76\u5229\u7528 AI \u751f\u6210\u6458\u8981\u4e0e\u6280\u672f\u6807\u7b7e\uff0c\u89e3\u51b3\u6536\u85cf\u5e93\u68c0\u7d22\u96be\u9898\u3002\u652f\u6301\u6807\u7b7e\u5f52\u4e00\u5316\u6cbb\u7406\u3001GitHub Actions \u5b9a\u65f6\u589e\u91cf\u540c\u6b65\uff0c\u4ee5\u53ca Jinja2 \u6a21\u677f\u6e32\u67d3\u53ef\u641c\u7d22\u9759\u6001\u9875\u3002\u517c\u5bb9 Obsidian \u540c\u6b65\uff0c\u662f\u5f00\u53d1\u8005\u7ba1\u7406\u6280\u672f\u8d44\u4ea7\u4e0e\u6784\u5efa\u4e2a\u4eba\u77e5\u8bc6\u5e93\u7684\u9ad8\u6548\u81ea\u52a8\u5316\u65b9\u6848\u3002"}, "topics": [], "updated_at": "2026-06-23T03:13:11Z", "url": "https://github.com/iblogc/GithubStarsIndex"}, {"description": "An app for managing github starred repositories. ", "full_name": "AmintaCCCP/GithubStarsManager", "homepage": "https://gsm.aminta.top/", "language": "TypeScript", "name": "GithubStarsManager", "owner": "AmintaCCCP", "pushed_at": "2026-06-24T14:22:14Z", "starred_at": "2026-06-23T03:10:07Z", "stars": 3100, "summary": {"en": "GithubStarsManager is a cross-platform desktop app designed to manage GitHub starred repositories. It leverages AI to auto-categorize and summarize repos, enabling semantic search to solve the \"star and forget\" problem. It also offers release tracking, one-click downloads, fork management, and Gist editing, with 100% local data storage for privacy.", "tags_en": ["AI \u667a\u80fd\u4f53", "Automation Tool", "Cross-platform", "Knowledge Management"], "tags_zh": ["AI \u667a\u80fd\u4f53", "\u77e5\u8bc6\u7ba1\u7406", "\u81ea\u52a8\u5316\u5de5\u5177", "\u8de8\u5e73\u53f0"], "zh": "GithubStarsManager \u662f\u4e00\u6b3e\u8de8\u5e73\u53f0\u684c\u9762\u5e94\u7528\uff0c\u4e13\u4e3a\u7ba1\u7406 GitHub \u661f\u6807\u4ed3\u5e93\u8bbe\u8ba1\u3002\u5b83\u901a\u8fc7 AI \u81ea\u52a8\u5206\u7c7b\u548c\u751f\u6210\u6458\u8981\uff0c\u652f\u6301\u8bed\u4e49\u641c\u7d22\uff0c\u89e3\u51b3\u201c\u6536\u85cf\u5373\u9057\u5fd8\u201d\u7684\u75db\u70b9\u3002\u540c\u65f6\u63d0\u4f9b Release \u8ddf\u8e2a\u3001\u4e00\u952e\u4e0b\u8f7d\u3001Fork \u7ba1\u7406\u53ca Gist \u7f16\u8f91\u529f\u80fd\uff0c\u6570\u636e 100% \u672c\u5730\u5b58\u50a8\uff0c\u4fdd\u969c\u9690\u79c1\u5b89\u5168\u3002"}, "topics": [], "updated_at": "2026-06-24T12:45:53Z", "url": "https://github.com/AmintaCCCP/GithubStarsManager"}, {"description": "\u8d85\u4f4e\u6210\u672c\u786c\u4ef6\u77ed\u4fe1\u8f6c\u53d1\u5668\uff0c\u652f\u6301\u79fb\u52a8\u8054\u901a\u7535\u4fe1\uff0cML307R+ESP32C3", "full_name": "chenxuuu/sms_forwarding", "homepage": "http://sms.j2.cx/", "language": "C++", "name": "sms_forwarding", "owner": "chenxuuu", "pushed_at": "2026-06-23T06:30:47Z", "starred_at": "2026-06-22T11:00:59Z", "stars": 1271, "summary": {"en": "An ultra-low-cost hardware SMS forwarding device built on ESP32C3 and ML307R modules. It supports China Mobile/Unicom/Telecom cards, receiving SMS via AT commands and forwarding to multiple channels. Features a web interface for configuration and supports 7 push services like Bark, DingTalk, Feishu, and Email, ideal for personal notifications and IoT communication.", "tags_en": ["Automation Notification", "ESP32", "IoT", "SMS Forwarding"], "tags_zh": ["ESP32", "\u7269\u8054\u7f51", "\u77ed\u4fe1\u8f6c\u53d1", "\u81ea\u52a8\u5316\u901a\u77e5"], "zh": "\u672c\u9879\u76ee\u662f\u4e00\u6b3e\u8d85\u4f4e\u6210\u672c\u7684\u786c\u4ef6\u77ed\u4fe1\u8f6c\u53d1\u5668\uff0c\u57fa\u4e8e ESP32C3 \u4e0e ML307R \u6a21\u7ec4\u6784\u5efa\u3002\u652f\u6301\u79fb\u52a8/\u8054\u901a/\u7535\u4fe1\u5361\uff0c\u901a\u8fc7 AT \u6307\u4ee4\u5b9e\u73b0\u77ed\u4fe1\u63a5\u6536\u4e0e\u591a\u901a\u9053\u81ea\u52a8\u8f6c\u53d1\u3002\u5185\u7f6e Web \u914d\u7f6e\u754c\u9762\uff0c\u517c\u5bb9 Bark\u3001\u9489\u9489\u3001\u98de\u4e66\u3001\u90ae\u4ef6\u7b49 7 \u79cd\u4e3b\u6d41\u63a8\u9001\u670d\u52a1\uff0c\u9002\u7528\u4e8e\u4e2a\u4eba\u901a\u77e5\u3001\u4fdd\u53f7\u53ca\u4f4e\u6210\u672c\u7269\u8054\u7f51\u901a\u4fe1\u573a\u666f\u3002"}, "topics": [], "updated_at": "2026-06-24T11:35:39Z", "url": "https://github.com/chenxuuu/sms_forwarding"}];
         
         let filteredData = [...RAW_DATA];
         let currentIndex = 0;
@@ -1365,6 +1324,7 @@
             if (!container) return;
             const filtered = query ? availableLangs.filter(l => l.toLowerCase().includes(query.toLowerCase())) : availableLangs;
             
+            // Fixed: Use activeLanguage check to properly highlight "ALL"
             let html = `<div class="dropdown-item ${activeLanguage === null ? 'active' : ''}" data-value="" style="grid-column: span 2;">All Languages</div>`;
             filtered.forEach(l => {
                 const isActive = activeLanguage === l;
@@ -1812,6 +1772,7 @@
         });
 
     </script>
+    <!-- 网站分析：Fork 后请替换 data-website-id 或删除这段脚本，避免统计数据混入原站点。 -->
     <script defer src="https://analytics.1step.dev/tracker.min.js" data-website-id="gstars"></script>
 </body>
 </html>

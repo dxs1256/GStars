@@ -1,6 +1,40 @@
 {
-  "last_updated": "2026-06-24 04:03 UTC",
+  "last_updated": "2026-06-24 14:34 UTC",
   "repos": {
+    "chenxuuu/sms_forwarding": {
+      "metadata": {
+        "full_name": "chenxuuu/sms_forwarding",
+        "name": "sms_forwarding",
+        "owner": "chenxuuu",
+        "description": "超低成本硬件短信转发器，支持移动联通电信，ML307R+ESP32C3",
+        "stars": 1271,
+        "language": "C++",
+        "url": "https://github.com/chenxuuu/sms_forwarding",
+        "homepage": "http://sms.j2.cx/",
+        "topics": [],
+        "pushed_at": "2026-06-23T06:30:47Z",
+        "updated_at": "2026-06-24T11:35:39Z",
+        "starred_at": "2026-06-22T11:00:59Z"
+      },
+      "summary": {
+        "zh": "本项目是一款超低成本的硬件短信转发器，基于 ESP32C3 与 ML307R 模组构建。支持移动/联通/电信卡，通过 AT 指令实现短信接收与多通道自动转发。内置 Web 配置界面，兼容 Bark、钉钉、飞书、邮件等 7 种主流推送服务，适用于个人通知、保号及低成本物联网通信场景。",
+        "en": "An ultra-low-cost hardware SMS forwarding device built on ESP32C3 and ML307R modules. It supports China Mobile/Unicom/Telecom cards, receiving SMS via AT commands and forwarding to multiple channels. Features a web interface for configuration and supports 7 push services like Bark, DingTalk, Feishu, and Email, ideal for personal notifications and IoT communication.",
+        "tags_zh": [
+          "ESP32",
+          "物联网",
+          "短信转发",
+          "自动化通知"
+        ],
+        "tags_en": [
+          "Automation Notification",
+          "ESP32",
+          "IoT",
+          "SMS Forwarding"
+        ]
+      },
+      "pushed_at": "2026-06-23T06:30:47Z",
+      "updated_at": "2026-06-24"
+    },
     "iblogc/GithubStarsIndex": {
       "metadata": {
         "full_name": "iblogc/GithubStarsIndex",
@@ -17,19 +51,19 @@
         "starred_at": "2026-06-23T03:13:11Z"
       },
       "summary": {
-        "zh": "这是一个基于 GitHub Actions 的自动化知识管理工具。它自动抓取用户 Star 的仓库，利用 AI 大模型生成内容摘要和技术标签，并通过 Jinja2 模板渲染为可搜索的静态页面。支持标签归一化治理、增量更新及 Obsidian 同步，是构建个人技术知识库的高效方案。",
-        "en": "This tool automates GitHub Stars management using AI. It fetches starred repos, generates summaries and normalized tags via LLMs, and renders searchable static pages. Features include incremental updates, GitHub Actions scheduling, and Obsidian sync, serving as an efficient personal knowledge base for developers.",
+        "zh": "该工具自动抓取 GitHub Stars 并利用 AI 生成摘要与技术标签，解决收藏库检索难题。支持标签归一化治理、GitHub Actions 定时增量同步，以及 Jinja2 模板渲染可搜索静态页。兼容 Obsidian 同步，是开发者管理技术资产与构建个人知识库的高效自动化方案。",
+        "en": "This tool automatically fetches GitHub Stars and generates AI summaries and tech tags to solve retrieval issues. It supports tag normalization, GitHub Actions scheduled incremental sync, and Jinja2 template rendering for searchable static pages. Compatible with Obsidian sync, it is an efficient automation solution for developers to manage tech assets and build personal knowledge bases.",
         "tags_zh": [
-          "AI 大模型",
-          "个人知识库",
+          "AI 智能体",
+          "数据检索",
           "知识管理",
           "自动化运维"
         ],
         "tags_en": [
-          "AI 大模型",
-          "Knowledge Management",
-          "Personal Knowledge Base",
-          "运维自动化"
+          "AI 智能体",
+          "Data Retrieval",
+          "DevOps Automation",
+          "Knowledge Management"
         ]
       },
       "pushed_at": "2026-06-23T20:22:51Z",
@@ -41,18 +75,18 @@
         "name": "GithubStarsManager",
         "owner": "AmintaCCCP",
         "description": "An app for managing github starred repositories. ",
-        "stars": 3098,
+        "stars": 3100,
         "language": "TypeScript",
         "url": "https://github.com/AmintaCCCP/GithubStarsManager",
         "homepage": "https://gsm.aminta.top/",
         "topics": [],
-        "pushed_at": "2026-06-22T17:00:50Z",
-        "updated_at": "2026-06-24T03:36:02Z",
+        "pushed_at": "2026-06-24T14:22:14Z",
+        "updated_at": "2026-06-24T12:45:53Z",
         "starred_at": "2026-06-23T03:10:07Z"
       },
       "summary": {
-        "zh": "GithubStarsManager 是一款跨平台桌面应用，旨在解决 GitHub 星标仓库管理难题。它通过 AI 自动总结并分类星标项目，支持语义搜索快速定位。具备发布跟踪、Gist 管理及远程下载功能，数据 100% 本地存储，兼顾隐私与效率，是开发者的高效知识管理工具。",
-        "en": "GithubStarsManager is a cross-platform desktop app solving GitHub starred repo management. It uses AI to auto-summarize and categorize stars, enabling semantic search. Features include release tracking, Gist management, and remote downloads. With 100% local data storage, it balances privacy and efficiency, serving as a powerful knowledge management tool for developers.",
+        "zh": "GithubStarsManager 是一款跨平台桌面应用，专为管理 GitHub 星标仓库设计。它通过 AI 自动分类和生成摘要，支持语义搜索，解决“收藏即遗忘”的痛点。同时提供 Release 跟踪、一键下载、Fork 管理及 Gist 编辑功能，数据 100% 本地存储，保障隐私安全。",
+        "en": "GithubStarsManager is a cross-platform desktop app designed to manage GitHub starred repositories. It leverages AI to auto-categorize and summarize repos, enabling semantic search to solve the \"star and forget\" problem. It also offers release tracking, one-click downloads, fork management, and Gist editing, with 100% local data storage for privacy.",
         "tags_zh": [
           "AI 智能体",
           "知识管理",
@@ -66,116 +100,7 @@
           "Knowledge Management"
         ]
       },
-      "pushed_at": "2026-06-22T17:00:50Z",
-      "updated_at": "2026-06-24"
-    },
-    "chenxuuu/sms_forwarding": {
-      "metadata": {
-        "full_name": "chenxuuu/sms_forwarding",
-        "name": "sms_forwarding",
-        "owner": "chenxuuu",
-        "description": "超低成本硬件短信转发器，支持移动联通电信，ML307R+ESP32C3",
-        "stars": 1241,
-        "language": "C++",
-        "url": "https://github.com/chenxuuu/sms_forwarding",
-        "homepage": "http://sms.j2.cx/",
-        "topics": [],
-        "pushed_at": "2026-06-23T06:30:47Z",
-        "updated_at": "2026-06-24T03:42:36Z",
-        "starred_at": "2026-06-22T11:00:59Z"
-      },
-      "summary": {
-        "zh": "本项目是一款超低成本硬件短信转发器，基于ESP32C3与ML307R-DC模块，支持三大运营商SIM卡。可将接收到的短信通过钉钉、微信、Bark等7种渠道自动推送，支持长短信合并。适合个人实现短信通知与保号需求。",
-        "en": "This project is a low-cost hardware SMS forwarding solution based on ESP32C3 and ML307R-DC modules, compatible with all major carriers. It automatically forwards received SMS through 7 channels, including DingTalk, WeChat, and Bark, and supports long SMS merging. With extremely low hardware costs, it is ideal for personal SMS notifications and number retention purposes.",
-        "tags_zh": [
-          "4G通信",
-          "ESP32",
-          "物联网",
-          "短信转发"
-        ],
-        "tags_en": [
-          "4G Communication",
-          "ESP32",
-          "IoT",
-          "SMS Forwarding"
-        ]
-      },
-      "pushed_at": "2026-06-23T06:30:47Z",
-      "updated_at": "2026-06-24"
-    },
-    "agentscope-ai/QwenPaw": {
-      "metadata": {
-        "full_name": "agentscope-ai/QwenPaw",
-        "name": "QwenPaw",
-        "owner": "agentscope-ai",
-        "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-        "stars": 19967,
-        "language": "Python",
-        "url": "https://github.com/agentscope-ai/QwenPaw",
-        "homepage": "http://qwenpaw.agentscope.io/",
-        "topics": [
-          "agent",
-          "agent-harness",
-          "agentscope",
-          "harness-engineering",
-          "llm-tools",
-          "llms",
-          "skills",
-          "super-agent"
-        ],
-        "pushed_at": "2026-06-24T03:22:33Z",
-        "updated_at": "2026-06-24T03:45:43Z",
-        "starred_at": "2026-06-21T16:20:46Z"
-      },
-      "summary": {
-        "zh": "QwenPaw 是一款由 AgentScope 打造的个人 AI 助手，支持本地或云端灵活部署，确保数据隐私安全。它具备多聊天应用集成能力，并提供丰富的可扩展技能，如文档处理、任务调度及新闻摘要，旨在为用户提供高度定制化且可控的智能服务体验。",
-        "en": "QwenPaw is a personal AI assistant by AgentScope, designed for flexible local or cloud deployment to ensure data privacy. It features multi-channel integration and extensible skills like document processing, task scheduling, and news summarization, offering users a highly customizable and secure intelligent experience.",
-        "tags_zh": [
-          "AI 智能体",
-          "个人助手",
-          "本地部署"
-        ],
-        "tags_en": [
-          "AI 智能体",
-          "Local Deployment",
-          "Personal Assistant"
-        ]
-      },
-      "pushed_at": "2026-06-24T03:22:33Z",
-      "updated_at": "2026-06-24"
-    },
-    "Teminuosi/3x-ui": {
-      "metadata": {
-        "full_name": "Teminuosi/3x-ui",
-        "name": "3x-ui",
-        "owner": "Teminuosi",
-        "description": "",
-        "stars": 103,
-        "language": "TypeScript",
-        "url": "https://github.com/Teminuosi/3x-ui",
-        "homepage": "",
-        "topics": [],
-        "pushed_at": "2026-06-20T12:22:30Z",
-        "updated_at": "2026-06-24T02:29:59Z",
-        "starred_at": "2026-06-20T06:34:10Z"
-      },
-      "summary": {
-        "zh": "3x-ui 是 Xray-core 的 Web 控制面板，此分支强化了易用性。提供一键协议模板（如 VLESS+Reality）、多服务器批量下发、中转落地分流及扫码导入功能。支持 SQLite/PostgreSQL 双数据库与 Docker 部署，旨在通过极简交互实现高效、安全的网络协议管理与节点分发。",
-        "en": "3x-ui is a web-based Xray-core panel, forked to enhance usability. It features one-click protocol templates (VLESS+Reality), multi-server deployment, relay/landing traffic splitting, and QR code imports. Supporting SQLite/PostgreSQL and Docker, it aims for efficient, secure network protocol management with minimal configuration effort.",
-        "tags_zh": [
-          "Xray-core",
-          "一键部署",
-          "网络代理",
-          "面板管理"
-        ],
-        "tags_en": [
-          "Network Proxy",
-          "One-click Deployment",
-          "Panel Management",
-          "Xray-core"
-        ]
-      },
-      "pushed_at": "2026-06-20T12:22:30Z",
+      "pushed_at": "2026-06-24T14:22:14Z",
       "updated_at": "2026-06-24"
     }
   }
