@@ -129,7 +129,7 @@
 ## AmintaCCCP/GithubStarsManager
 
 > [!info]
-> ⭐ 3,096 · TypeScript · 2026-06-24T03:11:24Z  
+> ⭐ 3,097 · TypeScript · 2026-06-24T03:23:45Z  
 > [GitHub](https://github.com/AmintaCCCP/GithubStarsManager) · [Website](https://gsm.aminta.top/)  
 > `#AI 智能体` `#Code Management` `#桌面应用` 
 > GithubStarsManager is a cross-platform Electron app solving GitHub Star repository management. It leverages AI for automatic categorization, semantic search, and README summaries, preventing 'star and forget.' Supporting Release tracking, one-click downloads, and Gist management, it features 100% local data storage, balancing privacy and efficiency as an essential tool for boosting code asset retrieval.
@@ -139,7 +139,7 @@
 ## chenxuuu/sms_forwarding
 
 > [!info]
-> ⭐ 1,237 · C++ · 2026-06-24T03:05:22Z  
+> ⭐ 1,239 · C++ · 2026-06-24T03:23:34Z  
 > [GitHub](https://github.com/chenxuuu/sms_forwarding) · [Website](http://sms.j2.cx/)  
 > `#ESP32` `#Embedded Development` `#IoT` `#SMS Forwarding` 
 > A low-cost hardware SMS forwarding device based on ESP32C3 and ML307R, supporting China Mobile/Unicom/Telecom. It features a Web interface for managing automatic SMS forwarding to email, DingTalk, Feishu, and various push services. Includes long SMS merging, remote reboot, and balance consumption, making it an ideal IoT notification and number-keeping tool.
@@ -149,7 +149,7 @@
 ## agentscope-ai/QwenPaw
 
 > [!info]
-> ⭐ 19,964 · Python · 2026-06-24T03:16:06Z  
+> ⭐ 19,964 · Python · 2026-06-24T03:22:38Z  
 > [GitHub](https://github.com/agentscope-ai/QwenPaw) · [Website](http://qwenpaw.agentscope.io/)  
 > `#AI 智能体` `#Local Deployment` `#Personal Assistant` `#Skill Extension` `#agent` `#agent-harness` `#agentscope` `#harness-engineering` `#llm-tools` `#llms` `#skills` `#super-agent` 
 > QwenPaw is a personal AI assistant built on AgentScope, designed for flexible deployment on local machines or private clouds to ensure full data privacy. It features extensible skills for PDF/Office processing, news aggregation, and multi-channel chat integration. Easy to install via PyPI, it empowers users to build secure, customizable, and efficient AI-driven workflows with complete control over memory and personalization.
@@ -285,7 +285,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 38,743 · Python · 2026-06-24T03:21:23Z  
+> ⭐ 38,744 · Python · 2026-06-24T03:22:15Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI Agents` `#Automation Tools` `#Cross-platform` `#网页爬虫` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach empowers AI agents with internet access via a unified CLI. It supports platforms like Twitter, Reddit, YouTube, and Xiaohongshu without paid APIs. Featuring multi-backend routing and auto-diagnosis, it bypasses restrictions and simplifies configuration. It ensures privacy with local cookie storage and offers zero-cost, high-availability data ingestion for any command-line compatible agent.
@@ -630,7 +630,7 @@
 ## imsyy/DailyHotApi
 
 > [!info]
-> ⭐ 3,885 · TypeScript · 2026-06-23T16:17:35Z  
+> ⭐ 3,886 · TypeScript · 2026-06-24T03:23:12Z  
 > [GitHub](https://github.com/imsyy/DailyHotApi)  
 > `#API Interface` `#Data Aggregation` `#Trend Tracking` `#api` `#daily-hot` `#list` `#rss` `#vercel` 
 > DailyHotApi is a high-performance API for aggregating trending data from major platforms like Bilibili, Weibo, and Zhihu. It supports both JSON and RSS formats, offers rapid response times, and allows for easy Vercel deployment, making it ideal for developers.
@@ -680,7 +680,7 @@
 ## breezy-weather/breezy-weather
 
 > [!info]
-> ⭐ 10,476 · Kotlin · 2026-06-24T02:45:29Z  
+> ⭐ 10,477 · Kotlin · 2026-06-24T03:22:59Z  
 > [GitHub](https://github.com/breezy-weather/breezy-weather)  
 > `#Jetpack Compose` `#Kotlin` `#Life Tools` `#数据可视化` 
 > Breezy Weather is a feature-rich, open-source Android application meticulously built using Kotlin and the modern Jetpack Compose toolkit. It seamlessly aggregates meteorological data from over 50 distinct sources, covering essential forecasts, air quality indices, and pollen counts. Featuring the latest Material 3 Expressive design language, it delivers stunning, well-thought-out visualizations and a highly responsive user experience. This makes it an ideal choice for Android users seeking a comprehensive, customizable, and privacy-focused weather solution with extensive data support.
@@ -739,7 +739,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 162,477 · Python · 2026-06-24T03:18:06Z  
+> ⭐ 162,478 · Python · 2026-06-24T03:23:52Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#Developer Tools` `#Open Source` `#Project Curation` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub is a monthly publication that curates and shares interesting, beginner-friendly open-source projects from GitHub. Released on the 28th of each month, it features engaging projects, open-source books, practical tutorials, and enterprise-level codebases to help newcomers discover the joy of open source and build real-world skills quickly.
@@ -779,7 +779,7 @@
 ## ZCShou/GoGoGo
 
 > [!info]
-> ⭐ 10,732 · Java · 2026-06-24T01:49:03Z  
+> ⭐ 10,733 · Java · 2026-06-24T03:23:53Z  
 > [GitHub](https://github.com/ZCShou/GoGoGo) · [Website](https://itexp.blog.csdn.net/)  
 > `#Android Development` `#Location Simulation` `#Map Integration` `#Virtual Location` `#android` `#fake-gps` `#fake-locations` `#java` `#joystick` `#map` `#mock-location` `#mock-locations` `#mockgps` `#virtual-location` 
 > GoGoGo is an Android virtual location tool built on Android Debug API and Baidu Map SDK. It allows location spoofing without root access and features a joystick for simulated movement. Licensed under GPL-3.0, it serves as a learning resource for Android development and map integration, strictly prohibiting cheating.
@@ -1178,7 +1178,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 109,775 · C# · 2026-06-24T03:11:02Z  
+> ⭐ 109,776 · C# · 2026-06-24T03:23:14Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#Cross-Platform` `#GUI Client` `#Multi-Core Support` `#Network Proxy` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > v2rayN is a cross-platform GUI client for Windows, Linux, and macOS, supporting multiple cores like Xray and sing-box. It features GPG-signed releases for security, serving as an efficient tool for network proxy configuration and management.

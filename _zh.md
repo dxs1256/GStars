@@ -129,7 +129,7 @@
 ## AmintaCCCP/GithubStarsManager
 
 > [!info]
-> ⭐ 3,096 · TypeScript · 2026-06-24T03:11:24Z  
+> ⭐ 3,097 · TypeScript · 2026-06-24T03:23:45Z  
 > [GitHub](https://github.com/AmintaCCCP/GithubStarsManager) · [Website](https://gsm.aminta.top/)  
 > `#AI智能体` `#代码管理` `#桌面应用` 
 > GithubStarsManager 是一款基于 Electron 的跨平台桌面应用，解决 GitHub Star 仓库管理难题。它利用 AI 技术实现仓库自动分类、语义搜索和 README 摘要，告别收藏即遗忘。支持 Release 跟踪、一键下载及 Gist 管理，数据 100% 本地存储，兼顾隐私与高效，是提升代码资产检索效率的必备工具。
@@ -139,7 +139,7 @@
 ## chenxuuu/sms_forwarding
 
 > [!info]
-> ⭐ 1,237 · C++ · 2026-06-24T03:05:22Z  
+> ⭐ 1,239 · C++ · 2026-06-24T03:23:34Z  
 > [GitHub](https://github.com/chenxuuu/sms_forwarding) · [Website](http://sms.j2.cx/)  
 > `#ESP32` `#嵌入式开发` `#物联网` `#短信转发` 
 > 本项目是一款基于ESP32C3与ML307R的低成本硬件短信转发器，支持移动/联通/电信卡。通过Web界面管理，可实现短信自动转发至邮箱、钉钉、飞书及多种推送服务。具备长短信合并、远程重启及余额消耗功能，是极佳的物联网通知与保号工具。
@@ -149,7 +149,7 @@
 ## agentscope-ai/QwenPaw
 
 > [!info]
-> ⭐ 19,964 · Python · 2026-06-24T03:16:06Z  
+> ⭐ 19,964 · Python · 2026-06-24T03:22:38Z  
 > [GitHub](https://github.com/agentscope-ai/QwenPaw) · [Website](http://qwenpaw.agentscope.io/)  
 > `#AI智能体` `#个人助理` `#技能扩展` `#本地部署` `#agent` `#agent-harness` `#agentscope` `#harness-engineering` `#llm-tools` `#llms` `#skills` `#super-agent` 
 > QwenPaw 是一款由 AgentScope 团队打造的个人 AI 助手，支持本地或云端灵活部署，确保数据隐私完全可控。它具备强大的技能扩展能力，可集成 PDF/Office 处理、新闻摘要及多聊天应用交互。作为开源项目，它易于安装且高度可定制，旨在为用户提供安全、高效且随需而变的智能工作流支持。
@@ -285,7 +285,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 38,743 · Python · 2026-06-24T03:21:23Z  
+> ⭐ 38,744 · Python · 2026-06-24T03:22:15Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI 智能体` `#网页爬虫` `#自动化工具` `#跨平台` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach 是一款赋能 AI Agent 的开源 CLI 工具，赋予其全网信息获取能力。支持 Twitter、YouTube、小红书等主流平台，无需付费 API。通过多后端路由自动规避封锁，本地存储保障隐私，实现零成本、高可用的跨平台数据接入。
@@ -630,7 +630,7 @@
 ## imsyy/DailyHotApi
 
 > [!info]
-> ⭐ 3,885 · TypeScript · 2026-06-23T16:17:35Z  
+> ⭐ 3,886 · TypeScript · 2026-06-24T03:23:12Z  
 > [GitHub](https://github.com/imsyy/DailyHotApi)  
 > `#API 接口` `#数据聚合` `#热点追踪` `#api` `#daily-hot` `#list` `#rss` `#vercel` 
 > DailyHotApi 是一个高效的全网热门数据聚合 API 接口，支持哔哩哔哩、微博、知乎等主流平台。提供 JSON 与 RSS 双模式，响应极快，支持 Vercel 一键部署，是开发者获取实时热点数据的理想工具。
@@ -680,7 +680,7 @@
 ## breezy-weather/breezy-weather
 
 > [!info]
-> ⭐ 10,476 · Kotlin · 2026-06-24T02:45:29Z  
+> ⭐ 10,477 · Kotlin · 2026-06-24T03:22:59Z  
 > [GitHub](https://github.com/breezy-weather/breezy-weather)  
 > `#Jetpack Compose` `#Kotlin` `#数据可视化` `#生活工具` 
 > Breezy Weather 是一款免费基于 Kotlin 与 Jetpack Compose 开发的开源 Android 气象应用。它聚合超 50 个数据源，提供预报、空气质量等全方位数据。采用 Material 3 Expressive 设计，界面美观交互流畅，是追求数据丰富度与现代化体验的安卓用户首选工具。
@@ -739,7 +739,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 162,477 · Python · 2026-06-24T03:18:06Z  
+> ⭐ 162,478 · Python · 2026-06-24T03:23:52Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#开发者工具` `#开源社区` `#项目推荐` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub 是一个专注于分享 GitHub 上有趣、入门级开源项目的月刊，每月28日定期发布，涵盖有趣项目、开源书籍、实战及企业级项目。旨在通过精选优质开源内容，帮助用户快速发现开源魅力，激发学习兴趣，降低入门门槛，从而爱上开源生态。
@@ -779,7 +779,7 @@
 ## ZCShou/GoGoGo
 
 > [!info]
-> ⭐ 10,732 · Java · 2026-06-24T01:49:03Z  
+> ⭐ 10,733 · Java · 2026-06-24T03:23:53Z  
 > [GitHub](https://github.com/ZCShou/GoGoGo) · [Website](https://itexp.blog.csdn.net/)  
 > `#Android 开发` `#位置模拟` `#地图集成` `#虚拟定位` `#android` `#fake-gps` `#fake-locations` `#java` `#joystick` `#map` `#mock-location` `#mock-locations` `#mockgps` `#virtual-location` 
 > 影梭是一款基于 Android 调试 API 与百度地图 SDK 开发的虚拟定位工具。它无需 ROOT 权限即可修改位置，并提供摇杆模拟移动功能。项目开源 GPL-3.0，旨在辅助开发者学习 Android 定位机制及地图应用集成，严禁用于作弊。
@@ -1178,7 +1178,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 109,775 · C# · 2026-06-24T03:11:02Z  
+> ⭐ 109,776 · C# · 2026-06-24T03:23:14Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#图形化客户端` `#多内核支持` `#网络代理` `#跨平台` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > v2rayN 是一款支持 Windows、Linux 和 macOS 的跨平台图形化客户端，兼容 Xray、sing-box 等多种核心内核。提供 GPG 签名校验保障安全，是用户进行网络代理配置与管理的高效工具。
