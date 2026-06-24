@@ -83,10 +83,14 @@
         .header-stats {
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            gap: 1rem;
+            gap: 1.2rem;
             flex-wrap: wrap;
             font-family: 'Space Mono', monospace;
+        }
+
+        .header-stats > * + * {
+            padding-left: 1.2rem;
+            border-left: 1px solid var(--border);
         }
 
         .status-badge {
@@ -197,7 +201,11 @@
             .header-stats { 
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 0.8rem;
+                gap: 0.6rem;
+            }
+            .header-stats > * + * {
+                padding-left: 0;
+                border-left: none;
             }
         }
 
@@ -552,23 +560,14 @@
         @media (max-width: 768px) {
             .stats-dashboard {
                 gap: 0;
-                background: var(--surface);
-                border: 1px solid var(--border);
                 padding: 0;
             }
 
             .stat-card {
                 flex: 1;
                 padding: 0.5rem 0.3rem;
-                background: none;
-                border: none;
-                border-right: 1px solid var(--border);
                 align-items: center;
                 gap: 0.2rem;
-            }
-
-            .stat-card:last-child {
-                border-right: none;
             }
 
             .stat-card-label {
@@ -583,14 +582,11 @@
         .stat-card {
             display: flex;
             align-items: center;
-            gap: 0.4rem;
-            padding: 0.2rem 0.6rem;
-            background: var(--surface);
-            border: 1px solid var(--border);
+            gap: 0.35rem;
         }
 
         .stat-card:hover {
-            border-color: var(--accent);
+            color: var(--accent);
         }
 
         .stat-card-label {
@@ -603,7 +599,7 @@
         .stat-card-value {
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-weight: 700;
-            font-size: 0.95rem;
+            font-size: 0.85rem;
         }
 
         .stat-card-value b { color: var(--accent); }
@@ -1001,31 +997,31 @@
 
                 <div class="stats-dashboard" id="dashboard">
                     <div class="stat-card">
-                        <span class="stat-card-label">TOTAL_ENTRIES</span>
+                        <span class="stat-card-label">收录总数</span>
                         <div class="stat-card-value" id="s-total">--</div>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-card-label">AVG_STARS</span>
+                        <span class="stat-card-label">平均星数</span>
                         <div class="stat-card-value" id="s-avg">--</div>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-card-label">TOP_STACK</span>
+                        <span class="stat-card-label">热门语言</span>
                         <div class="stat-card-value" id="s-top-stack">--</div>
                     </div>
                 </div>
 
                 <div class="header-links">
-                    <button id="lang-btn" class="lang-toggle">LANG: ZH_CN</button>
-                    <button id="theme-btn" class="theme-toggle">UI_THEME: NOIR_MODE</button>
-                    <a href="https://github.com/iblogc/GithubStarsIndex" target="_blank">[ SOURCE_CODE ]</a>
+                    <button id="lang-btn" class="lang-toggle">语言: 中文</button>
+                    <button id="theme-btn" class="theme-toggle">主题: 明亮</button>
+                    <a href="https://github.com/iblogc/GithubStarsIndex" target="_blank">[ 源码 ]</a>
                 </div>
             </div>
         </header>
 
         <section class="search-section">
             <div class="search-bar">
-                <input type="text" id="search-input" placeholder="SEARCH_KEYWORD_OR_TAG (AND_LOGIC)...">
-                <div class="search-hint">PRESS [/] TO FOCUS</div>
+                <input type="text" id="search-input" placeholder="输入关键字或标签搜索...">
+                <div class="search-hint">按 [/] 聚焦搜索</div>
             </div>
         </section>
 
@@ -1033,58 +1029,58 @@
             <div class="filter-bar">
                 <div class="dropdown" id="lang-dropdown">
                     <div class="dropdown-trigger">
-                        <span id="l-lang-label">LANGUAGE: ALL</span>
+                        <span id="l-lang-label">语言: 全部</span>
                         <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <div class="dropdown-content">
                         <div class="dropdown-search-wrapper">
-                            <input type="text" class="dropdown-search" placeholder="FILTER..." id="lang-search">
-                            <div class="btn-clear-dropdown" onclick="clearLangFilter()">[ CLEAR ]</div>
+                            <input type="text" class="dropdown-search" placeholder="筛选..." id="lang-search">
+                            <div class="btn-clear-dropdown" onclick="clearLangFilter()">[ 清除 ]</div>
                         </div>
                         <div class="dropdown-list" id="lang-options"></div>
-                        <div class="dropdown-close-mobile" onclick="closeAllDropdowns()">[ TAP_TO_CLOSE ]</div>
+                        <div class="dropdown-close-mobile" onclick="closeAllDropdowns()">[ 点击关闭 ]</div>
                     </div>
                 </div>
 
                 <div class="dropdown" id="topic-dropdown">
                     <div class="dropdown-trigger">
-                        <span id="l-topic-label">TOPICS: ALL</span>
+                        <span id="l-topic-label">主题: 全部</span>
                         <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <div class="dropdown-content">
                         <div class="dropdown-search-wrapper">
-                            <input type="text" class="dropdown-search" placeholder="FILTER..." id="topic-search">
-                            <div class="btn-clear-dropdown" onclick="clearTopicFilters()">[ CLEAR ]</div>
+                            <input type="text" class="dropdown-search" placeholder="筛选..." id="topic-search">
+                            <div class="btn-clear-dropdown" onclick="clearTopicFilters()">[ 清除 ]</div>
                         </div>
                         <div class="dropdown-list" id="topic-options"></div>
-                        <div class="dropdown-close-mobile" onclick="closeAllDropdowns()">[ TAP_TO_CLOSE ]</div>
+                        <div class="dropdown-close-mobile" onclick="closeAllDropdowns()">[ 点击关闭 ]</div>
                     </div>
                 </div>
 
                 <div class="dropdown" id="tag-dropdown">
                     <div class="dropdown-trigger">
-                        <span id="l-tag-label">TAGS: ALL</span>
+                        <span id="l-tag-label">标签: 全部</span>
                         <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <div class="dropdown-content">
                         <div class="dropdown-search-wrapper">
-                            <input type="text" class="dropdown-search" placeholder="FILTER..." id="tag-search">
-                            <div class="btn-clear-dropdown" onclick="clearTagFilters()">[ CLEAR ]</div>
+                            <input type="text" class="dropdown-search" placeholder="筛选..." id="tag-search">
+                            <div class="btn-clear-dropdown" onclick="clearTagFilters()">[ 清除 ]</div>
                         </div>
                         <div class="dropdown-list" id="tag-options"></div>
-                        <div class="dropdown-close-mobile" onclick="closeAllDropdowns()">[ TAP_TO_CLOSE ]</div>
+                        <div class="dropdown-close-mobile" onclick="closeAllDropdowns()">[ 点击关闭 ]</div>
                     </div>
                 </div>
 
                 <div class="sort-pill-group">
-                    <div class="sort-pill active" data-sort="pushed_at">LATEST</div>
-                    <div class="sort-pill" data-sort="starred_at">STARRED</div>
-                    <div class="sort-pill" data-sort="stars">STARS</div>
-                    <div class="sort-pill" data-sort="full_name">A-Z</div>
+                    <div class="sort-pill active" data-sort="pushed_at">最新更新</div>
+                    <div class="sort-pill" data-sort="starred_at">Star 时间</div>
+                    <div class="sort-pill" data-sort="stars">Star 数量</div>
+                    <div class="sort-pill" data-sort="full_name">字母顺序</div>
                 </div>
                 <div class="sort-pill-group">
-                    <div class="sort-pill active" data-order="desc">DESC</div>
-                    <div class="sort-pill" data-order="asc">ASC</div>
+                    <div class="sort-pill active" data-order="desc">降序</div>
+                    <div class="sort-pill" data-order="asc">升序</div>
                 </div>
             </div>
             
@@ -1093,25 +1089,25 @@
 
         <main class="repo-grid" id="main-grid"></main>
         
-        <div id="loading-trigger">System Loading...</div>
+        <div id="loading-trigger">系统加载中...</div>
 
         <footer>
             <div class="footer-grid">
                 <div class="footer-brand">
                     <span class="eof-text">EOF</span>
-                    <span>End of trans stream // All systems nominal</span>
+                    <span>数据传输结束 // 系统运行正常</span>
                 </div>
                 <div class="footer-center">
-                    <p>This data is curated from GitHub and summarized by AI agents.</p>
-                    <p>Repository indexed by sensenova-6.7-flash-lite // Persistent storage active</p>
+                    <p>数据来源于 GitHub，由 AI 代理整理和摘要。</p>
+                    <p>仓库由 sensenova-6.7-flash-lite 索引 // 持久化存储已激活</p>
                 </div>
                 <div class="footer-right">
-                    <span>© 2026 STARS ARCHIVE</span>
-                    <span class="footer-tag">POWERED BY: JINJA2 // PYTHON // GITHUB</span>
+                    <span>© 2026 星标档案馆</span>
+                    <span class="footer-tag">技术栈: JINJA2 // PYTHON // GITHUB</span>
                 </div>
             </div>
         </footer>
-        <button id="back-to-top" class="back-to-top" title="BACK_TO_TOP">
+        <button id="back-to-top" class="back-to-top" title="返回顶部">
             <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
         </button>
     </div>
@@ -1119,7 +1115,7 @@
     <!-- Details Modal -->
     <div id="details-modal" class="modal">
         <div class="modal-content">
-            <button class="modal-close" onclick="closeModal()">[ ESC_CLOSE ]</button>
+            <button class="modal-close" onclick="closeModal()">[ 关闭 ]</button>
             
             <div class="modal-section modal-header-info">
                 <div>
@@ -1134,26 +1130,26 @@
             </div>
 
             <div class="modal-section">
-                <span id="l-desc" class="section-label">DESCRIPTION</span>
+                <span id="l-desc" class="section-label">项目描述</span>
                 <p id="m-desc" class="modal-desc"></p>
             </div>
 
             <div class="modal-section">
-                <span id="l-sum" class="section-label">AI_SUMMARY</span>
+                <span id="l-sum" class="section-label">AI 摘要</span>
                 <p id="m-summary" class="modal-summary"></p>
                 <div id="m-tags" class="topic-list" style="margin-top: 1rem;"></div>
             </div>
 
             <div class="modal-actions">
-                <a id="m-github" href="#" target="_blank" class="btn btn-primary">VIEW_ON_GITHUB</a>
-                <a id="m-home" href="#" target="_blank" class="btn btn-secondary">VISIT_HOMEPAGE</a>
+                <a id="m-github" href="#" target="_blank" class="btn btn-primary">前往 GitHub</a>
+                <a id="m-home" href="#" target="_blank" class="btn btn-secondary">访问项目官网</a>
             </div>
         </div>
     </div>
 
     <script>
         // Data Injection
-        const RAW_DATA = [{"description": "\u81ea\u52a8\u6293\u53d6 GitHub Stars\uff0c\u751f\u6210 AI \u6458\u8981\uff0c\u4fbf\u4e8e\u68c0\u7d22\u3002", "full_name": "iblogc/GithubStarsIndex", "homepage": "https://stars.iblogc.com", "language": "Jinja", "name": "GithubStarsIndex", "owner": "iblogc", "pushed_at": "2026-06-23T20:22:51Z", "starred_at": "2026-06-23T03:13:11Z", "stars": 75, "summary": {"en": "This tool automatically fetches GitHub Stars and generates AI summaries and tech tags to solve retrieval issues. It supports tag normalization, GitHub Actions scheduled incremental sync, and Jinja2 template rendering for searchable static pages. Compatible with Obsidian sync, it is an efficient automation solution for developers to manage tech assets and build personal knowledge bases.", "tags_en": ["AI \u667a\u80fd\u4f53", "Data Retrieval", "DevOps Automation", "Knowledge Management"], "tags_zh": ["AI \u667a\u80fd\u4f53", "\u6570\u636e\u68c0\u7d22", "\u77e5\u8bc6\u7ba1\u7406", "\u81ea\u52a8\u5316\u8fd0\u7ef4"], "zh": "\u8be5\u5de5\u5177\u81ea\u52a8\u6293\u53d6 GitHub Stars \u5e76\u5229\u7528 AI \u751f\u6210\u6458\u8981\u4e0e\u6280\u672f\u6807\u7b7e\uff0c\u89e3\u51b3\u6536\u85cf\u5e93\u68c0\u7d22\u96be\u9898\u3002\u652f\u6301\u6807\u7b7e\u5f52\u4e00\u5316\u6cbb\u7406\u3001GitHub Actions \u5b9a\u65f6\u589e\u91cf\u540c\u6b65\uff0c\u4ee5\u53ca Jinja2 \u6a21\u677f\u6e32\u67d3\u53ef\u641c\u7d22\u9759\u6001\u9875\u3002\u517c\u5bb9 Obsidian \u540c\u6b65\uff0c\u662f\u5f00\u53d1\u8005\u7ba1\u7406\u6280\u672f\u8d44\u4ea7\u4e0e\u6784\u5efa\u4e2a\u4eba\u77e5\u8bc6\u5e93\u7684\u9ad8\u6548\u81ea\u52a8\u5316\u65b9\u6848\u3002"}, "topics": [], "updated_at": "2026-06-23T03:13:11Z", "url": "https://github.com/iblogc/GithubStarsIndex"}, {"description": "An app for managing github starred repositories. ", "full_name": "AmintaCCCP/GithubStarsManager", "homepage": "https://gsm.aminta.top/", "language": "TypeScript", "name": "GithubStarsManager", "owner": "AmintaCCCP", "pushed_at": "2026-06-24T14:22:14Z", "starred_at": "2026-06-23T03:10:07Z", "stars": 3100, "summary": {"en": "GithubStarsManager is a cross-platform desktop app designed to manage GitHub starred repositories. It leverages AI to auto-categorize and summarize repos, enabling semantic search to solve the \"star and forget\" problem. It also offers release tracking, one-click downloads, fork management, and Gist editing, with 100% local data storage for privacy.", "tags_en": ["AI \u667a\u80fd\u4f53", "Automation Tool", "Cross-platform", "Knowledge Management"], "tags_zh": ["AI \u667a\u80fd\u4f53", "\u77e5\u8bc6\u7ba1\u7406", "\u81ea\u52a8\u5316\u5de5\u5177", "\u8de8\u5e73\u53f0"], "zh": "GithubStarsManager \u662f\u4e00\u6b3e\u8de8\u5e73\u53f0\u684c\u9762\u5e94\u7528\uff0c\u4e13\u4e3a\u7ba1\u7406 GitHub \u661f\u6807\u4ed3\u5e93\u8bbe\u8ba1\u3002\u5b83\u901a\u8fc7 AI \u81ea\u52a8\u5206\u7c7b\u548c\u751f\u6210\u6458\u8981\uff0c\u652f\u6301\u8bed\u4e49\u641c\u7d22\uff0c\u89e3\u51b3\u201c\u6536\u85cf\u5373\u9057\u5fd8\u201d\u7684\u75db\u70b9\u3002\u540c\u65f6\u63d0\u4f9b Release \u8ddf\u8e2a\u3001\u4e00\u952e\u4e0b\u8f7d\u3001Fork \u7ba1\u7406\u53ca Gist \u7f16\u8f91\u529f\u80fd\uff0c\u6570\u636e 100% \u672c\u5730\u5b58\u50a8\uff0c\u4fdd\u969c\u9690\u79c1\u5b89\u5168\u3002"}, "topics": [], "updated_at": "2026-06-24T12:45:53Z", "url": "https://github.com/AmintaCCCP/GithubStarsManager"}, {"description": "\u8d85\u4f4e\u6210\u672c\u786c\u4ef6\u77ed\u4fe1\u8f6c\u53d1\u5668\uff0c\u652f\u6301\u79fb\u52a8\u8054\u901a\u7535\u4fe1\uff0cML307R+ESP32C3", "full_name": "chenxuuu/sms_forwarding", "homepage": "http://sms.j2.cx/", "language": "C++", "name": "sms_forwarding", "owner": "chenxuuu", "pushed_at": "2026-06-23T06:30:47Z", "starred_at": "2026-06-22T11:00:59Z", "stars": 1271, "summary": {"en": "An ultra-low-cost hardware SMS forwarding device built on ESP32C3 and ML307R modules. It supports China Mobile/Unicom/Telecom cards, receiving SMS via AT commands and forwarding to multiple channels. Features a web interface for configuration and supports 7 push services like Bark, DingTalk, Feishu, and Email, ideal for personal notifications and IoT communication.", "tags_en": ["Automation Notification", "ESP32", "IoT", "SMS Forwarding"], "tags_zh": ["ESP32", "\u7269\u8054\u7f51", "\u77ed\u4fe1\u8f6c\u53d1", "\u81ea\u52a8\u5316\u901a\u77e5"], "zh": "\u672c\u9879\u76ee\u662f\u4e00\u6b3e\u8d85\u4f4e\u6210\u672c\u7684\u786c\u4ef6\u77ed\u4fe1\u8f6c\u53d1\u5668\uff0c\u57fa\u4e8e ESP32C3 \u4e0e ML307R \u6a21\u7ec4\u6784\u5efa\u3002\u652f\u6301\u79fb\u52a8/\u8054\u901a/\u7535\u4fe1\u5361\uff0c\u901a\u8fc7 AT \u6307\u4ee4\u5b9e\u73b0\u77ed\u4fe1\u63a5\u6536\u4e0e\u591a\u901a\u9053\u81ea\u52a8\u8f6c\u53d1\u3002\u5185\u7f6e Web \u914d\u7f6e\u754c\u9762\uff0c\u517c\u5bb9 Bark\u3001\u9489\u9489\u3001\u98de\u4e66\u3001\u90ae\u4ef6\u7b49 7 \u79cd\u4e3b\u6d41\u63a8\u9001\u670d\u52a1\uff0c\u9002\u7528\u4e8e\u4e2a\u4eba\u901a\u77e5\u3001\u4fdd\u53f7\u53ca\u4f4e\u6210\u672c\u7269\u8054\u7f51\u901a\u4fe1\u573a\u666f\u3002"}, "topics": [], "updated_at": "2026-06-24T11:35:39Z", "url": "https://github.com/chenxuuu/sms_forwarding"}];
+        const RAW_DATA = [{"description": "\u81ea\u52a8\u6293\u53d6 GitHub Stars\uff0c\u751f\u6210 AI \u6458\u8981\uff0c\u4fbf\u4e8e\u68c0\u7d22\u3002", "full_name": "iblogc/GithubStarsIndex", "homepage": "https://stars.iblogc.com", "language": "Jinja", "name": "GithubStarsIndex", "owner": "iblogc", "pushed_at": "2026-06-23T20:22:51Z", "starred_at": "2026-06-23T03:13:11Z", "stars": 75, "summary": {"en": "This tool automatically fetches GitHub Stars and uses AI to generate content summaries and tech tags, featuring built-in tag normalization. It supports scheduled incremental sync via GitHub Actions, Jinja2 template rendering for static pages, and optional sync to Obsidian or GitHub Pages, serving as an automated solution for managing personal tech stacks and knowledge bases.", "tags_en": ["AI Large Models", "AI \u667a\u80fd\u4f53", "GitHub Actions", "Knowledge Management"], "tags_zh": ["AI \u5927\u6a21\u578b", "AI \u667a\u80fd\u4f53", "GitHub Actions", "\u77e5\u8bc6\u7ba1\u7406"], "zh": "\u8be5\u5de5\u5177\u81ea\u52a8\u6293\u53d6 GitHub Stars \u5e76\u8c03\u7528 AI \u751f\u6210\u5185\u5bb9\u6458\u8981\u4e0e\u6280\u672f\u6807\u7b7e\uff0c\u5185\u7f6e\u6807\u7b7e\u5f52\u4e00\u5316\u6cbb\u7406\u673a\u5236\u3002\u652f\u6301 GitHub Actions \u5b9a\u65f6\u589e\u91cf\u540c\u6b65\u3001Jinja2 \u6a21\u677f\u6e32\u67d3\u9759\u6001\u9875\uff0c\u5e76\u53ef\u9009\u540c\u6b65\u81f3 Obsidian \u6216 GitHub Pages\uff0c\u662f\u9ad8\u6548\u7ba1\u7406\u4e2a\u4eba\u6280\u672f\u6808\u4e0e\u77e5\u8bc6\u5e93\u7684\u81ea\u52a8\u5316\u5229\u5668\u3002"}, "topics": [], "updated_at": "2026-06-23T03:13:11Z", "url": "https://github.com/iblogc/GithubStarsIndex"}, {"description": "An app for managing github starred repositories. ", "full_name": "AmintaCCCP/GithubStarsManager", "homepage": "https://gsm.aminta.top/", "language": "TypeScript", "name": "GithubStarsManager", "owner": "AmintaCCCP", "pushed_at": "2026-06-24T14:41:40Z", "starred_at": "2026-06-23T03:10:07Z", "stars": 3100, "summary": {"en": "GithubStarsManager is a cross-platform desktop app designed to solve the \"starred but lost\" problem for GitHub users. It leverages AI to automatically categorize and summarize starred repositories, featuring semantic search, release tracking, and Gist management. Built on Electron with 100% local data storage, it offers a secure and efficient experience for personal code asset management.", "tags_en": ["AI \u667a\u80fd\u4f53", "Code Asset Management", "Cross-platform"], "tags_zh": ["AI \u667a\u80fd\u4f53", "\u4ee3\u7801\u8d44\u4ea7\u7ba1\u7406", "\u8de8\u5e73\u53f0"], "zh": "GithubStarsManager \u662f\u4e00\u6b3e\u8de8\u5e73\u53f0\u684c\u9762\u5e94\u7528\uff0c\u4e13\u4e3a\u89e3\u51b3 GitHub \u7528\u6237\u201cStar \u540e\u96be\u4ee5\u68c0\u7d22\u201d\u7684\u75db\u70b9\u3002\u5b83\u901a\u8fc7 AI \u81ea\u52a8\u5bf9 Star \u4ed3\u5e93\u8fdb\u884c\u5206\u7c7b\u4e0e\u6458\u8981\uff0c\u652f\u6301\u8bed\u4e49\u641c\u7d22\u3001Release \u8ffd\u8e2a\u53ca Gist \u7ba1\u7406\u3002\u91c7\u7528 Electron \u67b6\u6784\uff0c\u6570\u636e 100% \u672c\u5730\u5b58\u50a8\uff0c\u63d0\u4f9b\u5b89\u5168\u9ad8\u6548\u7684\u4e2a\u4eba\u4ee3\u7801\u8d44\u4ea7\u7ba1\u7406\u4f53\u9a8c\u3002"}, "topics": [], "updated_at": "2026-06-24T12:45:53Z", "url": "https://github.com/AmintaCCCP/GithubStarsManager"}, {"description": "\u8d85\u4f4e\u6210\u672c\u786c\u4ef6\u77ed\u4fe1\u8f6c\u53d1\u5668\uff0c\u652f\u6301\u79fb\u52a8\u8054\u901a\u7535\u4fe1\uff0cML307R+ESP32C3", "full_name": "chenxuuu/sms_forwarding", "homepage": "http://sms.j2.cx/", "language": "C++", "name": "sms_forwarding", "owner": "chenxuuu", "pushed_at": "2026-06-23T06:30:47Z", "starred_at": "2026-06-22T11:00:59Z", "stars": 1272, "summary": {"en": "An ultra-low-cost hardware SMS forwarding device built on ESP32C3 and ML307R modules, costing around $4. It supports all major carriers, multi-channel push notifications (Bark, DingTalk, Feishu), Web management, and remote reboot, ideal for number retention, OTP reception, and IoT alerts.", "tags_en": ["ESP32", "IoT", "SMS Forwarding"], "tags_zh": ["ESP32", "\u7269\u8054\u7f51", "\u77ed\u4fe1\u8f6c\u53d1"], "zh": "\u672c\u9879\u76ee\u662f\u4e00\u6b3e\u8d85\u4f4e\u6210\u672c\u7684\u786c\u4ef6\u77ed\u4fe1\u8f6c\u53d1\u5668\uff0c\u57fa\u4e8e ESP32C3 \u4e0e ML307R \u6a21\u5757\u6784\u5efa\uff0c\u603b\u6210\u672c\u7ea6 28 \u5143\u3002\u652f\u6301\u79fb\u52a8/\u8054\u901a/\u7535\u4fe1\u5361\uff0c\u5177\u5907\u591a\u901a\u9053\u63a8\u9001\uff08Bark\u3001\u9489\u9489\u3001\u98de\u4e66\u7b49\uff09\u3001Web \u540e\u53f0\u7ba1\u7406\u53ca\u8fdc\u7a0b\u91cd\u542f\u529f\u80fd\uff0c\u9002\u7528\u4e8e\u4fdd\u53f7\u3001\u9a8c\u8bc1\u7801\u63a5\u6536\u53ca\u7269\u8054\u7f51\u901a\u77e5\u573a\u666f\u3002"}, "topics": [], "updated_at": "2026-06-24T14:38:57Z", "url": "https://github.com/chenxuuu/sms_forwarding"}, {"description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.", "full_name": "agentscope-ai/QwenPaw", "homepage": "http://qwenpaw.agentscope.io/", "language": "Python", "name": "QwenPaw", "owner": "agentscope-ai", "pushed_at": "2026-06-24T08:18:40Z", "starred_at": "2026-06-21T16:20:46Z", "stars": 20007, "summary": {"en": "QwenPaw is a personal AI assistant with local/cloud deployment and multi-platform integration. Key features include data privacy control, PDF/Office processing, intelligent scheduling, and news aggregation through modular extensible architecture for cross-application automation.", "tags_en": ["AI \u667a\u80fd\u4f53", "Automation Tasks", "Extensible Architecture", "Multi-Platform Integration"], "tags_zh": ["AI\u667a\u80fd\u4f53", "\u53ef\u6269\u5c55\u67b6\u6784", "\u591a\u5e73\u53f0\u96c6\u6210", "\u81ea\u52a8\u5316\u4efb\u52a1"], "zh": "QwenPaw\u662f\u4e00\u6b3e\u4e2a\u4ebaAI\u52a9\u624b\uff0c\u652f\u6301\u672c\u5730/\u4e91\u7aef\u90e8\u7f72\u4e0e\u591a\u5e73\u53f0\u96c6\u6210\uff0c\u5177\u5907\u53ef\u6269\u5c55\u6280\u80fd\u6a21\u5757\u3002\u6838\u5fc3\u4f18\u52bf\u5305\u62ec\u6570\u636e\u9690\u79c1\u4fdd\u62a4\u3001PDF/Office\u6587\u4ef6\u5904\u7406\u3001\u667a\u80fd\u8c03\u5ea6\u53ca\u65b0\u95fb\u805a\u5408\u529f\u80fd\uff0c\u901a\u8fc7\u6a21\u5757\u5316\u67b6\u6784\u5b9e\u73b0\u8de8\u5e94\u7528\u81ea\u52a8\u5316\u4efb\u52a1\u5904\u7406\u3002"}, "topics": ["agent", "agent-harness", "agentscope", "harness-engineering", "llm-tools", "llms", "skills", "super-agent"], "updated_at": "2026-06-24T14:45:44Z", "url": "https://github.com/agentscope-ai/QwenPaw"}];
         
         let filteredData = [...RAW_DATA];
         let currentIndex = 0;
@@ -1235,9 +1231,9 @@
         function updateTexts() {
             const texts = I18N[currentLang];
             searchInput.placeholder = texts.search;
-            langBtn.textContent = `LANG: ${currentLang === 'zh' ? 'ZH_CN' : 'EN_US'}`;
+            langBtn.textContent = `语言: ${currentLang === 'zh' ? '中文' : '英文'}`;
             
-            document.getElementById('l-lang-label').textContent = activeLanguage ? `Language: ${activeLanguage}` : texts.lang_all;
+            document.getElementById('l-lang-label').textContent = activeLanguage ? `语言: ${activeLanguage}` : texts.lang_all;
             document.getElementById('l-tag-label').textContent = texts.tag_all;
             document.getElementById('l-topic-label').textContent = texts.topic_all;
 
@@ -1325,7 +1321,7 @@
             const filtered = query ? availableLangs.filter(l => l.toLowerCase().includes(query.toLowerCase())) : availableLangs;
             
             // Fixed: Use activeLanguage check to properly highlight "ALL"
-            let html = `<div class="dropdown-item ${activeLanguage === null ? 'active' : ''}" data-value="" style="grid-column: span 2;">All Languages</div>`;
+            let html = `<div class="dropdown-item ${activeLanguage === null ? 'active' : ''}" data-value="" style="grid-column: span 2;">全部语言</div>`;
             filtered.forEach(l => {
                 const isActive = activeLanguage === l;
                 html += `<div class="dropdown-item ${isActive ? 'active' : ''}" data-value="${l}">${l}</div>`;
@@ -1473,7 +1469,7 @@
             if(activeLanguage) {
                 const chip = document.createElement('div');
                 chip.className = 'filter-chip';
-                chip.innerHTML = `Lang: ${activeLanguage} <span onclick="removeLang()">✕</span>`;
+                chip.innerHTML = `语言: ${activeLanguage} <span onclick="removeLang()">✕</span>`;
                 activeFiltersContainer.appendChild(chip);
             }
             activeTags.forEach(tag => {
@@ -1493,7 +1489,7 @@
             const resetBtn = document.createElement('div');
             resetBtn.className = 'filter-chip reset-all';
             resetBtn.style.cursor = 'pointer';
-            resetBtn.innerHTML = `[ RESET_ALL ]`;
+            resetBtn.innerHTML = `[ 全部重置 ]`;
             resetBtn.onclick = clearAllFilters;
             activeFiltersContainer.appendChild(resetBtn);
         }
@@ -1573,7 +1569,7 @@
             if(topicContainer) topicContainer.scrollTop = topicScrollTop;
 
             // Update labels
-            document.getElementById('l-lang-label').textContent = activeLanguage ? `Language: ${activeLanguage}` : texts.lang_all;
+            document.getElementById('l-lang-label').textContent = activeLanguage ? `语言: ${activeLanguage}` : texts.lang_all;
         }
 
         // --- Render functions ---
@@ -1592,7 +1588,7 @@
             const summary = item.summary[currentLang] || item.summary.zh || texts.no_sum;
             
             card.innerHTML = `
-                <div class="card-lang ui-tag">${item.language || 'DATA'}</div>
+                <div class="card-lang ui-tag">${item.language || '数据'}</div>
                 <h2 class="card-title ui-title">${item.full_name}</h2>
                 <p class="card-desc">${summary}</p>
                 <div class="card-footer ui-meta">
@@ -1643,7 +1639,7 @@
         updateTexts();
         function openModal(item) {
             const texts = I18N[currentLang];
-            document.getElementById('m-lang').textContent = item.language || 'DATA';
+            document.getElementById('m-lang').textContent = item.language || '数据';
             document.getElementById('m-name').textContent = item.full_name;
             document.getElementById('m-stars').innerHTML = `
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
@@ -1739,7 +1735,7 @@
         const setTheme = (theme) => {
             document.documentElement.setAttribute('data-theme', theme);
             localStorage.setItem('theme', theme);
-            themeBtn.textContent = theme === 'dark' ? 'UI_THEME: NOIR_MODE' : 'UI_THEME: LIGHT_MODE';
+            themeBtn.textContent = theme === 'dark' ? '主题: 暗黑' : '主题: 明亮';
         };
 
         themeBtn.addEventListener('click', () => {
