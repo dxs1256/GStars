@@ -558,6 +558,21 @@
             color: var(--bg);
         }
 
+        /* Unique Style for Custom Filter Toggles */
+        .filter-pill {
+            padding: 0.4rem 1rem;
+            font-size: 0.7rem;
+            font-family: 'Space Mono', monospace;
+            cursor: pointer;
+            transition: var(--transition);
+            color: var(--fg-dim);
+        }
+
+        .filter-pill.active {
+            background: var(--accent);
+            color: var(--bg);
+        }
+
         /* Stats Bar Enhancements */
         .stats-dashboard {
             display: grid;
@@ -694,13 +709,38 @@
             flex-direction: column;
             cursor: pointer;
             transition: var(--transition);
-            position: relative;
+            position: relative; /* Base relative layout for absolute elements */
         }
 
         .repo-card:hover {
             border-color: var(--fg);
             transform: translateY(-5px);
             box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+
+        /* Card Pin Feature Styles */
+        .pin-btn {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: none;
+            border: none;
+            color: var(--fg-dim);
+            cursor: pointer;
+            transition: var(--transition);
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .pin-btn:hover {
+            color: var(--accent);
+            transform: scale(1.15);
+        }
+
+        .pin-btn.pinned {
+            color: var(--accent);
         }
 
         @media (max-width: 600px) {
@@ -712,6 +752,7 @@
             margin-bottom: 1.5rem;
             color: var(--accent);
             border-color: var(--accent-soft);
+            width: fit-content;
         }
 
         .card-lang::before {
@@ -726,6 +767,7 @@
             font-size: 1.25rem;
             margin-bottom: 1rem;
             line-height: 1.3;
+            padding-right: 1.5rem; /* Ensure title does not overlap star icon */
         }
 
         .card-desc {
@@ -1107,6 +1149,12 @@
                     <div class="sort-pill active" data-order="desc">DESC</div>
                     <div class="sort-pill" data-order="asc">ASC</div>
                 </div>
+
+                <!-- Custom Quick-View Filter Group -->
+                <div class="sort-pill-group">
+                    <div class="filter-pill" id="pill-fav" title="Show Bookmarked Stars Only">★ FAVS</div>
+                    <div class="filter-pill" id="pill-active" title="Hide Repos Inactive Over 2 Years">ACTIVE</div>
+                </div>
             </div>
             
             <div id="active-filters" class="active-filters"></div>
@@ -1188,6 +1236,11 @@
         let currentSort = 'pushed_at';
         let currentOrder = 'desc';
 
+        // Advanced View States
+        let showFavoritesOnly = false;
+        let showActiveOnly = false;
+        let pinnedRepos = new Set(JSON.parse(localStorage.getItem('pinned_repos') || '[]'));
+
         const LANG_ALIAS = {
             'JavaScript': 'JS',
             'TypeScript': 'TS',
@@ -1210,7 +1263,7 @@
 
         const I18N = {
             zh: {
-                search: "搜索关键字或标签 (空格分隔多词 AND 搜索)...",
+                search: "搜索关键字或支持高级语法 (例: lang:python stars:>1000)...",
                 updated: "更新时间",
                 loading: "系统加载中...",
                 end: "已加载全部档案",
@@ -1231,7 +1284,7 @@
                 desc: "降序"
             },
             en: {
-                search: "Search keywords or tags (space-separated AND search)...",
+                search: "Search keywords or filters (e.g., lang:python stars:>1000)...",
                 updated: "Updated",
                 loading: "Loading items...",
                 end: "All records loaded",
@@ -1394,7 +1447,7 @@
             document.getElementById('tag-search').oninput = (e) => renderTagOptions(e.target.value);
             document.getElementById('topic-search').oninput = (e) => renderTopicOptions(e.target.value);
 
-            // Event Listeners
+            // Event Listeners for dropdowns
             document.querySelectorAll('.dropdown-trigger').forEach(trigger => {
                 trigger.onclick = (e) => {
                     e.stopPropagation();
@@ -1458,6 +1511,22 @@
                     applyFiltersAndSort();
                 };
             });
+
+            // Setup Quick-View Toggles (Favorites & Active Only)
+            const pillFav = document.getElementById('pill-fav');
+            const pillActive = document.getElementById('pill-active');
+
+            pillFav.onclick = () => {
+                showFavoritesOnly = !showFavoritesOnly;
+                pillFav.classList.toggle('active', showFavoritesOnly);
+                applyFiltersAndSort();
+            };
+
+            pillActive.onclick = () => {
+                showActiveOnly = !showActiveOnly;
+                pillActive.classList.toggle('active', showActiveOnly);
+                applyFiltersAndSort();
+            };
         }
 
         function closeAllDropdowns() {
@@ -1489,7 +1558,7 @@
 
         function renderActiveFilters() {
             activeFiltersContainer.innerHTML = '';
-            if(!activeLanguage && activeTags.size === 0) return;
+            if(!activeLanguage && activeTags.size === 0 && activeTopics.size === 0) return;
 
             if(activeLanguage) {
                 const chip = document.createElement('div');
@@ -1523,19 +1592,50 @@
         function removeTag(tag) { activeTags.delete(tag); applyFiltersAndSort(); }
         function removeTopic(topic) { activeTopics.delete(topic); applyFiltersAndSort(); }
 
+        // --- Card Pin Action Handlers ---
+        function togglePin(e, fullName) {
+            e.stopPropagation(); // Avoid opening details modal
+            if (pinnedRepos.has(fullName)) {
+                pinnedRepos.delete(fullName);
+            } else {
+                pinnedRepos.add(fullName);
+            }
+            localStorage.setItem('pinned_repos', JSON.stringify(Array.from(pinnedRepos)));
+            applyFiltersAndSort();
+        }
+
         function applyFiltersAndSort() {
             const rawQuery = searchInput.value.trim().toLowerCase();
-            const keywords = rawQuery ? rawQuery.split(/\s+/) : [];
             const texts = I18N[currentLang];
+
+            // Parse Advanced Search Syntax (e.g., lang:js, stars:>1000)
+            let keywords = [];
+            let syntaxLang = null;
+            let syntaxMinStars = null;
+
+            rawQuery.split(/\s+/).forEach(term => {
+                if (!term) return;
+                if (term.startsWith('lang:')) {
+                    syntaxLang = term.replace('lang:', '').toLowerCase();
+                } else if (term.startsWith('stars:>')) {
+                    syntaxMinStars = parseInt(term.replace('stars:>', ''), 10) || null;
+                } else {
+                    keywords.push(term);
+                }
+            });
             
             filteredData = RAW_DATA.filter(item => {
-                // Check if all keywords are matched (AND logic)
+                // Text keyword search evaluation
                 const searchMatch = keywords.length === 0 || keywords.every(kw => {
                     const nameMatch = item.full_name.toLowerCase().includes(kw);
                     const descMatch = (item.description || '').toLowerCase().includes(kw);
                     const summaryMatch = (item.summary[currentLang] || '').toLowerCase().includes(kw);
                     return nameMatch || descMatch || summaryMatch;
                 });
+
+                // Advanced query validations
+                const syntaxLangMatch = !syntaxLang || (item.language && item.language.toLowerCase() === syntaxLang);
+                const syntaxStarsMatch = syntaxMinStars === null || (item.stars >= syntaxMinStars);
                 
                 const langMatch = !activeLanguage || item.language === activeLanguage;
                 
@@ -1548,7 +1648,19 @@
                 const itemTopics = new Set((item.topics || []).map(t => t.toLowerCase()));
                 const topicMatch = activeTopics.size === 0 || Array.from(activeTopics).every(t => itemTopics.has(t.toLowerCase()));
 
-                return searchMatch && langMatch && tagMatch && topicMatch;
+                // Favorites Evaluation
+                const favMatch = !showFavoritesOnly || pinnedRepos.has(item.full_name);
+
+                // Activity Evaluation (Inactive definition: not updated in the last 2 years)
+                let activeMatch = true;
+                if (showActiveOnly) {
+                    const lastUpdate = new Date(item.pushed_at || item.updated_at || '1970-01-01');
+                    const cutoff = new Date();
+                    cutoff.setFullYear(cutoff.getFullYear() - 2);
+                    activeMatch = lastUpdate >= cutoff;
+                }
+
+                return searchMatch && syntaxLangMatch && syntaxStarsMatch && langMatch && tagMatch && topicMatch && favMatch && activeMatch;
             });
 
             // Sorting
@@ -1609,10 +1721,14 @@
             const card = document.createElement('article');
             card.className = 'repo-card';
             const texts = I18N[currentLang];
+            const isPinned = pinnedRepos.has(item.full_name);
             
             const summary = item.summary[currentLang] || item.summary.zh || texts.no_sum;
             
             card.innerHTML = `
+                <button class="pin-btn ${isPinned ? 'pinned' : ''}" onclick="togglePin(event, '${item.full_name}')" title="Pin / Unpin Repo">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </button>
                 <div class="card-lang ui-tag">${item.language || 'DATA'}</div>
                 <h2 class="card-title ui-title">${item.full_name}</h2>
                 <p class="card-desc">${summary}</p>
