@@ -127,7 +127,7 @@
 ## chenxuuu/sms_forwarding
 
 > [!info]
-> ⭐ 1,274 · C++ · 2026-06-24T15:24:08Z  
+> ⭐ 1,277 · C++ · 2026-06-24T18:50:29Z  
 > [GitHub](https://github.com/chenxuuu/sms_forwarding) · [Website](http://sms.j2.cx/)  
 > `#嵌入式开发` `#消息推送` `#物联网` `#短信转发` 
 > 这是一个基于ESP32C3和ML307R的低成本短信转发器项目。它支持移动、联通、电信卡，通过AT指令实现短信接收与多通道推送（如Bark、钉钉、飞书）。项目提供Web界面配置，支持长短信合并与远程管理，是个人短信通知与保号管理的理想硬件方案。
@@ -166,7 +166,7 @@
 ## igareck/vpn-configs-for-russia
 
 > [!info]
-> ⭐ 7,169 · N/A · 2026-06-24T16:13:37Z  
+> ⭐ 7,175 · N/A · 2026-06-24T20:05:01Z  
 > [GitHub](https://github.com/igareck/vpn-configs-for-russia)  
 > `#代理协议` `#绕过封锁` `#网络工具` `#自动化测试` `#free-vpn-key` `#free-vpn-keys` `#free-vpn-russia` `#roskomnadzor` `#russia-vpn` `#shadowsocks` `#shadowsocks-free` `#v2ray` `#vless` `#vless-reality` `#vpn` `#vpn-config` `#vpn-configuration` `#vpn-for-russia` `#vpn-free-russia` `#vpn-key` `#vpn-keys` `#vpn-russia` `#whitelist` `#xray` 
 > 专为俄罗斯用户打造的免费 VPN 配置仓库，提供 VLESS、Trojan 等多种协议的订阅链接。通过每两小时自动测试速度与可用性，过滤无效节点，旨在帮助用户绕过网络封锁，保持在线。支持导入至 v2rayN 等主流客户端，确保持续稳定的网络连接。
@@ -176,7 +176,7 @@
 ## truelockmc/streambert
 
 > [!info]
-> ⭐ 5,477 · JavaScript · 2026-06-24T16:02:15Z  
+> ⭐ 5,479 · JavaScript · 2026-06-24T18:20:08Z  
 > [GitHub](https://github.com/truelockmc/streambert)  
 > `#媒体播放` `#流媒体下载` `#跨平台` `#隐私保护` `#anime` `#anime-downloader` `#anime-scraper` `#downloader` `#electron` `#modern-ui` `#movies` `#movies-streaming` `#opinionated` `#piracy` `#series` `#streaming` `#streaming-video` `#tmdb-api` `#tv` 
 > Streambert 是一款基于 Electron 的跨平台桌面应用，聚合全球影视动漫资源。它支持高清流媒体播放与 m3u8 多线程下载，集成 TMDB 与 AniList 元数据，提供字幕管理及观看记录。其核心优势在于完全无广告与追踪，确保用户隐私安全。
@@ -186,7 +186,7 @@
 ## hureyqi/x-spider-mod-2026
 
 > [!info]
-> ⭐ 103 · TypeScript · 2026-06-19T09:05:19Z  
+> ⭐ 104 · TypeScript · 2026-06-24T17:34:30Z  
 > [GitHub](https://github.com/hureyqi/x-spider-mod-2026)  
 > `#AI 辅助开发` `#数据采集` `#社交媒体` `#自动化工具` 
 > X-Spider 是一款专为 X（推特）设计的媒体下载工具，支持批量抓取图片与视频。具备日期筛选、自动去重及代理配置功能。项目现由新维护者接手，采用 AI 辅助开发模式，致力于快速响应需求并保持软件稳定更新。
@@ -195,7 +195,7 @@
 ## avacocloud/XHTTP-Installer
 
 > [!info]
-> ⭐ 861 · HTML · 2026-06-24T15:23:05Z  
+> ⭐ 867 · HTML · 2026-06-24T19:02:44Z  
 > [GitHub](https://github.com/avacocloud/XHTTP-Installer)  
 > `#CDN中继` `#Xray-core` `#网络代理工具` `#自动化部署` 
 > XHTTP-Installer是一款基于VLESS+XHTTP+TLS协议的自动化代理部署工具，通过Vercel/Netlify CDN实现服务器IP隐藏。支持一键安装、自动SSL证书配置及智能故障修复，适用于需要高隐私保护的网络环境，结合Xray-core与边缘计算架构提升传输安全性与速度。
@@ -224,7 +224,7 @@
 ## Eric-Yibo-Shen/zhangxuefeng-skillset
 
 > [!info]
-> ⭐ 359 · N/A · 2026-06-23T16:16:36Z  
+> ⭐ 360 · N/A · 2026-06-24T19:49:43Z  
 > [GitHub](https://github.com/Eric-Yibo-Shen/zhangxuefeng-skillset)  
 > `#AI 教育顾问` `#AI 智能体` `#RAG 知识库` `#决策框架` 
 > 本项目是张雪峰高考志愿填报决策知识库，旨在打破普通家庭的信息差。它不仅是数据匹配工具，更提供包含 AI 时代校正的决策框架。支持一键部署为 OpenClaw Skills 接入微信，或导入 Dify 等 RAG 平台，让普通用户通过 AI 顾问获得专业指导。
@@ -233,7 +233,7 @@
 ## alchaincyf/zhangxuefeng-skill
 
 > [!info]
-> ⭐ 8,808 · N/A · 2026-06-24T16:12:45Z  
+> ⭐ 8,816 · N/A · 2026-06-24T19:52:35Z  
 > [GitHub](https://github.com/alchaincyf/zhangxuefeng-skill)  
 > `#AI 智能体` `#Agent Skills` `#职业规划` `#认知操作系统` 
 > 本项目构建了张雪峰认知操作系统，将高考志愿、考研及职业规划经验转化为可运行的 AI 思维框架。基于 Agent Skills 标准，支持多运行时环境，提炼核心心智模型与决策启发式，为用户提供实战级咨询辅助。
@@ -263,7 +263,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 39,419 · Python · 2026-06-24T16:15:59Z  
+> ⭐ 39,503 · Python · 2026-06-24T20:08:31Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI智能体` `#网页爬虫` `#自动化工具` `#跨平台` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach 是一款赋予 AI Agent 互联网视野的 CLI 工具，支持 Twitter、Reddit、YouTube、Bilibili 及小红书等主流平台。它通过多后端路由实现零 API 费用、高稳定性的数据获取，兼容各类 AI Agent 环境，解决平台封锁与登录难题，实现隐私安全的跨平台信息检索。
@@ -273,7 +273,7 @@
 ## shuaiplus/nodewarden
 
 > [!info]
-> ⭐ 2,844 · TypeScript · 2026-06-24T16:08:47Z  
+> ⭐ 2,845 · TypeScript · 2026-06-24T17:52:17Z  
 > [GitHub](https://github.com/shuaiplus/nodewarden) · [Website](https://nodewarden.app)  
 > `#安全工具` `#密码管理` `#无服务器架构` `#私有化部署` `#bitwarden` `#cloudflare` `#cloudflare-d1` `#cloudflare-r2` `#cloudflare-workers` `#end-to-end-encryption` `#nodewarden` `#password` `#password-manager` `#preact` `#self-hosted` `#serverless` `#typescript` `#vaultwarden` `#web-vault` `#workers` `#zero-knowledge` 
 > NodeWarden 是基于 Cloudflare Workers 的无服务器 Bitwarden 兼容服务端。它通过 PWA 实现离线查看，支持 Passkey 无密码登录及云端备份，完美兼容主流客户端。适合个人低成本私有化部署，提供安全、便捷且功能增强的密码管理体验。
@@ -283,7 +283,7 @@
 ## qaz741wsd856/warden-worker
 
 > [!info]
-> ⭐ 1,150 · Rust · 2026-06-24T14:07:13Z  
+> ⭐ 1,151 · Rust · 2026-06-24T17:58:48Z  
 > [GitHub](https://github.com/qaz741wsd856/warden-worker) · [Website](http://warden.qqnt.de/)  
 > `#密码管理` `#数据安全` `#无服务器架构` `#自托管服务` `#bitwarden` `#cloudflare-workers` `#password` `#password-manager` `#self-hosted` `#serverless` 
 > Warden 是基于 Cloudflare Workers 的 Bitwarden 兼容服务器，利用 D1 与 KV/R2 构建免费、无服务器的自托管密码管理方案。支持核心密码库、TOTP 及实时同步，兼容官方客户端。无需维护 VPS，实现“部署即忘”，适合个人用户构建低成本、高隐私的轻量级密码管理环境。
@@ -331,7 +331,7 @@
 ## lesnolie/movecar
 
 > [!info]
-> ⭐ 1,153 · JavaScript · 2026-06-24T14:21:38Z  
+> ⭐ 1,154 · JavaScript · 2026-06-24T19:37:44Z  
 > [GitHub](https://github.com/lesnolie/movecar)  
 > `#Cloudflare Workers` `#无服务器` `#物联网应用` `#隐私保护` 
 > MoveCar 是一款基于 Cloudflare Workers 的 Serverless 智能挪车系统。它通过扫码通知车主，利用 Bark 推送实现隐私保护，避免直接暴露手机号。系统支持双向位置共享与防骚扰延迟机制，零运维成本且免费部署，有效解决停车被挡时的沟通难题。
@@ -390,7 +390,7 @@
 ## vodtv/api
 
 > [!info]
-> ⭐ 143 · JavaScript · 2026-06-23T19:05:08Z  
+> ⭐ 143 · JavaScript · 2026-06-24T18:29:34Z  
 > [GitHub](https://github.com/vodtv/api) · [Website](https://mconfig.viptv.work/)  
 > `#API 代理` `#Cloudflare Workers` `#视频流媒体` `#订阅管理` 
 > 该仓库提供 MoonTV/LunaTV 视频源订阅配置，核心是基于 Cloudflare Workers 的 CORSAPI 中转服务，解决 API 跨域与被墙问题。支持自动检测 API 状态、JSON 前缀替换及 Base58 编码转换，为用户提供稳定、可定制的流媒体聚合与播放器配置管理方案。
@@ -400,7 +400,7 @@
 ## ngosang/trackerslist
 
 > [!info]
-> ⭐ 54,271 · N/A · 2026-06-24T15:28:48Z  
+> ⭐ 54,273 · N/A · 2026-06-24T19:27:34Z  
 > [GitHub](https://github.com/ngosang/trackerslist) · [Website](https://ngosang.github.io/trackerslist/)  
 > `#P2P下载` `#网络协议` `#自动化工具` `#bittorrent` `#bittorrent-tracker` `#bittorrent-trackers` `#http` `#list` `#lists` `#public-tracker` `#public-trackers` `#torrent` `#tracker` `#trackers` `#trackerslist` `#udp` `#webtorrent` `#ws` 
 > 该仓库提供自动更新的公共 BitTorrent 追踪器列表，涵盖 UDP、HTTP、HTTPS 等多种协议及 IP 直连格式。通过自动化脚本每日校验有效性，解决 DNS 解析问题，是提升 BT 下载速度与稳定性的必备资源库。
@@ -410,7 +410,7 @@
 ## yonggekkk/argosbx
 
 > [!info]
-> ⭐ 5,341 · Shell · 2026-06-24T13:41:36Z  
+> ⭐ 5,343 · Shell · 2026-06-24T17:03:06Z  
 > [GitHub](https://github.com/yonggekkk/argosbx) · [Website](https://yonggekkk.github.io/argosbx/)  
 > `#Sing-box` `#一键部署` `#容器化` `#网络工具` `#anytls` `#argo` `#claw-cloud` `#cloudflared` `#docker-image` `#google-idx` `#hysteria2` `#ml-kem-768` `#sap` `#shadowsocks-2022` `#singbox` `#socks5` `#tuic` `#vless-reality-vision` `#vless-ws-tls` `#vless-xhttp-reality` `#vmess-ws` `#warp` `#wireguard` `#xray` 
 > Argosbx是一款专为小白设计的自建代理神器，集成Sing-box、Xray与Argo三内核。支持VPS及Docker一键无交互部署，内置15种WARP出站与5种CDN方案。兼容Reality、Hysteria2等主流协议，简化网络代理搭建流程，提供高效稳定的连接体验。
@@ -420,7 +420,7 @@
 ## byJoey/cfnew
 
 > [!info]
-> ⭐ 14,287 · N/A · 2026-06-24T16:11:43Z  
+> ⭐ 14,287 · N/A · 2026-06-24T18:32:44Z  
 > [GitHub](https://github.com/byJoey/cfnew)  
 > `#Cloudflare Workers` `#网络代理` `#节点管理` 
 > CFnew 是一款基于 Cloudflare Workers/Pages 的代理节点管理工具。支持 VLESS、Trojan 等多协议，内置订阅转换与延迟测试。通过 KV 实现图形化配置管理，实时生效。兼容主流客户端，支持自定义路径与 API 管理，部署简单，功能强大。
@@ -439,7 +439,7 @@
 ## lanyeeee/bilibili-video-downloader
 
 > [!info]
-> ⭐ 1,542 · Rust · 2026-06-24T13:16:09Z  
+> ⭐ 1,545 · Rust · 2026-06-24T19:40:32Z  
 > [GitHub](https://github.com/lanyeeee/bilibili-video-downloader)  
 > `#媒体库管理` `#弹幕处理` `#视频下载` `#跨平台应用` `#bilibili` `#download` `#downloader` `#gui` `#naive-ui` `#rust` `#tauri` `#tauri-app` `#vue` 
 > 一款基于 Tauri v2 构建的跨平台 B 站视频下载工具，支持番剧、课程等多种内容下载。具备分片加速、NFO 刮削、弹幕转字幕及广告标记功能，完美适配 Emby 等媒体库管理，提供轻量且强大的本地视频处理体验。
@@ -449,7 +449,7 @@
 ## youhunwl/TVAPP
 
 > [!info]
-> ⭐ 18,792 · JavaScript · 2026-06-24T15:30:56Z  
+> ⭐ 18,794 · JavaScript · 2026-06-24T18:43:37Z  
 > [GitHub](https://github.com/youhunwl/TVAPP) · [Website](https://app.iyouhun.com)  
 > `#Android TV` `#家庭娱乐` `#影音聚合` `#接口配置` `#android` `#android-tv` `#apk` `#app` `#tv` `#tv-box` 
 > 该仓库聚合全网 Android TV 应用，涵盖影视、直播及工具类，重点提供 TVBox、影视仓等影音壳的接口配置源。包含月光宝盒、OK 影视等优质 APK，标注兼容性与状态，支持便捷下载，助力用户打造家庭影音娱乐中心，仅供学习使用。
@@ -459,7 +459,7 @@
 ## xyfqzy/free-nodes
 
 > [!info]
-> ⭐ 123 · Python · 2026-06-24T14:13:02Z  
+> ⭐ 123 · Python · 2026-06-24T19:27:41Z  
 > [GitHub](https://github.com/xyfqzy/free-nodes)  
 > `#网络代理` `#自动化运维` `#节点聚合` 
 > 该仓库聚合了 V2Ray、Shadowsocks、Trojan 及 Clash 等主流协议的免费代理节点。通过 GitHub Actions 实现每 6 小时自动化更新，提供稳定的订阅链接与 API 接口。支持跨平台客户端接入，是获取高效、稳定网络代理资源的理想开源项目。
@@ -479,7 +479,7 @@
 ## btjawa/BiliTools
 
 > [!info]
-> ⭐ 5,245 · Rust · 2026-06-24T11:40:47Z  
+> ⭐ 5,246 · Rust · 2026-06-24T16:59:23Z  
 > [GitHub](https://github.com/btjawa/BiliTools) · [Website](https://btjawa.top/bilitools)  
 > `#Tauri 框架` `#视频处理` `#资源下载` `#跨平台` `#bilibili` `#download` `#rust` `#tauri-app` `#typescript` `#vue` 
 > BiliTools 是一款基于 Tauri 构建的跨平台哔哩哔哩工具箱，提供视频、音频、弹幕及封面等资源的下载与解析功能。支持大会员内容、AI 总结及 NFO 刮削，集成 aria2 与 FFmpeg，实现轻量高效的多媒体管理与自动化处理。
@@ -489,7 +489,7 @@
 ## GitHubDaily/GitHubDaily
 
 > [!info]
-> ⭐ 46,871 · N/A · 2026-06-24T16:13:44Z  
+> ⭐ 46,872 · N/A · 2026-06-24T18:29:35Z  
 > [GitHub](https://github.com/GitHubDaily/GitHubDaily) · [Website](https://githubdaily.com)  
 > `#AI工具` `#开发者社区` `#开源项目` `#技术资讯` `#ai` `#algorithms-and-data-structures` `#backend` `#developer-tools` `#development` `#frontend` `#github` `#java` `#javascript` `#kubernetes` `#linux` `#markdown` `#open-source` `#python` `#tutorials` `#web` 
 > GitHubDaily 是一个持续分享高质量开源项目的技术社区，涵盖 AI 工具、开发资源及编程资讯。通过聚合精选项目与年度复盘，帮助开发者快速掌握技术趋势，提升编程能力，是获取前沿开源资讯与学习源码架构的权威渠道。
@@ -499,7 +499,7 @@
 ## proxifly/free-proxy-list
 
 > [!info]
-> ⭐ 5,753 · N/A · 2026-06-24T15:56:24Z  
+> ⭐ 5,756 · N/A · 2026-06-24T19:57:59Z  
 > [GitHub](https://github.com/proxifly/free-proxy-list) · [Website](https://proxifly.dev)  
 > `#代理服务器` `#数据采集` `#爬虫支持` `#网络工具` `#free-proxy` `#free-proxy-list` `#fresh-proxies` `#http` `#http-proxy` `#proxies` `#proxies-list` `#proxy` `#proxy-list` `#proxy-scraper` `#socks` `#socks4` `#socks4-proxy` `#socks5` `#socks5-proxy` 
 > Proxifly 提供全球免费 HTTP/SOCKS 代理列表，每 5 分钟自动更新验证。支持 99 个国家、多协议分类及 JSON/CSV 格式，适用于爬虫数据采集、隐私保护及网络测试场景，确保高可用性与无重复节点。
@@ -509,7 +509,7 @@
 ## 1c7/chinese-independent-developer
 
 > [!info]
-> ⭐ 48,958 · N/A · 2026-06-24T15:07:29Z  
+> ⭐ 48,956 · N/A · 2026-06-24T17:39:19Z  
 > [GitHub](https://github.com/1c7/chinese-independent-developer)  
 > `#AI 应用` `#独立开发` `#资源聚合` `#项目导航` `#china` `#indie` `#indie-developer` 
 > 本仓库聚合了中国独立开发者的优质项目，涵盖 AI 工具、SaaS、浏览器插件及效率应用等。旨在构建开发者生态，通过开源列表形式促进项目发现与交流。支持 PR 提交，强调产品价值表达，是独立开发者展示成果与寻找灵感的权威导航平台。
@@ -519,7 +519,7 @@
 ## fish2018/pansou
 
 > [!info]
-> ⭐ 13,637 · Go · 2026-06-24T13:22:45Z  
+> ⭐ 13,638 · Go · 2026-06-24T18:37:05Z  
 > [GitHub](https://github.com/fish2018/pansou) · [Website](https://so.252035.xyz/)  
 > `#API服务` `#Docker部署` `#插件系统` `#网盘搜索` 
 > PanSou是一款高性能网盘资源搜索API服务，支持TG频道与自定义插件并发搜索。系统采用Go语言开发，具备智能排序、多网盘类型自动识别及二级缓存机制。通过Docker容器化部署，支持JWT认证与异步插件扩展，适用于资源聚合平台及开发者二次开发。
@@ -529,7 +529,7 @@
 ## Usagi-org/ai-goofish-monitor
 
 > [!info]
-> ⭐ 12,655 · Python · 2026-06-24T16:07:41Z  
+> ⭐ 12,654 · Python · 2026-06-24T16:45:55Z  
 > [GitHub](https://github.com/Usagi-org/ai-goofish-monitor)  
 > `#AI智能体` `#多模态AI` `#网页爬虫` `#自动化工具` `#ai` `#ai-assistant` `#ai-tools` `#automation` `#gemini` `#goofish` `#open-source` `#openai` `#playwright` `#tool` `#xian-yu` `#xianyu` `#xianyu-bot` 
 > 本项目是基于 Playwright 与多模态 AI 的闲鱼智能监控系统，提供 Web 可视化后台。支持自然语言创建任务、多账号并发及 AI 深度分析商品，具备即时通知与 Docker 一键部署能力，助用户高效实现二手商品实时监控与捡漏。
@@ -548,7 +548,7 @@
 ## OpenListTeam/OpenList
 
 > [!info]
-> ⭐ 23,227 · Go · 2026-06-24T15:21:36Z  
+> ⭐ 23,227 · Go · 2026-06-24T16:44:55Z  
 > [GitHub](https://github.com/OpenListTeam/OpenList) · [Website](https://doc.oplist.org)  
 > `#云存储管理` `#多存储聚合` `#开源治理` `#数据聚合` `#alist` `#aliyunpan` `#baidupan` `#openlist` 
 > OpenList 是 AList 的社区驱动分支，旨在应对信任危机，确保代码透明与长期治理。支持阿里云盘、OneDrive 等多种云存储聚合挂载，采用 AGPL-3.0 协议，致力于构建安全、开放的去中心化存储管理方案。
@@ -558,7 +558,7 @@
 ## TapXWorld/ChinaTextbook
 
 > [!info]
-> ⭐ 74,548 · Roff · 2026-06-24T16:14:26Z  
+> ⭐ 74,552 · Roff · 2026-06-24T18:46:15Z  
 > [GitHub](https://github.com/TapXWorld/ChinaTextbook)  
 > `#开源资源` `#教材共享` `#教育科技` 
 > 本项目致力于构建中国全学段（小初高及大学）PDF教材的开源资源库。旨在打破信息壁垒，消除地区教育差异，并帮助海外华人子女延续国内教育体系。通过集中托管免费教材，对抗资源商业化垄断，促进教育公平与知识普及。
@@ -568,7 +568,7 @@
 ## krau/SaveAny-Bot
 
 > [!info]
-> ⭐ 2,382 · Go · 2026-06-23T08:51:09Z  
+> ⭐ 2,383 · Go · 2026-06-24T17:25:26Z  
 > [GitHub](https://github.com/krau/SaveAny-Bot) · [Website](https://sabot.unv.app)  
 > `#Telegram 工具` `#云存储同步` `#文件管理` `#alist` `#downloader` `#pikpak` `#telegram-bot` `#webdav` 
 > SaveAny-Bot 是一款强大的 Telegram 文件管理工具，支持将各类媒体文件无缝同步至本地、Alist、S3 及 WebDAV 等多种存储后端。其核心亮点在于能绕过 Telegram 的“限制保存内容”限制，并集成 yt-dlp 与 Aria2，实现跨平台、自动化的文件归档与多用户管理。
@@ -578,7 +578,7 @@
 ## yt-dlp/yt-dlp
 
 > [!info]
-> ⭐ 173,067 · Python · 2026-06-24T16:16:47Z  
+> ⭐ 173,097 · Python · 2026-06-24T20:01:44Z  
 > [GitHub](https://github.com/yt-dlp/yt-dlp) · [Website](https://discord.gg/H5MNcFW63r)  
 > `#命令行工具` `#多媒体处理` `#音视频下载` `#cli` `#downloader` `#python` `#sponsorblock` `#youtube-dl` `#youtube-downloader` `#yt-dlp` 
 > yt-dlp 是一款功能强大的命令行音视频下载工具，作为 youtube-dl 的分支，它支持数千个网站。具备插件扩展、SponsorBlock 集成及丰富的格式筛选功能，是媒体归档与自动化下载的首选方案。
@@ -598,7 +598,7 @@
 ## BCUninstaller/Bulk-Crap-Uninstaller
 
 > [!info]
-> ⭐ 19,874 · C# · 2026-06-24T14:34:19Z  
+> ⭐ 19,876 · C# · 2026-06-24T18:22:47Z  
 > [GitHub](https://github.com/BCUninstaller/Bulk-Crap-Uninstaller) · [Website](https://www.bcuninstaller.com/)  
 > `#桌面应用` `#系统工具` `#系统清理` `#application-manager` `#application-uninstaller` `#bloatware` `#bulk-actions` `#bulk-uninstall` `#cleaner` `#debloat` `#disk-space` `#inno-setup` `#msi` `#nsis` `#portableapps` `#software-management` `#unattended-uninstall` `#uninstall` `#uninstaller` `#windows` `#windows-10` `#windows-forms` 
 > Bulk Crap Uninstaller 是一款强大的免费开源 Windows 卸载工具，擅长批量移除大量应用程序清理残留文件。它支持 Windows Store、Steam 及多种安装框架，能检测孤立应用。适合 IT 专业人士和普通用户，完全免费且无商业限制，是系统维护的必备神器。
@@ -608,7 +608,7 @@
 ## imsyy/DailyHotApi
 
 > [!info]
-> ⭐ 3,889 · TypeScript · 2026-06-24T08:32:41Z  
+> ⭐ 3,890 · TypeScript · 2026-06-24T18:34:31Z  
 > [GitHub](https://github.com/imsyy/DailyHotApi)  
 > `#API 接口` `#开发工具` `#数据聚合` `#api` `#daily-hot` `#list` `#rss` `#vercel` 
 > DailyHotApi 是一个高效聚合全网热门数据的 API 接口服务，支持微博、知乎、B 站等主流平台。具备极快响应速度，提供 RSS 与 JSON 双模式，支持 Vercel 及 Docker 灵活部署，是构建信息看板与数据监控应用的理想后端工具。
@@ -618,7 +618,7 @@
 ## TheSpeedX/PROXY-List
 
 > [!info]
-> ⭐ 5,648 · N/A · 2026-06-24T14:19:27Z  
+> ⭐ 5,647 · N/A · 2026-06-24T19:38:15Z  
 > [GitHub](https://github.com/TheSpeedX/PROXY-List)  
 > `#Python` `#数据爬虫` `#网络工具` `#隐私保护` `#anonymity` `#anonymous` `#elite` `#free` `#free-proxy` `#hacking` `#http` `#https-proxy` `#proxy` `#proxy-list` `#socker` `#socks` `#socks-proxy` `#socks4-proxy` `#socks5-proxy` `#speedx` `#vpn` 
 > 这是一个由 TheSpeedX 维护的免费公共代理列表仓库，提供 HTTP、SOCKS4 和 SOCKS5 协议的实时代理数据。项目每日自动更新，包含近 7500 个可用节点，旨在为开发者提供便捷的网络访问资源，适用于爬虫数据采集及隐私保护场景，强调教育用途。
@@ -628,7 +628,7 @@
 ## sunny9577/proxy-scraper
 
 > [!info]
-> ⭐ 584 · JavaScript · 2026-06-24T15:33:28Z  
+> ⭐ 584 · JavaScript · 2026-06-24T18:32:11Z  
 > [GitHub](https://github.com/sunny9577/proxy-scraper) · [Website](https://sunny9577.github.io/proxy-scraper/)  
 > `#代理池` `#浏览器自动化` `#网络爬虫` `#自动化工具` `#angularjs` `#freeproxy` `#getproxy` `#http-proxy` `#https-proxy` `#nodejs` `#protractor` `#proxies` `#proxy` `#proxy-list` `#proxy-scraper` `#proxylist` `#scraper` `#selenium` `#socks` `#socks5` `#socks5-proxy` 
 > 本项目是一个基于 Protractor 和 Selenium 的自动化代理抓取工具，能够每 3 小时自动更新并验证代理列表。支持 HTTP、SOCKS4/5 等多种协议，并提供 TXT、JSON、CSV 等 5 种数据格式。适用于构建高可用代理池、网络数据采集及自动化测试场景，具备数据库存储与实时验证功能。
@@ -638,7 +638,7 @@
 ## adminouyang/231006
 
 > [!info]
-> ⭐ 236 · JavaScript · 2026-06-24T12:29:20Z  
+> ⭐ 236 · JavaScript · 2026-06-24T20:00:57Z  
 > [GitHub](https://github.com/adminouyang/231006)  
 > `#TVBox` `#智能电视` `#流媒体资源` `#配置聚合` 
 > 本项目专注于搜集与整理 TVBox 电视盒子的配置文件资源。通过聚合各类优质接口与 API 配置，为用户提供开箱即用的影视播放解决方案。适用于智能电视及安卓盒子用户，旨在简化配置流程，提升流媒体观看体验，是影视爱好者必备的资源库。
@@ -648,7 +648,7 @@
 ## lyswhut/lx-music-mobile
 
 > [!info]
-> ⭐ 17,272 · TypeScript · 2026-06-24T16:13:38Z  
+> ⭐ 17,274 · TypeScript · 2026-06-24T19:56:24Z  
 > [GitHub](https://github.com/lyswhut/lx-music-mobile) · [Website](https://lyswhut.github.io/lx-music-doc/)  
 > `#数据同步` `#移动端应用` `#跨平台开发` `#音乐播放器` `#javascript` `#music-player` `#react-native-app` 
 > LX Music 移动版是一款基于 React Native 构建的开源音乐播放器，支持 Android 5+。核心亮点在于支持自定义音乐源，允许用户灵活获取在线音频链接。项目提供私有化数据同步服务，保障多端数据一致性。遵循 Apache 2.0 协议，强调用户需自行处理版权合规性，适合追求高度自定义与隐私控制的极客用户。
@@ -658,7 +658,7 @@
 ## breezy-weather/breezy-weather
 
 > [!info]
-> ⭐ 10,484 · Kotlin · 2026-06-24T16:05:47Z  
+> ⭐ 10,484 · Kotlin · 2026-06-24T18:43:28Z  
 > [GitHub](https://github.com/breezy-weather/breezy-weather)  
 > `#Jetpack Compose` `#Kotlin` `#数据可视化` `#移动应用` 
 > Breezy Weather 是一款功能强大的开源 Android 天气应用，聚合超 50 个数据源，提供预报、空气质量及花粉监测。基于 Kotlin 与 Jetpack Compose 构建，采用 Material 3 Expressive 设计，可视化效果出色，支持高度自定义，是现代化天气应用的标杆。
@@ -678,7 +678,7 @@
 ## lalifeier/IPTV
 
 > [!info]
-> ⭐ 391 · Python · 2026-06-24T14:48:38Z  
+> ⭐ 391 · Python · 2026-06-24T19:55:24Z  
 > [GitHub](https://github.com/lalifeier/IPTV) · [Website](https://iptv-ten-dun.vercel.app)  
 > `#IPTV 直播` `#M3U 订阅` `#流媒体资源` `#跨平台兼容` 
 > 本项目是一个聚合型 IPTV 直播源仓库，提供包括央视、卫视、港澳台及酒店组播在内的多格式订阅链接（TXT/M3U）。支持安卓电视、Apple TV、Jellyfin 及 Windows 等多平台无缝接入，通过 XMLTV 指南数据实现频道分类与节目单同步，是构建家庭流媒体系统的核心资源库。
@@ -687,7 +687,7 @@
 ## cngege/GitHubDesktop2Chinese
 
 > [!info]
-> ⭐ 717 · C++ · 2026-06-24T12:00:31Z  
+> ⭐ 718 · C++ · 2026-06-24T18:55:33Z  
 > [GitHub](https://github.com/cngege/GitHubDesktop2Chinese)  
 > `#C++` `#开发工具` `#自动化替换` `#软件本地化` `#chinese-simplified` `#chinese-translation` `#cpp` `#githubdesktop` 
 > 本项目是 GitHub Desktop 桌面客户端的自动化中文汉化解决方案。通过正则匹配与 JSON 映射机制，高效替换界面文本，具备极高的版本兼容性。支持社区协作维护，并集成 AI 生成提交摘要功能，显著提升中文开发者的使用体验与效率。
@@ -717,7 +717,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 162,560 · Python · 2026-06-24T16:11:44Z  
+> ⭐ 162,573 · Python · 2026-06-24T19:37:21Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#内容聚合` `#开源社区` `#项目发现` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub 是专注于聚合与推荐 GitHub 上有趣、入门级开源项目的平台。通过每月更新的月刊，精选项目、书籍及实战案例，旨在降低开发者参与开源的门槛。核心价值在于帮助用户高效发现优质资源，感受开源乐趣，是开发者发现好项目最佳入口。
@@ -727,7 +727,7 @@
 ## bia-pain-bache/BPB-Worker-Panel
 
 > [!info]
-> ⭐ 12,139 · TypeScript · 2026-06-24T16:15:59Z  
+> ⭐ 12,140 · TypeScript · 2026-06-24T18:12:03Z  
 > [GitHub](https://github.com/bia-pain-bache/BPB-Worker-Panel) · [Website](https://bia-pain-bache.github.io/BPB-Worker-Panel/)  
 > `#Cloudflare Workers` `#Xray核心` `#网络代理` `#跨平台代理` `#amnezia` `#android` `#chain` `#clash-core` `#doh-server` `#fragment` `#ios` `#linux` `#mihomo` `#proxy-chain` `#singbox-core` `#trojan` `#vless` `#warp` `#windows` `#xray-core` 
 > BPB Panel 是一款基于 Cloudflare Workers 的免费 GUI 代理面板，支持 VLESS、Trojan 和 Warp 协议订阅。它提供私有 DoH 服务器、链式代理及高级路由规则，完美兼容 Xray、Sing-box 等主流客户端。具备 Fragment 和 Warp Pro 优化，专为跨平台隐私保护与网络访问设计。
@@ -757,7 +757,7 @@
 ## ZCShou/GoGoGo
 
 > [!info]
-> ⭐ 10,735 · Java · 2026-06-24T08:36:55Z  
+> ⭐ 10,736 · Java · 2026-06-24T16:55:24Z  
 > [GitHub](https://github.com/ZCShou/GoGoGo) · [Website](https://itexp.blog.csdn.net/)  
 > `#Android 开发` `#位置模拟` `#地图 SDK` `#虚拟定位` `#android` `#fake-gps` `#fake-locations` `#java` `#joystick` `#map` `#mock-location` `#mock-locations` `#mockgps` `#virtual-location` 
 > 影梭是一款基于 Android 调试 API 与百度地图 SDK 开发的虚拟定位工具。它无需 ROOT 权限即可修改位置并模拟移动，内置自由摇杆控制。项目开源遵循 GPLv3，旨在辅助 Android 开发学习与地图应用测试，严禁用于校园运动作弊。
@@ -767,7 +767,7 @@
 ## Guovin/iptv-api
 
 > [!info]
-> ⭐ 24,363 · Python · 2026-06-24T14:56:05Z  
+> ⭐ 24,365 · Python · 2026-06-24T18:49:37Z  
 > [GitHub](https://github.com/Guovin/iptv-api)  
 > `#IPTV 直播` `#多平台部署` `#媒体流处理` `#自动化运维` `#auto-update` `#awesome` `#epg` `#iptv` `#iptv-api` `#iptv-channels` `#iptv-free` `#iptv-m3u` `#iptv-m3u8` `#iptv-playlist` `#ipv4` `#ipv6` `#live` `#m3u` `#m3u8` `#playlist` `#rtmp` `#schedule` `#tv` `#tvbox` 
 > 这是一个 IPTV 直播源自动更新平台，支持全自动采集、筛选和测速。核心亮点包括多源聚合、推流优化、EPG 显示及回放功能。支持 Docker、GUI 和命令行等多种部署方式，适配 IPv4/IPv6，帮助用户高效构建稳定、高清的个性化电视直播源，极大降低维护成本。
@@ -777,7 +777,7 @@
 ## yonggekkk/Cloudflare-vless-trojan
 
 > [!info]
-> ⭐ 15,431 · JavaScript · 2026-06-24T15:49:40Z  
+> ⭐ 15,432 · JavaScript · 2026-06-24T16:52:50Z  
 > [GitHub](https://github.com/yonggekkk/Cloudflare-vless-trojan) · [Website](https://ygkkk.blogspot.com/2023/07/cfworkers-vless.html)  
 > `#Cloudflare Workers` `#网络代理` `#隐私保护` `#argo` `#cdn` `#clash-meta` `#cloudflare` `#cloudflare-pages` `#cloudflare-workers` `#ech` `#http` `#nat64` `#reality` `#sing-box` `#socks5` `#trojan` `#vless` `#xray` `#ygkkk` 
 > 本项目提供基于 Cloudflare Workers 和 Pages 的 Vless 与 Trojan 代理搭建方案。支持 ECH-TLS 加密、多端口复用及 Socks5/Http 本地代理模式，无需订阅器即可实现本地化部署，适用于网络访问优化与隐私保护场景。
@@ -807,7 +807,7 @@
 ## peasoft/NoMoreWalls
 
 > [!info]
-> ⭐ 3,341 · Python · 2026-06-24T14:56:29Z  
+> ⭐ 3,340 · Python · 2026-06-24T19:22:36Z  
 > [GitHub](https://github.com/peasoft/NoMoreWalls) · [Website](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)  
 > `#代理协议` `#网络工具` `#自动化运维` `#节点订阅` `#bypass-gfw` `#china` `#clash` `#gfw` `#gfw-breaker` `#hysteria` `#hysteria2` `#node` `#proxy` `#shadowrocket` `#shadowsocks` `#socks` `#socks5` `#ss` `#ssr` `#trojan` `#tuic` `#v2ray` `#vless` `#vmess` 
 > NoMoreWalls 是一款自动抓取并合并公开代理节点的工具。支持 Clash Meta 与 Sing-Box，提供高可用订阅链接。项目秉持反 996 理念，强调隐私安全与去广告功能，通过自动化工作流确保持续更新，为用户提供稳定、高效的网络访问配置方案。
@@ -817,7 +817,7 @@
 ## qist/tvbox
 
 > [!info]
-> ⭐ 10,017 · JavaScript · 2026-06-24T14:53:56Z  
+> ⭐ 10,018 · JavaScript · 2026-06-24T18:08:25Z  
 > [GitHub](https://github.com/qist/tvbox)  
 > `#媒体聚合` `#智能电视` `#配置管理` 
 > 本仓库是 TVBox 及 OK 影视的开源配置聚合中心，整合了饭太硬、OK 大佬等多路优质资源接口。支持 JSON 配置、JS 脚本及 JAR 包解析，适配电视与移动端。提供私有仓库部署教程，实现个性化影视源管理。仅供学习研究，禁止商用，用户需自行承担使用风险。
@@ -847,7 +847,7 @@
 ## zhuima/awesome-cloudflare
 
 > [!info]
-> ⭐ 14,292 · N/A · 2026-06-24T16:09:02Z  
+> ⭐ 14,299 · N/A · 2026-06-24T19:10:14Z  
 > [GitHub](https://github.com/zhuima/awesome-cloudflare) · [Website](https://cloudflare.chuhai.tools/)  
 > `#Serverless 架构` `#云基础设施` `#独立开发` `#降本增效` 
 > 这是一个精选 Cloudflare 资源的列表，专为独立开发者打造。收录了图床、邮箱、短链等开源工具，利用 Workers 和 R2 实现低成本部署。旨在帮助开发者提升效率、降低运维成本，提供省心省时的技术栈指南与在线导航，是构建 Web 应用的必备资源库。
@@ -857,7 +857,7 @@
 ## sandboxie-plus/Sandboxie
 
 > [!info]
-> ⭐ 18,700 · C · 2026-06-24T15:20:48Z  
+> ⭐ 18,701 · C · 2026-06-24T17:48:37Z  
 > [GitHub](https://github.com/sandboxie-plus/Sandboxie) · [Website](https://Sandboxie-Plus.com)  
 > `#应用隔离` `#沙箱隔离` `#系统安全` `#隐私保护` 
 > Sandboxie Plus 是一款基于沙箱的 Windows 隔离软件，允许在不修改系统注册表或驱动器的情况下安全运行程序。它提供受控环境以测试不可信应用，支持无限沙箱创建、快照管理及便携模式。Plus 版采用现代 Qt 界面，增强了对剪贴板、打印机等系统组件的访问控制，是保障系统安全与隐私的强力工具。
@@ -867,7 +867,7 @@
 ## spiritLHLS/ecs
 
 > [!info]
-> ⭐ 6,968 · Shell · 2026-06-24T09:46:54Z  
+> ⭐ 6,969 · Shell · 2026-06-24T18:02:41Z  
 > [GitHub](https://github.com/spiritLHLS/ecs) · [Website](https://t.me/+UHVoo2U4VyA5NTQ1)  
 > `#无环境依赖` `#服务器测评` `#跨平台` `#运维自动化` `#almalinux` `#arch` `#astralinux` `#bench-script` `#benchmark` `#cdn` `#centos` `#checker` `#debian` `#fedora` `#goecs` `#ipv6` `#lemonbench` `#openai` `#oracle-linux` `#rockylinux` `#speedtest` `#sysbench` `#ubuntu` `#vps` 
 > 本项目提供VPS融合怪服务器测评脚本，支持多系统架构兼容性与性能测试。核心亮点在于无环境依赖的Go版本推荐，支持非root权限运行及一键修复系统原生BUG。适用于云服务器选购评估、网络质量诊断及运维自动化场景，提供详尽的CPU、磁盘、网络回程路由等全方位基准测试。
@@ -877,7 +877,7 @@
 ## wanghongenpin/proxypin
 
 > [!info]
-> ⭐ 13,368 · Dart · 2026-06-24T15:37:53Z  
+> ⭐ 13,367 · Dart · 2026-06-24T16:45:24Z  
 > [GitHub](https://github.com/wanghongenpin/proxypin)  
 > `#Flutter` `#流量捕获` `#网络调试工具` `#跨平台` `#capture-traffic` `#charles` `#fiddler` `#proxy` `#proxypin` `#zhuabao` 
 > ProxyPin 是一款开源免费的跨平台 HTTP(S) 抓包工具，基于 Flutter 构建，支持 Windows、Mac、Linux 及移动端。核心功能涵盖流量拦截、检查、重写、JS 脚本扩展及请求映射。其扫码连接特性免除了手动代理配置，界面美观易用，是移动端调试与网络分析的高效利器。
@@ -936,7 +936,7 @@
 ## 217heidai/adblockfilters
 
 > [!info]
-> ⭐ 7,171 · Python · 2026-06-24T10:06:18Z  
+> ⭐ 7,173 · Python · 2026-06-24T19:48:14Z  
 > [GitHub](https://github.com/217heidai/adblockfilters)  
 > `#DNS 解析` `#去广告` `#网络工具` `#自动化脚本` `#adblock` `#adguard` `#adguardhome` `#clash` `#dnsmasq` `#fiters` `#hosts` `#invizible` `#loon` `#mihomo` `#mosdns` `#personaldnsfilter` `#quantumultx` `#shadowrocket` `#sing-box` `#smartdns` 
 > 提供自动化去广告规则合并服务，每8小时更新。通过整合多源规则并利用 DNS 解析剔除无效域名，确保拦截库高效精准。支持 AdGuard、DNSMasq 等多种格式及 Lite 版本，提供多节点加速链接，适用于各类 DNS 拦截器与浏览器插件。
@@ -996,7 +996,7 @@
 ## 1Panel-dev/1Panel
 
 > [!info]
-> ⭐ 35,979 · Go · 2026-06-24T15:19:31Z  
+> ⭐ 35,980 · Go · 2026-06-24T16:45:21Z  
 > [GitHub](https://github.com/1Panel-dev/1Panel) · [Website](https://1panel.pro)  
 > `#AI 大模型` `#Docker 容器` `#VPS 控制面板` `#运维自动化` `#agent` `#clawdbot` `#copaw` `#docker` `#docker-ui` `#hermes` `#hermes-agent` `#linux` `#lnmp` `#ollama` `#openclaw` `#openresty` `#qwenpaw` `#webmin` 
 > 1Panel 是一款现代化的开源 VPS 控制面板，首创原生 AI 代理支持。用户可在 Web 界面直接运行 Ollama 模型、部署 OpenClaw 代理及管理 Docker 容器。它提供一键网站部署、SSL 自动配置，界面现代且免费开源，是高效管理的利器。
@@ -1006,7 +1006,7 @@
 ## privacy-protection-tools/anti-AD
 
 > [!info]
-> ⭐ 10,505 · N/A · 2026-06-24T13:00:02Z  
+> ⭐ 10,506 · N/A · 2026-06-24T18:14:40Z  
 > [GitHub](https://github.com/privacy-protection-tools/anti-AD) · [Website](https://anti-ad.net)  
 > `#DNS过滤` `#广告拦截` `#开源工具` `#网络安全` `#adblock` `#adguardhome` `#dnsmasq` `#easylist` `#neohosts` `#php` `#pi-hole` `#surge` 
 > anti-AD 是中文区命中率极高的广告过滤列表，通过域名解析层实现精确屏蔽与隐私保护。它合并去重主流列表并剔除失效域名，完全兼容 AdGuardHome、Clash、Surge 等网络组件及多种过滤格式。项目完全开源，致力于提升中文互联网纯净体验。
@@ -1016,7 +1016,7 @@
 ## yuliskov/SmartTube
 
 > [!info]
-> ⭐ 30,734 · Java · 2026-06-24T14:58:34Z  
+> ⭐ 30,738 · Java · 2026-06-24T18:57:47Z  
 > [GitHub](https://github.com/yuliskov/SmartTube) · [Website](https://smarttubeapp.github.io)  
 > `#开源媒体客户端` `#智能电视应用` `#视频播放优化` `#android` `#android-tv` `#android-tv-box` `#java` `#kotlin` `#retrofit2` `#rxjava-android` 
 > SmartTube 是一款专为 Android TV 设计的开源媒体客户端，支持无 Google 服务运行。核心亮点包括集成 SponsorBlock 去广告、支持 8K/HDR 高画质播放及自定义界面。它为用户提供纯净、高效的电视端视频浏览体验，兼容多种安卓电视盒子。
@@ -1036,7 +1036,7 @@
 ## dgtlmoon/changedetection.io
 
 > [!info]
-> ⭐ 32,108 · Python · 2026-06-24T13:00:43Z  
+> ⭐ 32,109 · Python · 2026-06-24T17:07:45Z  
 > [GitHub](https://github.com/dgtlmoon/changedetection.io) · [Website](https://changedetection.io)  
 > `#AI 大模型` `#网站监控` `#自动化工具` `#运维自动化` `#back-in-stock` `#change-alert` `#change-detection` `#change-monitoring` `#monitoring` `#notifications` `#restock-monitor` `#rss` `#self-hosted` `#url-monitor` `#web-scraping` `#website-change-detection` `#website-change-detector` `#website-change-monitor` `#website-change-notification` `#website-change-tracker` `#website-defacement-monitoring` `#website-monitor` `#website-monitoring` `#website-watcher` 
 > changedetection.io 是一款强大的网页监控工具，支持实时检测网站内容变更并发送通知。它集成了 AI 大模型，能智能过滤无关变更并生成自然语言摘要，大幅降低误报。支持 Docker 自托管及多种通知渠道，适用于价格追踪、库存监控及网站安全审计。
@@ -1086,7 +1086,7 @@
 ## filecxx/FileCentipede
 
 > [!info]
-> ⭐ 10,890 · C++ · 2026-06-23T16:04:34Z  
+> ⭐ 10,889 · C++ · 2026-06-24T17:22:52Z  
 > [GitHub](https://github.com/filecxx/FileCentipede) · [Website](http://filecxx.com)  
 > `#下载加速器` `#文件管理工具` `#跨平台应用` `#bittorrent-client` `#bt` `#download` `#download-manager` `#download-videos` `#ftp-client` `#http-client` `#libtorrent` `#m3u8` `#magnet` `#qt` `#remote-download` `#ssh-client` `#stream-downloader` `#torrent` `#transmission` `#video-downloader` `#webdav-client` 
 > FileCentipede 是一款跨平台全能文件管理工具，支持 HTTP、FTP、SSH、BitTorrent 及在线视频下载。它集成了 WebDAV、FTP 和 SSH 客户端，提供浏览器插件实现音视频抓取，并具备 HTTP 请求、文件合并等辅助功能，旨在为用户提供高效、可定制的文件传输与管理体验。
@@ -1106,7 +1106,7 @@
 ## lyswhut/lx-music-desktop
 
 > [!info]
-> ⭐ 51,759 · TypeScript · 2026-06-24T14:45:20Z  
+> ⭐ 51,762 · TypeScript · 2026-06-24T17:22:49Z  
 > [GitHub](https://github.com/lyswhut/lx-music-desktop) · [Website](https://lyswhut.github.io/lx-music-doc/)  
 > `#Electron` `#Vue 3` `#桌面应用` `#音乐播放器` `#electron` `#javascript` `#music-player` `#vue` 
 > LX Music 桌面版是一款基于 Electron 30+ 与 Vue 3 开发的跨平台开源音乐播放器，支持 Linux、macOS 及 Windows。项目具备 Scheme URL 调用、私有数据同步服务及开放 API 接口，支持高度自定义配置与第三方扩展，适合进阶用户构建个性化音乐生态。
@@ -1136,7 +1136,7 @@
 ## ShareX/ShareX
 
 > [!info]
-> ⭐ 38,252 · C# · 2026-06-24T15:14:06Z  
+> ⭐ 38,252 · C# · 2026-06-24T18:15:28Z  
 > [GitHub](https://github.com/ShareX/ShareX) · [Website](https://getsharex.com)  
 > `#屏幕捕捉` `#文件分享` `#桌面应用` `#自动化工具` `#avalonia` `#capture` `#color-picker` `#csharp` `#dropbox` `#file-sharing` `#file-upload` `#ftp` `#gif` `#gif-recorder` `#image-annotation` `#ocr` `#productivity` `#region-capture` `#screen-capture` `#screen-recorder` `#screenshot` `#share` `#sharex` `#url-shortener` 
 > ShareX 是一款免费开源的屏幕捕捉与文件分享工具。支持一键截图、录屏及 OCR 识别，内置丰富编辑功能。可自定义上传至多种云存储或图床，支持命令行与自动化工作流，是提升生产力的必备神器。
@@ -1156,7 +1156,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 109,835 · C# · 2026-06-24T16:06:47Z  
+> ⭐ 109,841 · C# · 2026-06-24T20:01:10Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#代理客户端` `#网络工具` `#跨平台` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > v2rayN 是一款专为 Windows、Linux 和 macOS 设计的跨平台图形化代理客户端。它支持 Xray、sing-box 等多种核心内核，提供强大的网络代理功能。项目具备 GPG 签名校验机制，确保发布文件的真实性与完整性，有效防止劫持，是用户进行安全网络访问的可靠工具。
